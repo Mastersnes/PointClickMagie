@@ -1,34 +1,27 @@
-package com.bebel.game.screens;
+package com.bebel.game.screens.game;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
-import com.badlogic.gdx.graphics.Color;
 import com.bebel.game.LaunchGame;
 import com.bebel.game.components.refound.abstrait.AbstractScreen;
-import com.bebel.game.components.refound.element.Image;
-import com.bebel.game.components.refound.element.Text;
-import com.bebel.game.manager.resources.ScreensManager;
+import com.bebel.game.screens.game.ui.UI;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.bebel.game.utils.ElementFactory.image;
-import static com.bebel.game.utils.ElementFactory.text;
+import static com.bebel.game.utils.ElementFactory.*;
 
 public class Game extends AbstractScreen {
-    private Text text;
+    private UI ui;
 
     public Game(final LaunchGame game) {
-        super(game);
+        super(game, false);
     }
 
     @Override
-    public void create() {
-        add(text = text("label.delete"));
-        text.center();
-        text.setColor(Color.RED.cpy());
-
-        setFocus(true);
+    public Game create() {
+        add(ui = group(UI.class));
+        return this;
     }
 
     @Override
@@ -40,9 +33,10 @@ public class Game extends AbstractScreen {
             }
         });
 
-        text.onTouchdown((mouse, keyboard) -> {
-            if (!mouse.left()) return;
-            ScreensManager.getInstance().switchTo(Menu.class);
+        onKeydown((mouse, keyboard) -> {
+            if (keyboard.press(Input.Keys.F1)) {
+                manager.conf.setFullscreen(!manager.conf.isFullscreen());
+            }
         });
     }
 

@@ -15,6 +15,9 @@ import java.io.OutputStreamWriter;
 import java.util.Locale;
 import java.util.Properties;
 
+import static com.bebel.game.utils.Constantes.GAME_HEIGHT;
+import static com.bebel.game.utils.Constantes.GAME_WIDTH;
+
 /**
  * Manager de configuration
  */
@@ -33,7 +36,7 @@ public class ConfigManager {
         language = conf.getString("language", Locale.getDefault().getLanguage());
         sound = conf.getFloat("sound", 50);
         music = conf.getFloat("music", 50);
-        setFullscreen(conf.getBoolean("fullscreen", false));
+        setFullscreen(conf.getBoolean("fullscreen", true));
         save();
     }
 
@@ -77,10 +80,10 @@ public class ConfigManager {
         final Graphics.DisplayMode displayMode = Gdx.graphics.getDisplayMode();
         if (fullscreen) Gdx.graphics.setFullscreenMode(displayMode);
         else {
-            Gdx.graphics.setWindowedMode(800, 600);
+            Gdx.graphics.setWindowedMode(GAME_WIDTH, GAME_HEIGHT);
             if (Gdx.app.getType() == Application.ApplicationType.Desktop) {
                 final Lwjgl3Graphics lwg = (Lwjgl3Graphics) Gdx.graphics;
-                lwg.getWindow().setPosition(displayMode.width/2 - 800/2, displayMode.height/2 - 600/2);
+                lwg.getWindow().setPosition(displayMode.width/2 - GAME_WIDTH/2, displayMode.height/2 - GAME_HEIGHT/2);
             }
         }
     }

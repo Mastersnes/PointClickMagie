@@ -2,6 +2,7 @@ package com.bebel.game.components.refound.event;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.Vector2;
+import com.bebel.game.components.refound.abstrait.AbstractComponent;
 
 import static com.badlogic.gdx.Input.Buttons.*;
 
@@ -14,8 +15,9 @@ public class Mouse extends Vector2 {
     private Mouse(){}
 
     public static Mouse getInstance() {
-        if (instance == null)
+        if (instance == null) {
             instance = new Mouse();
+        }
         return instance;
     }
 

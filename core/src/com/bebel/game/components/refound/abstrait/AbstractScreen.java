@@ -58,9 +58,9 @@ public abstract class AbstractScreen extends AbstractGroup implements Screen, In
         }
     }
 
-    protected abstract void create();
     @Override
     public void show() {
+        setFocus(true);
         Gdx.input.setInputProcessor(this);
         manager.finishLoading(context());
         if (renew || firstTime) {
@@ -114,6 +114,7 @@ public abstract class AbstractScreen extends AbstractGroup implements Screen, In
 
     @Override
     public void hide() {
+        setFocus(false);
         hideWithRenew(renew);
     }
     public void hideWithRenew(final boolean renew) {
@@ -137,160 +138,70 @@ public abstract class AbstractScreen extends AbstractGroup implements Screen, In
 
     @Override
     public boolean keyDown(final int keycode) {
-        if (!isVisible() || !isTouchable() || !isFocus()) return false;
-
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.isVisible() && child.isTouchable() && child.isFocus()) {
-                child.fire(KEY_DOWN);
-            }
-        }
-        fire(KEY_DOWN);
+        fireKey(KEY_DOWN);
         return true;
     }
 
     @Override
     public boolean keyUp(int keycode) {
-        if (!isVisible() || !isTouchable() || !isFocus()) return false;
-
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.isVisible() && child.isTouchable() && child.isFocus()) {
-                child.fireKeyUp(KEY_UP, keycode);
-            }
-        }
-        fireKeyUp(KEY_UP, keycode);
+        fireKeyUp(keycode);
         return true;
     }
 
     public boolean keyHold() {
-        if (!isVisible() || !isTouchable() || !isFocus()) return false;
-
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.isVisible() && child.isTouchable() && child.isFocus()) {
-                child.fire(KEY_HOLD);
-            }
-        }
-        fire(KEY_HOLD);
+        fireKey(KEY_HOLD);
         return true;
     }
 
     @Override
     public boolean keyTyped(char character) {
-        if (!isVisible() || !isTouchable() || !isFocus()) return false;
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.isVisible() && child.isTouchable() && child.isFocus()) {
-                child.fireType(KEY_TYPE, character);
-            }
-        }
-        fireType(KEY_TYPE, character);
+        fireType(character);
         return true;
     }
 
     @Override
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-        if (!isVisible() || !isTouchable()) return false;
         if (!isInsideViewport(screenX, screenY)) return false;
-
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.isHover()) {
-                child.fire(TOUCH_DOWN);
-                return true;
-            }
-        }
-        fire(TOUCH_DOWN);
+        fireTouch(TOUCH_DOWN);
         return true;
     }
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
-        if (!isVisible() || !isTouchable()) return false;
         if (!isInsideViewport(screenX, screenY)) return false;
-
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.isHover()) {
-                child.fireTouchUp(TOUCH_UP, pointer, button);
-                return true;
-            }
-        }
-        fireTouchUp(TOUCH_UP, pointer, button);
+        fireTouchUp(pointer, button);
         return true;
     }
 
     @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
-        if (!isVisible() || !isTouchable()) return false;
         if (!isInsideViewport(screenX, screenY)) return false;
-
         final Mouse mouse = Mouse.getInstance();
         final Vector2 oldMouse = mouse.cpy();
         mouse.set(screenX, screenY);
         mouse.set(viewport.unproject(mouse));
 
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.hit(oldMouse.x, oldMouse.y, true)) {
-                child.fire(TOUCH_DRAG);
-                if (!child.isHover()) {
-                    child.setHover(true);
-                    child.fire(ENTER);
-                }
-                // A voir si on garde
-                return true;
-            }else if (child.isHover()) {
-                child.setHover(false);
-                child.fire(EXIT);
-            }
-        }
-        fire(TOUCH_DRAG);
+        fireMove(TOUCH_DRAG, oldMouse);
+
         return true;
     }
 
     @Override
     public boolean mouseMoved(int screenX, int screenY) {
-        if (!isVisible() || !isTouchable()) return false;
         if (!isInsideViewport(screenX, screenY)) return false;
-        boolean trigger = false;
-
         final Mouse mouse = Mouse.getInstance();
         mouse.set(screenX, screenY);
         mouse.set(viewport.unproject(mouse));
 
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.hit(mouse.x, mouse.y, true)) {
-                trigger = true;
-                child.fire(MOVE);
-                if (!child.isHover()) {
-                    child.setHover(true);
-                    child.fire(ENTER);
-                }
-            }else if (child.isHover()) {
-                child.setHover(false);
-                child.fire(EXIT);
-            }
-        }
-        fire(MOVE);
-        return trigger;
+        fireMove(MOVE, mouse.cpy());
+        return true;
     }
 
     @Override
     public boolean scrolled(int amount) {
-        if (!isVisible() || !isTouchable()) return false;
         final Mouse mouse = Mouse.getInstance();
         if (!isInsideViewport(mouse.x, mouse.y)) return false;
-        for (final Iterator<AbstractComponent> iterator = children.iterator(); iterator.hasNext();) {
-            final AbstractComponent child = iterator.next();
-            if (child.isHover()) {
-                child.fireScroll(SCROLL, amount);
-                return true;
-            }
-        }
-        fireScroll(SCROLL, amount);
+        fireScroll(amount);
         return true;
     }
 

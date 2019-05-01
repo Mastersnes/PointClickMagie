@@ -5,14 +5,11 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
+import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Pool;
 import com.badlogic.gdx.utils.Pools;
 import com.bebel.game.components.refound.action.AbstractAction;
-import com.bebel.game.components.refound.action.Actions;
-import com.bebel.game.components.refound.action.ordonnancement.ParallelAction;
-import com.bebel.game.components.refound.action.ordonnancement.RunnableAction;
-import com.bebel.game.components.refound.action.ordonnancement.SequenceAction;
 import com.bebel.game.components.refound.event.EventCatcher;
 import com.bebel.game.components.refound.event.Events;
 import com.bebel.game.components.refound.event.callbacks.*;
@@ -34,7 +31,7 @@ import static com.bebel.game.utils.Constantes.GAME_WIDTH;
 
 public abstract class AbstractComponent extends Sprite implements Pool.Poolable {
     private Vector2 tmp = new Vector2();
-    private EventCatcher events = new EventCatcher();
+    protected EventCatcher events = new EventCatcher(this);
     protected String name;
     protected AbstractGroup parent;
     protected AssetsManager manager;
@@ -42,9 +39,8 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
     protected Color debugColor;
     protected List<AbstractAction> actions = new ArrayList<>();
 
-    private boolean selected = false;
-
-    protected boolean touchable, visible, debug, focus, hover;
+    protected boolean touchable, visible, focus, hover;
+    protected boolean debug;
 
     public AbstractComponent() {
         super();
@@ -56,14 +52,14 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
         hitbox = new PolygonHitbox();
         setName("");
         setBounds(0, 0, GAME_WIDTH, GAME_HEIGHT);
-        touchable = true;
-        visible = true;
+        touchable = visible = true;
         debug = false;
         focus = false;
         events.clear();
         debugColor = Color.GREEN.cpy();
         setColor(Color.WHITE.cpy());
         parent = null;
+        setOriginCenter();
     }
 
     public void act(final float delta) {
@@ -81,8 +77,10 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
 
     public void makeEvents() {
         onTouchdown((mouse, keyboard) -> {
-            if (mouse.right() && keyboard.hold(CONTROL_LEFT))
+            if (mouse.right() && keyboard.hold(CONTROL_LEFT)) {
                 debug = !debug;
+                if (debug) setFocus(isHover());
+            }
         });
 
         onEnter((mouse, keyboard)-> {
@@ -94,10 +92,23 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
 
         onKeyhold((mouse, keyboard)-> {
             if (!debug  || !focus) return;
-            if (keyboard.left()) rotate(-0.5f);
-            else if (keyboard.right()) rotate(0.5f);
-            if (keyboard.up()) scale(0.1f);
-            else if (keyboard.down()) scale(-0.1f);
+            if (keyboard.left()) {
+                if (keyboard.hold(CONTROL_LEFT)) rotate(-0.5f);
+                else translateX(-0.5f);
+            }
+            else if (keyboard.right()) {
+                if (keyboard.hold(CONTROL_LEFT)) rotate(0.5f);
+                else translateX(0.5f);
+            }
+            if (keyboard.up()) {
+                if (keyboard.hold(CONTROL_LEFT)) scale(0.1f);
+                else translateY(0.5f);
+            }
+            else if (keyboard.down()) {
+                if (keyboard.hold(CONTROL_LEFT)) scale(-0.1f);
+                else translateY(-0.5f);
+            }
+            parent.stopPropagation();
         });
         onScroll((mouse, keyboard, amount)-> {
             if (!debug || !focus) return;
@@ -107,9 +118,7 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
         onDrag((mouse, keyboard) -> {
             if (!debug || !focus) return;
             if (mouse.left()) {
-                final float w = getWidth();
-                final float h = getHeight();
-                setPosition(mouse.x - (w / 2), mouse.y - (h / 2));
+                translate(mouse.deltaX(), -mouse.deltaY());
             }
         });
         onKeydown((mouse, keyboard) -> {
@@ -118,6 +127,7 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
                 Gdx.app.debug(getName(), "Scale: " + getScaleX() + ", " + getScaleY());
                 Gdx.app.debug(getName(), "Position: " + getX() + ", " + getY());
             }
+            parent.stopPropagation();
         });
 
         makeComponentEvents();
@@ -130,6 +140,41 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
         if (checkTouchable && !this.touchable) return false;
         if (!visible) return false;
         return hitbox.contains(x, y);
+    }
+
+    /**
+     * Transforme les coordonnées indiqué dans le referentiel de l'element
+     * Utilisé pour situer la souris au sein d'un element
+     * @param parentCoords
+     * @return
+     */
+    public Vector2 parentToLocalCoordinates (final Vector2 parentCoords) {
+        final float rotation = this.getRotation();
+        final float scaleX = this.getScaleX();
+        final float scaleY = this.getScaleY();
+        final float childX = getX();
+        final float childY = getY();
+        if (rotation == 0) {
+            if (scaleX == 1 && scaleY == 1) {
+                parentCoords.x -= childX;
+                parentCoords.y -= childY;
+            } else {
+                final float originX = this.getOriginX();
+                final float originY = this.getOriginY();
+                parentCoords.x = (parentCoords.x - childX - originX) / scaleX + originX;
+                parentCoords.y = (parentCoords.y - childY - originY) / scaleY + originY;
+            }
+        } else {
+            final float cos = (float)Math.cos(rotation * MathUtils.degreesToRadians);
+            final float sin = (float)Math.sin(rotation * MathUtils.degreesToRadians);
+            final float originX = this.getOriginX();
+            final float originY = this.getOriginY();
+            final float tox = parentCoords.x - childX - originX;
+            final float toy = parentCoords.y - childY - originY;
+            parentCoords.x = (tox * cos + toy * sin) / scaleX + originX;
+            parentCoords.y = (tox * -sin + toy * cos) / scaleY + originY;
+        }
+        return parentCoords;
     }
 
     public void remove() {
@@ -170,6 +215,7 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
 
     public void setFocus(boolean focus) {
         this.focus = focus;
+        if (focus && parent != null) parent.setFocus(true);
     }
 
     public boolean isTouchable() {
@@ -199,7 +245,6 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
     public void debug(final Color color) {
         this.debugColor.set(color);
         debug = true;
-        setFocus(true);
     }
     public void debug() {
         debug(Color.GREEN.cpy());
@@ -237,6 +282,12 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
     public void center() {
         if (parent == null) return;
         setCenter(parent.getWidth() / 2, parent.getHeight() / 2);
+    }
+
+    @Override
+    public void setOriginCenter() {
+        super.setOriginCenter();
+        originChanged();
     }
 
     //---- Changement d'etat
@@ -304,22 +355,28 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
         events.add(SCROLL, event);
     }
 
-    protected void fire(final Events type) {
-        events.fire(type);
+    //- Event Fire
+    protected boolean fireKey(final Events type) {
+        return events.fire(type);
+    }
+    protected boolean fireKeyUp(final int keycode) {
+        return events.fireKeyUp(KEY_UP, keycode);
+    }
+    protected boolean fireType(final char character) {
+        return events.fireType(KEY_TYPE, character);
     }
 
-    protected void fireKeyUp(final Events type, final int keycode) {
-        events.fireKeyUp(type, keycode);
+    protected boolean fireMove(final Events type, final Vector2 oldMouse) {
+        return events.fire(type);
     }
-    protected void fireType(final Events type, final char character) {
-        events.fireType(type, character);
+    protected boolean fireTouch(final Events type) {
+        return events.fire(type);
     }
-
-    protected void fireTouchUp(final Events type, final int pointer, final int button) {
-        events.fireTouchUp(type, pointer, button);
+    protected boolean fireTouchUp(final int pointer, final int button) {
+        return events.fireTouchUp(TOUCH_UP, pointer, button);
     }
-    protected void fireScroll(final Events type, final float amount) {
-        events.fireScroll(type, amount);
+    protected boolean fireScroll(final float amount) {
+        return events.fireScroll(SCROLL, amount);
     }
 
     public Vector2 realign(final float xAmount, final float yAmount, final int align) {
@@ -378,9 +435,11 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
 
     @Override
     public void setBounds(float x, float y, float width, float height) {
-        super.setBounds(x, y, width, height);
-        positionChanged();
-        sizeChanged();
+        setBounds(x, y, width, height, bottomLeft);
+    }
+    public void setBounds(float x, float y, float width, float height, int align) {
+        setSize(width, height);
+        setPosition(x, y, align);
     }
 
     @Override
@@ -442,12 +501,6 @@ public abstract class AbstractComponent extends Sprite implements Pool.Poolable 
     @Override
     public void setOriginBasedPosition(float x, float y) {
         super.setOriginBasedPosition(x, y);
-        originChanged();
-    }
-
-    @Override
-    public void setOriginCenter() {
-        super.setOriginCenter();
         originChanged();
     }
 

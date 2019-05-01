@@ -1,9 +1,11 @@
 package com.bebel.game.utils;
 
+import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.utils.Pools;
+import com.bebel.game.components.refound.abstrait.AbstractScreen;
 import com.bebel.game.components.refound.element.Animate;
 import com.bebel.game.components.refound.element.Image;
 import com.bebel.game.components.refound.element.Text;
@@ -49,5 +51,10 @@ public class ElementFactory {
     }
     public static Animate loop(final String key) {
         return loop(key, 24);
+    }
+
+    public static <T> T group(final Class<T> type) {
+        final T group = Pools.get(type).obtain();
+        return group;
     }
 }

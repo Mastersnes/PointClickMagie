@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="3">
+            <Title>1 - Etale du marchand</Title>
+        </Document>
+        <Document ID="5">
+            <Title>Enigmes</Title>
+        </Document>
+        <Document ID="6">
+            <Title>Lexique</Title>
+        </Document>
+        <Document ID="7">
+            <Title>Fruits &amp; Legumes</Title>
+        </Document>
+        <Document ID="8">
+            <Title>Fleurs</Title>
+        </Document>
+        <Document ID="9">
+            <Title>Une Orna</Title>
+            <Synopsis>Enigme1</Synopsis>
+            <Text>Un fruit rouge et bleu très juteux et sucré mais un peu amer</Text>
+        </Document>
+        <Document ID="10">
+            <Title>Une Bobinavia*</Title>
+            <Synopsis>Enigme1</Synopsis>
+            <Text>C’est un fruit jaune pâle comme une banane mais en grappe fine. c’est sucré mais plein de pépins ce qui le rend sûre. Ca n’a pas l’air très bon vu de loin.
+￼</Text>
+        </Document>
+        <Document ID="11">
+            <Title>Un Lirou*</Title>
+            <Synopsis>Enigme1</Synopsis>
+            <Text>C’est un agrume très acide qui peut faire penser à un citron. Il est surtout utilisé pour parfumer les plats
+￼</Text>
+        </Document>
+        <Document ID="12">
+            <Title>Un Angirion*</Title>
+            <Synopsis>Enigme1</Synopsis>
+            <Text>C’est un fruit blanc avec des feuilles en formes de petites ailes. Cru, il est extrêmement amer et paralyse toute la bouche, cuit, il est très doux et sucré.
+￼</Text>
+        </Document>
+        <Document ID="14">
+            <Title>Une Carnus</Title>
+            <Synopsis>Enigme1</Synopsis>
+            <Text>Une fleur carnivore à deux têtes
+</Text>
+        </Document>
+        <Document ID="15">
+            <Title>Une Mamasantia</Title>
+            <Synopsis>Enigme1</Synopsis>
+            <Text>C’est une jolie fleur en forme de petits personnages qui ont la langue bien pendu. Elles aiment parler sur le dos des gens et n’aime pas être en plein soleil (ca abime leurs belles couleurs).
+￼</Text>
+        </Document>
+        <Document ID="16">
+            <Title>Personnage</Title>
+        </Document>
+        <Document ID="17">
+            <Title>Spark</Title>
+            <Synopsis>Affiliation : Esprit
+Apprentissage : Mentaliste (autodidacte)</Synopsis>
+            <Text>Notre héros. C’est un jeune homme de (17) ans qui a toujours vécu dans la rue. Par fierté il ne s’est jamais autorisé à mendier.
+Il est très malin et a appris de manière autodidacte un sort de mentaliste : la persuasion.
+Il est choisi par Orinius pour participer au concours de magie afin de devenir son apprentis.
+On apprendra plus tard que son affiliation est l’esprit ce qui explique qu’il ait réussit à apprendre seul le mentalisme.
+￼</Text>
+        </Document>
+        <Document ID="18">
+            <Title>Orinius</Title>
+            <Synopsis>Affiliation : Gravité
+Apprentissage : Tous</Synopsis>
+            <Text>C’est l’archimage suprême du royaume. Il contrôle parfaitement le flux et le modèle selon ses désirs. Son affiliation d’origine est la gravité mais sa maîtrise du flux lui a permis d’apprendre tous les autres type de magie.
+Il maintient en permanence une barrière de protection autour du royaume afin d'empêcher les monstres d’y pénétrer.
+Il a prédit sa fin prochaine et cherche donc un apprentis ayant les qualités requises pour le remplacer.</Text>
+        </Document>
+        <Document ID="19">
+            <Title>Game Design</Title>
+        </Document>
+        <Document ID="20">
+            <Title>Types de vues</Title>
+            <Text>Les types de vue seront : 
+les tableaux : là où les actions se dérouleront. Il existe plusieurs types de tableaux :
+Vue aérienne : regroupe les cartes ou tous tableaux nécessitant beaucoup de travail graphique (par exemple une foule, etc…)
+Vue classique : les tableaux classique
+Vue zoomé : Surtout utilisé pour les énigmes ou la consultation des objets. Par exemple quand on observe une carte. On ne voit pas notre personnage mais on peut cliquer comme dans un tableau
+L’écran de dialogue : là où on parlera aux différents protagonistes. Il existe plusieurs types :
+Dans le tableau : sans illustration particulière
+Illustré avec les deux protagonistes sur la même illustration
+Illustré avec un échange de dialogue (donc plusieurs illustrations)
+Cinématique : Animation</Text>
+        </Document>
+        <Document ID="21">
+            <Title>UI</Title>
+            <Text>Ajouter la maquette
+￼</Text>
+        </Document>
+        <Document ID="22">
+            <Title>Secondaires</Title>
+        </Document>
+        <Document ID="23">
+            <Title>Principales</Title>
+        </Document>
+        <Document ID="24">
+            <Title>Marchand</Title>
+            <Synopsis>Marchand de l'étale
+Enigme1</Synopsis>
+            <Text>Il a l’air très énervé et ne veut pas perdre son temps.
+Il n’aime pas du tout notre héro qui traine toujours autour de son étale.</Text>
+        </Document>
+        <Document ID="25">
+            <Title>Touriste</Title>
+            <Synopsis>Ref TwoFlower
+Enigme1</Synopsis>
+            <Text>Ref : TwoFlower
+Il est très occupé à contempler une belle fleur en pot</Text>
+        </Document>
+        <Document ID="26">
+            <Title>Enfant mendiant</Title>
+            <Synopsis>Enigme1</Synopsis>
+            <Text>C’est un petit garcon qui fait la manche à coté de l’étale.
+Notre héro ne l’aime pas car il lui rappel sa condition.</Text>
+        </Document>
+        <Document ID="27">
+            <Title>Marchand</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Marchand
+
+Click gauche (Parler) :  
+“Qu’est ce que tu veux ?” (en dialogue)
+“Je prendrais bien cette orna…”
+“T’as de quoi payer ?”
+“Bahh…”
+Si on a parlé à l’orna : “Je crois que cette orna m’aime bien vous savez”
+“Qu’est ce que ca peut me faire !? T’as de quoi la payer ?”
+“Bahh…”
+Si plus de réponse (dans le tableau)
+“Dégage de mon étale, vaurien”
+“	Si t’as pas d’argent, j’ai pas de temps à perdre !”
+“Tu vas salir mes produits, dégage !”
+
+Click droit (regarder)
+“Ce n’est certainement pas le produit le plus frais de l’étale”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+La premiere fois : dialogue
+“Merci pour l’Orna, c’est du bon boulot, à la prochaine !”
+“Ah, euh derien, euh… Hein ? Attends une minute ! Laisse ça ici !”
+“Arf… Ca coutait rien d’essayer…”
+Ensuite : dans le tableau
+“Encore faut-il qu’il ait un cerveau…”</Text>
+        </Document>
+        <Document ID="29">
+            <Title>Enfant mendiant</Title>
+            <Synopsis>A persuadé apres avoir regarder l'orna et la bourse du touriste</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Enfant
+
+Click gauche (Parler) : 
+“Une tite piéce siouplait !” (dialogue).
+“Alors, ca marche ton truc ?”
+Bof, y’a personne ici à part ce stupide touriste…
+Et, il t’as rien donné ?
+Tu parle ! Il est plein au as mais il m’a donné qu’une Bobinavia moisie !
+Humm, t’as dut te regaler !
+Berk, m’en parle pas…
+Si on a regardé l’orna “Ca te dirais de m’aider à voler cette Orna ?”
+Oh, non merci, j’ai pas faim. Par contre, je dirais pas non à une tite piéce !
+Si plus de réponse : (dans le tableau)
+Une tite piéce siouplait !
+À vot’ bon coeur, m’sieur !
+
+Click droit (regarder)
+“Pouah ! Jamais je ne finirais comme ça !”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+Si on a pas regardé l’Orna : “Pourquoi faire ?” (dans le tableau)
+Si on a regardé l’Orna mais pas la bourse : “Hum… il me faudrait un angle d’attaque” (dans le tableau)
+Si on a regardé l’Orna et la bourse (animation)
+Notre héro, une main dans la poche, s’accroupit et touche l’enfant à l’epaule en le regardant dans les yeux
+“Le touriste, prend sa bourse, elle t’appartiens désormais.”
+Notre héro se releve et s’écarte legerement, laissant l’enfant se jeter sur la bourse du touriste puis s’enfuir
+Le touriste, surpris, lache le carnus qui tombe par terre laissant s’echapper de la terre puis court à la poursuite de l’enfant
+Le marchand sort de son étale en râlant et s’accroupit pour nettoyer</Text>
+        </Document>
+        <Document ID="30">
+            <Title>Orna</Title>
+            <Synopsis>Objectif supreme
+A regarder avant de parler à l'enfant</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Orna
+
+Click gauche (Prendre) : animation
+On se fait taper sur la main par le marchand.
+
+Click droit (regarder)
+“Hummm ! Qui va finir dans mon estomac ?”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+La première fois : cinématique
+“Eh salut ! Tu viens souvent ici ?”
+“…”
+Ensuite : dans le tableau
+“Je crois que je commence à la faire rougir”
+“Elle va finir par craquer”
+“Elle est à croquer !”</Text>
+        </Document>
+        <Document ID="31">
+            <Title>Bobinavias</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : animation
+“Berk non ! Y’a trop de pépin là-dedans !”
+
+Click droit (regarder)
+“C’est une grappe de Bobinavia, un fruit sucré mais très sûre et plein de pépin. De loin, ca ressemble a une vieille main de sorciere…”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+dans le tableau
+“Je suis persuadé que ca ne marchera pas”
+“C’est sûre, on va finir par avoir des pépins…”</Text>
+        </Document>
+        <Document ID="32">
+            <Title>Lirous</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : dans le tableau
+“?”
+
+Click droit (regarder)
+“?”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+dans le tableau
+“?”</Text>
+        </Document>
+        <Document ID="33">
+            <Title>Angirions</Title>
+            <Text>Voir fiche</Text>
+        </Document>
+        <Document ID="34">
+            <Title>Carnus</Title>
+            <Text>Voir fiche</Text>
+        </Document>
+        <Document ID="35">
+            <Title>Mamasantia</Title>
+            <Text>Voir fiche</Text>
+        </Document>
+        <Document ID="36">
+            <Title>Description</Title>
+            <Text>Le tableau regroupe l’étale du marchand avec 
+Le marchand
+Diverses marchandises :
+Fruits et legumes
+Des ornas dont une bien distinctive
+Des Bobinavia
+Des Lirous
+Des Angirions
+Fleurs
+Beaucoup de Carnus : Dans l’étale il y en a une qui mange le teeshirt du touriste et deux autres qui se croques entre eux.
+Quelques Mamasantia qui discutent ensemble.
+
+Un touriste qui contemple une Carnus avec attention
+Un enfant qui fait la manche à côté de l’étale
+
+Les items possibles sont :
+N/A
+
+Les sorts possibles sont :
+Persuasion
+
+Solution :
+Il faudra utiliser le sort de persuasion sur l’enfant pour qu’il vole la bourse du touriste et s’enfuit. celui-ci, surpris, lâchera la plante et la laissera tomber à terre pour poursuivre le brigand. Le marchand râlera alors et ira nettoyer la terre. Laissant l’orna libre d'être volé =p</Text>
+        </Document>
+        <Document ID="38">
+            <Title>Bourse</Title>
+            <Synopsis>Bourse du touriste
+A regarder avant de parler à l'enfant</Synopsis>
+            <Text>Légende :
+Spark
+Touriste
+
+Click gauche (Prendre) : dans le tableau
+“?”
+
+Click droit (regarder)
+“?”
+
+Items :
+N/A
+
+Sorts :
+Persuasion : directement dans le tableau
+“?”</Text>
+        </Document>
+        <Document ID="39">
+            <Title>Touriste</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Touriste
+
+Click gauche (Parler) : dialogue
+“Monsieur ? Monsieur ? Hey monsieur ?!”
+“…”
+“Rien à faire, il ne m’écoute pas…”
+
+Click droit (regarder)
+“Il a l’air très occupé à observer cette plante.”
+
+Items :
+N/A
+
+Sorts :
+Persuasion : directement dans le tableau
+“Impossible s’il ne m’entend pas…”</Text>
+        </Document>
+        <Document ID="40">
+            <Title>Touriste</Title>
+            <Synopsis>Contient bourse</Synopsis>
+        </Document>
+        <Document ID="41">
+            <Title>Scénario</Title>
+            <Text>L’histoire prend place dans le royaume d’Eternara.
+Notre personnage, Spark, est un jeune homme malin et débrouillard qui vit dans la rue depuis aussi loin qu’il s’en souvienne. Très malin et observateur, il a pris l’habitude d’analyser les gens et de les manipuler. Il est ce qu’on pourrait appeler un mentaliste amateur, une branche de la magie extrêmement dépréciée et non prise au sérieux. 
+
+Le jeu commence alors par une journée commune, Spark à faim et veut manger. Pour ce faire, il a une idée en tête : détourner l’attention du marchand et lui voler une orna. Pour ce faire, le joueur va devoir ruser (1er énigme : berner le vendeur) mais au moment où il avance sa main vers le fruit une belle enveloppe cachetée à la cire arrive de nulle part et se plante dedans ! Étonné de voir que celle-ci lui est adressée, il détale de l’étale sans oublier son butin.
+
+Une fois de retour dans son taudis, il ouvre l'enveloppe et découvre que le grand maître magicien, Orinius, en personne, l’invite à participer à une compétition. Celle-ci opposera les magiciens les plus talentueux du royaume dans diverses quêtes afin de jauger leurs capacités. À l’issus de cette compétition, l’un d’entre eux sera choisi afin de devenir l’apprenti officiel du grand maître et aura ainsi la chance de lui succéder à l’avenir au titre de maître suprême de la magie. 
+Afin de répondre favorable, il est simplement demandé de se rendre à l’aube, au centre du palais royal. Ni une, ni deux, c’est la chance de sa vie ! Notre héros s’empresse de se rendre au portes du palais, malheureusement, les gardes n’ont pas été prévenus de son arrivé et ils ne sont pas très accueillant (2eme enigme : les gardes en mousse)... Une fois entré dans le palais, notre héros va tenter de se rendre au centre de celui-ci mais se perd. Il n’a pas l’habitude d’errer dans de si vastes couloirs. Par chance, il tombera sur plusieurs cartes marquées “Vous êtes ici” qui lui permettront de se retrouver (phase de labyrinthe à voir).
+Il entre alors dans une magnifique bibliothèque avec au centre un immense pentacle. De nombreux autres magiciens sont présents, dont entre autre :
+Un jeune homme très prétentieux et noble qui maîtrise la pyromancie</Text>
+        </Document>
+        <Document ID="42">
+            <Title>2 - Gardes en mousse</Title>
+        </Document>
+        <Document ID="43"/>
+        <Document ID="44">
+            <Title>3 - Labyrinth</Title>
+        </Document>
+        <Document ID="45">
+            <Title>Notes</Title>
+        </Document>
+        <Document ID="46">
+            <Title>Flux</Title>
+            <Text>Peut importe le type de magie utilisé, tout vient en réalité d’une énergie appelé le flux qui circule partout dans le monde. Le flux se modèle selon le magicien pour prendre les propriétés désiré : feu, glace, etc… Ce que désire Orinius n’est pas un apprentis maîtrisant énormément de sort mais un apprentis qui parvient à manipuler le flux
+
+Il faut avoir un contact direct avec le flux pour pouvoir le matérialiser et lui donner des propriétés physiques. Par exemple, on peut faire une boule de feu dans sa main mais on ne peut pas former une boule de feu directement dans le corps de notre adversaire. Notre héros utilise le flux present dans le cerveau de ses adversaires pour ses pouvoirs de mentaliste et d’esprit mais ses pouvoirs n’ont pas besoin de matérialisation physique (par exemple, ses illusions n’existent pas et ne peuvent pas attaquer)
+
+Une règle de base de la magie est de ne pas se faire toucher par son adversaire car cela lui donnerait une trop grosse puissance sur nous. De même il est dangereux de toucher directement son adversaire car il pourrait en profiter pour utiliser notre flux a son avantage.
+</Text>
+        </Document>
+        <Document ID="47">
+            <Title>Flux2</Title>
+            <Text>Il faut avoir un contact direct avec le flux pour pouvoir le matérialiser et lui donner des propriétés physiques. Par exemple, on peut faire une boule de feu dans sa main mais on ne peut pas former une boule de feu directement dans le corps de notre adversaire. Notre héros utilise le flux present dans le cerveau de ses adversaires pour ses pouvoirs de mentaliste et d’esprit mais ses pouvoirs n’ont pas besoin de matérialisation physique (par exemple, ses illusions n’existent pas et ne peuvent pas attaquer)</Text>
+        </Document>
+        <Document ID="48">
+            <Title>Magie</Title>
+            <Text>Il existe en réalité plusieurs manière d’apprendre la magie :
+De façon héréditaire
+Avec un long apprentissage
+En autodidact : c’est le cas de notre héros</Text>
+        </Document>
+        <Document ID="49">
+            <Title>Spoil 1er mechant</Title>
+            <Text>Un des concurrent est en fait l'apprenti d’un mage noir qui souhaite faire tomber la barrière de protection d’Orinius afin que son maître envahisse le royaume.
+</Text>
+        </Document>
+        <Document ID="50">
+            <Title>Magie</Title>
+        </Document>
+        <Document ID="51"/>
+        <Document ID="52">
+            <Title>Esprit / Mentalisme</Title>
+        </Document>
+        <Document ID="53">
+            <Title>Persuasion</Title>
+        </Document>
+        <Document ID="54">
+            <Title>Illusion</Title>
+        </Document>
+        <Document ID="55">
+            <Title>Pyromancie</Title>
+        </Document>
+        <Document ID="56">
+            <Title>Gravité</Title>
+        </Document>
+    </Documents>
+</SearchIndexes>

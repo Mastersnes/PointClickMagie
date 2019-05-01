@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="WX-OR6184399" Modified="2019-05-01 17:11:38 +0200" ModID="9C4DF2EF-9F91-458B-AC37-2D725A021AD5">
+    <Binder>
+        <BinderItem ID="0" UUID="5866BFE9-CA45-41F0-8520-049D4FE627F2" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:39:18 +0200" Type="DraftFolder">
+            <Title>Magix</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem ID="41" UUID="5FF0ED96-6251-40FF-A020-031CAD1145F0" Created="2019-05-01 13:14:06 +0200" Modified="2019-05-01 13:32:49 +0200" Type="Text">
+                    <Title>Scénario</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Book (Blue Book).tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>2204,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="5" UUID="90B93B34-2513-416A-837D-287F046AF0A8" Created="2019-04-29 16:46:14 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                    <Title>Enigmes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Clapper Board.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="3" UUID="1476C784-AD4C-4995-9BB4-98E90D212893" Created="2019-04-29 16:45:24 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                            <Title>1 - Etale du marchand</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="36" UUID="6E67E60D-C034-4F2A-AD64-949F9A147AAB" Created="2019-04-30 14:26:04 +0200" Modified="2019-04-30 16:18:47 +0200" Type="Text">
+                                    <Title>Description</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>To Do.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>449,70</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="27" UUID="A6B40248-8215-437C-9EFE-8CC4BD61BE01" Created="2019-04-30 11:57:04 +0200" Modified="2019-04-30 16:00:57 +0200" Type="Text">
+                                    <Title>Marchand</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <StatusID>0</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>To Do.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>823,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="40" UUID="D9C943EB-C21B-4F4E-AE0C-AD1F3AC6DB6C" Created="2019-04-30 15:36:10 +0200" Modified="2019-05-01 17:11:18 +0200" Type="Folder">
+                                    <Title>Touriste</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <StatusID>4</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="39" UUID="83D26CD4-F0C8-414C-AE0D-B5BB618036C8" Created="2019-04-30 15:33:39 +0200" Modified="2019-04-30 15:52:03 +0200" Type="Text">
+                                            <Title>Touriste</Title>
+                                            <MetaData>
+                                                <StatusID>2</StatusID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                                <IconFileName>To Do.tiff</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>10,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="38" UUID="97966B1B-1340-42E2-B337-EBD8E051659F" Created="2019-04-30 15:22:37 +0200" Modified="2019-05-01 17:10:50 +0200" Type="Text">
+                                            <Title>Bourse</Title>
+                                            <MetaData>
+                                                <LabelID>0</LabelID>
+                                                <StatusID>1</StatusID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                                <IconFileName>Warning.tiff</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>95,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="29" UUID="F3F99C1B-1218-47E5-9EA4-8CE204F31CC3" Created="2019-04-30 11:57:14 +0200" Modified="2019-05-01 17:11:36 +0200" Type="Text">
+                                    <Title>Enfant mendiant</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <StatusID>2</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>To Do.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>1342,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="30" UUID="D8AD71C8-3D9F-4C39-B05A-B4AA6772E64E" Created="2019-04-30 11:57:50 +0200" Modified="2019-05-01 17:11:08 +0200" Type="Text">
+                                    <Title>Orna</Title>
+                                    <MetaData>
+                                        <LabelID>0</LabelID>
+                                        <StatusID>1</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                        <IconFileName>To Do.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>309,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="31" UUID="95541F99-A681-4A70-8B8F-B9A148E6CC55" Created="2019-04-30 11:59:33 +0200" Modified="2019-05-01 16:37:04 +0200" Type="Text">
+                                    <Title>Bobinavias</Title>
+                                    <MetaData>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                        <IconFileName>To Do.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection Caret="63">54,9</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="32" UUID="FCD226BA-8D56-400B-83A4-A3D9DC2C3AA5" Created="2019-04-30 11:59:40 +0200" Modified="2019-05-01 17:10:21 +0200" Type="Text">
+                                    <Title>Lirous</Title>
+                                    <MetaData>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Thought Bubble.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>54,15</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="33" UUID="32C51CD8-F990-4F2C-8ACF-A4D3C54EE284" Created="2019-04-30 11:59:53 +0200" Modified="2019-04-30 15:51:47 +0200" Type="Text">
+                                    <Title>Angirions</Title>
+                                    <MetaData>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Warning.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>10,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="34" UUID="6B4563A9-8044-40E2-9E4B-2AB5B28A3F5D" Created="2019-04-30 12:44:21 +0200" Modified="2019-04-30 15:51:47 +0200" Type="Text">
+                                    <Title>Carnus</Title>
+                                    <MetaData>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Warning.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>10,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="35" UUID="BA0FBC69-1056-4FFB-A3E8-9B20DC8FC62C" Created="2019-04-30 12:44:27 +0200" Modified="2019-04-30 15:51:47 +0200" Type="Text">
+                                    <Title>Mamasantia</Title>
+                                    <MetaData>
+                                        <StatusID>3</StatusID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Warning.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>10,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="42" UUID="3A340C27-E675-4F6F-B169-2E85288CF01A" Created="2019-05-01 13:17:25 +0200" Modified="2019-05-01 13:17:30 +0200" Type="Folder">
+                            <Title>2 - Gardes en mousse</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="44" UUID="61643BFE-8FCE-4DDC-A95E-08A818662D9D" Created="2019-05-01 13:18:18 +0200" Modified="2019-05-01 13:18:30 +0200" Type="Folder">
+                            <Title>3 - Labyrinth</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="6" UUID="1EF244C4-A26C-43CA-AA7B-2636139FEEEF" Created="2019-04-29 16:50:38 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                    <Title>Lexique</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Blackboard.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="7" UUID="07D19BEE-D2B0-4892-991A-0430AF727D18" Created="2019-04-29 16:50:57 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                            <Title>Fruits &amp; Legumes</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Front Matter.tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="9" UUID="84FBDA50-FA85-409A-ABCF-2618B1968C73" Created="2019-04-29 16:51:39 +0200" Modified="2019-05-01 16:42:59 +0200" Type="Text">
+                                    <Title>Une Orna</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>60,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>2</KeywordID>
+                                        <KeywordID>1</KeywordID>
+                                        <KeywordID>6</KeywordID>
+                                        <KeywordID>7</KeywordID>
+                                        <KeywordID>4</KeywordID>
+                                        <KeywordID>13</KeywordID>
+                                        <KeywordID>14</KeywordID>
+                                        <KeywordID>31</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem ID="10" UUID="9DCE264B-0C06-43A3-AD8A-0636F812B616" Created="2019-04-29 16:51:42 +0200" Modified="2019-05-01 16:43:03 +0200" Type="Text">
+                                    <Title>Une Bobinavia*</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                        <IconFileName>Bobinavia.png</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>157,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>2</KeywordID>
+                                        <KeywordID>1</KeywordID>
+                                        <KeywordID>7</KeywordID>
+                                        <KeywordID>8</KeywordID>
+                                        <KeywordID>4</KeywordID>
+                                        <KeywordID>12</KeywordID>
+                                        <KeywordID>32</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem ID="11" UUID="88C3D670-3360-4B2B-99B1-8327930A81FE" Created="2019-04-29 16:51:51 +0200" Modified="2019-04-30 11:24:15 +0200" Type="Text">
+                                    <Title>Un Lirou*</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Lirou.png</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>109,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>2</KeywordID>
+                                        <KeywordID>1</KeywordID>
+                                        <KeywordID>3</KeywordID>
+                                        <KeywordID>4</KeywordID>
+                                        <KeywordID>5</KeywordID>
+                                        <KeywordID>11</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem ID="12" UUID="82B75326-19A3-4F71-9B43-0B16807B9F23" Created="2019-04-29 16:52:03 +0200" Modified="2019-04-30 11:24:10 +0200" Type="Text">
+                                    <Title>Un Angirion*</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>rtf</FileExtension>
+                                        <IconFileName>Angirion.png</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>158,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>2</KeywordID>
+                                        <KeywordID>4</KeywordID>
+                                        <KeywordID>6</KeywordID>
+                                        <KeywordID>9</KeywordID>
+                                        <KeywordID>7</KeywordID>
+                                        <KeywordID>1</KeywordID>
+                                        <KeywordID>10</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="8" UUID="E4D430C1-C503-44F8-BB3E-D849761FFCF6" Created="2019-04-29 16:51:14 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                            <Title>Fleurs</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Front Matter.tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="14" UUID="9A5A84BF-9569-44E2-B681-6FD75A2CC90D" Created="2019-04-29 19:29:50 +0200" Modified="2019-04-30 11:29:51 +0200" Type="Text">
+                                    <Title>Une Carnus</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>33,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>15</KeywordID>
+                                        <KeywordID>16</KeywordID>
+                                        <KeywordID>1</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                                <BinderItem ID="15" UUID="3F084E01-EF35-4595-A34A-1D0A7E9D0433" Created="2019-04-30 10:50:52 +0200" Modified="2019-04-30 11:29:55 +0200" Type="Text">
+                                    <Title>Une Mamasantia</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Mamasantia.png</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>191,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Keywords>
+                                        <KeywordID>16</KeywordID>
+                                        <KeywordID>17</KeywordID>
+                                        <KeywordID>1</KeywordID>
+                                    </Keywords>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="16" UUID="2A5A9F2C-45AF-4393-92E0-BFC4DA51EFF8" Created="2019-04-30 10:59:21 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                            <Title>Personnage</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Characters (Photo).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="23" UUID="8AD206A4-B8B4-4685-AD3B-32C0FCD69B93" Created="2019-04-30 11:30:59 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                                    <Title>Principales</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Characters (Mask).tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="17" UUID="30D51DB1-85A0-4358-B0C6-5F1264412454" Created="2019-04-30 11:01:33 +0200" Modified="2019-05-01 16:40:23 +0200" Type="Text">
+                                            <Title>Spark</Title>
+                                            <MetaData>
+                                                <StatusID>7</StatusID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                                <IconFileName>Characters (Character Sheet).tiff</IconFileName>
+                                                <IndexCardImageFileExtension>png</IndexCardImageFileExtension>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>219,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                            <Keywords>
+                                                <KeywordID>18</KeywordID>
+                                                <KeywordID>19</KeywordID>
+                                                <KeywordID>21</KeywordID>
+                                                <KeywordID>24</KeywordID>
+                                                <KeywordID>26</KeywordID>
+                                            </Keywords>
+                                        </BinderItem>
+                                        <BinderItem ID="18" UUID="9850A471-4591-4B43-9C44-891675C26A85" Created="2019-04-30 11:08:53 +0200" Modified="2019-05-01 16:40:47 +0200" Type="Text">
+                                            <Title>Orinius</Title>
+                                            <MetaData>
+                                                <StatusID>6</StatusID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <FileExtension>rtf</FileExtension>
+                                                <IconFileName>Characters (Character Sheet).tiff</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>142,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                            <Keywords>
+                                                <KeywordID>22</KeywordID>
+                                                <KeywordID>23</KeywordID>
+                                                <KeywordID>24</KeywordID>
+                                            </Keywords>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="22" UUID="C7AEACBB-40E1-4C33-B30B-E46E10477F64" Created="2019-04-30 11:30:08 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                                    <Title>Secondaires</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Characters (Mask).tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="24" UUID="AE6A8A68-559A-4141-A7EA-8FD57A700315" Created="2019-04-30 11:31:31 +0200" Modified="2019-04-30 14:29:45 +0200" Type="Text">
+                                            <Title>Marchand</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <IconFileName>Characters (Character Sheet).tiff</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>88,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                            <Keywords>
+                                                <KeywordID>1</KeywordID>
+                                                <KeywordID>20</KeywordID>
+                                                <KeywordID>25</KeywordID>
+                                                <KeywordID>27</KeywordID>
+                                            </Keywords>
+                                        </BinderItem>
+                                        <BinderItem ID="25" UUID="7D0E5A0F-5467-42D9-B94D-D4FA9E849798" Created="2019-04-30 11:33:36 +0200" Modified="2019-04-30 15:27:33 +0200" Type="Text">
+                                            <Title>Touriste</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <IconFileName>Characters (Character Sheet).tiff</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>15,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                            <Keywords>
+                                                <KeywordID>1</KeywordID>
+                                                <KeywordID>28</KeywordID>
+                                            </Keywords>
+                                        </BinderItem>
+                                        <BinderItem ID="26" UUID="2AB346A6-79C9-4770-B4B6-39A9EC3DE721" Created="2019-04-30 11:35:35 +0200" Modified="2019-04-30 14:29:45 +0200" Type="Text">
+                                            <Title>Enfant mendiant</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                                <IconFileName>Characters (Character Sheet).tiff</IconFileName>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>116,0</TextSelection>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                            <Keywords>
+                                                <KeywordID>29</KeywordID>
+                                                <KeywordID>30</KeywordID>
+                                                <KeywordID>1</KeywordID>
+                                            </Keywords>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="50" UUID="8F353ACB-2F44-41D8-8624-FB46B24DA057" Created="2019-05-01 13:29:22 +0200" Modified="2019-05-01 13:29:30 +0200" Type="Folder">
+                            <Title>Magie</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Reviewer Comments.tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="52" UUID="3353E971-30E2-4D85-8D56-551A9C3365D5" Created="2019-05-01 13:29:41 +0200" Modified="2019-05-01 13:30:18 +0200" Type="Folder">
+                                    <Title>Esprit / Mentalisme</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>Eye.tiff</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem ID="53" UUID="D72DA6DB-4DD7-4B59-8BFD-85AB7685D3B9" Created="2019-05-01 13:30:04 +0200" Modified="2019-05-01 13:30:07 +0200" Type="Text">
+                                            <Title>Persuasion</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem ID="54" UUID="93C74D64-2AFD-41FB-93E2-12BBCF060F93" Created="2019-05-01 13:30:08 +0200" Modified="2019-05-01 13:30:10 +0200" Type="Text">
+                                            <Title>Illusion</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <Target Type="Words">0</Target>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem ID="55" UUID="9F8AB70A-B46E-4E8B-9356-9F08CF6D1967" Created="2019-05-01 13:30:23 +0200" Modified="2019-05-01 13:31:57 +0200" Type="Folder">
+                                    <Title>Pyromancie</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>pyromancie.png</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="56" UUID="08ED7C34-7E38-4CEA-BC17-EE0FA721E3EA" Created="2019-05-01 13:30:32 +0200" Modified="2019-05-01 13:32:03 +0200" Type="Folder">
+                                    <Title>Gravité</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <IconFileName>aimant.png</IconFileName>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="19" UUID="767E067A-954D-42DC-A057-6FCE8A9CD29C" Created="2019-04-30 11:14:21 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                    <Title>Game Design</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Figures and Graphs.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="20" UUID="C550130C-1B36-4562-B7E2-68AE7164B063" Created="2019-04-30 11:14:47 +0200" Modified="2019-04-30 11:15:05 +0200" Type="Text">
+                            <Title>Types de vues</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Eye.tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>769,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="21" UUID="1C3F5794-A148-4BDA-95E4-E802D1A2D753" Created="2019-04-30 11:15:10 +0200" Modified="2019-04-30 16:19:51 +0200" Type="Text">
+                            <Title>UI</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>21,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="45" UUID="57E9DB16-F47E-4F51-A52B-EF1D23A72DBA" Created="2019-05-01 13:18:58 +0200" Modified="2019-05-01 13:19:14 +0200" Type="Folder">
+                    <Title>Notes</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Information.tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="46" UUID="F0F53FA0-DE20-4F1A-9A64-7DA1773B329E" Created="2019-05-01 13:19:18 +0200" Modified="2019-05-01 13:20:46 +0200" Type="Text">
+                            <Title>Flux</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>792,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="48" UUID="A191E6E5-959F-47B0-8848-E48EEB6D4C91" Created="2019-05-01 13:20:54 +0200" Modified="2019-05-01 13:21:08 +0200" Type="Text">
+                            <Title>Magie</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>153,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="49" UUID="9DD25C0D-E507-4DA7-9EF5-1C5279804B4C" Created="2019-05-01 13:21:15 +0200" Modified="2019-05-01 16:12:18 +0200" Type="Text">
+                            <Title>Spoil 1er mechant</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>160,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="CA6A0DA9-9A80-4CA7-8343-D21D055A9C4C" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:04:22 +0200" Type="ResearchFolder">
+            <Title>Recherche</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem ID="2" UUID="607291CF-BA6F-4310-8202-AF4F2B0FAEB0" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:04:22 +0200" Type="TrashFolder">
+            <Title>Corbeille</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <LabelSettings>
+        <Title>Étiquette</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">Sans étiquette</Label>
+            <Label ID="0" Color="1.000000 0.000000 0.000000">Important</Label>
+            <Label ID="1" Color="0.000000 0.458824 0.266667">Groupe</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>État</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">Sans état</Status>
+            <Status ID="6">Principal</Status>
+            <Status ID="7">Hero</Status>
+            <Status ID="0">Adversaire</Status>
+            <Status ID="2">Sujet</Status>
+            <Status ID="1">Objectif</Status>
+            <Status ID="3">Background</Status>
+            <Status ID="4">Groupe</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets>
+        <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
+        <PreviousSession Words="799" Characters="4676" Date="2019-05-01 09:27:51 +0200"/>
+    </ProjectTargets>
+    <Collections>
+        <Collection Type="Binder" ID="8D947EB0-6E78-4E1F-BE76-2C1C7F4DA91A" Color="0.901961 0.917647 0.933333">
+            <Title>Classeur</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="5C142D03-15EC-4AF7-863C-57B94144B856" Color="0.901961 0.901961 0.980392">
+            <Title>Résultats de recherche</Title>
+            <SearchSettings Operator="All" Type="All" Scope="Draft" CompileSetting="All" CaseSensitive="No">jaune</SearchSettings>
+        </Collection>
+    </Collections>
+    <Keywords>
+        <Keyword ID="32">
+            <Title>moche</Title>
+            <Color>0.470588 0.568627 0.670588</Color>
+        </Keyword>
+        <Keyword ID="31">
+            <Title>appetissant</Title>
+            <Color>0.992157 0.521569 0.807843</Color>
+        </Keyword>
+        <Keyword ID="30">
+            <Title>mendiant</Title>
+            <Color>0.372549 0.172549 0.976471</Color>
+        </Keyword>
+        <Keyword ID="29">
+            <Title>enfant</Title>
+            <Color>0.525490 0.047059 0.756863</Color>
+        </Keyword>
+        <Keyword ID="28">
+            <Title>distrait</Title>
+            <Color>0.482353 0.396078 0.368627</Color>
+        </Keyword>
+        <Keyword ID="27">
+            <Title>adversaire</Title>
+            <Color>0.431373 0.196078 0.172549</Color>
+        </Keyword>
+        <Keyword ID="25">
+            <Title>enervé</Title>
+            <Color>0.611765 0.525490 0.650980</Color>
+        </Keyword>
+        <Keyword ID="20">
+            <Title>grincheux</Title>
+            <Color>0.835294 0.760784 0.211765</Color>
+        </Keyword>
+        <Keyword ID="26">
+            <Title>apprenti</Title>
+            <Color>0.305882 0.964706 0.678431</Color>
+        </Keyword>
+        <Keyword ID="24">
+            <Title>mage</Title>
+            <Color>0.321569 0.603922 0.701961</Color>
+        </Keyword>
+        <Keyword ID="23">
+            <Title>gravité</Title>
+            <Color>0.470588 0.509804 0.545098</Color>
+        </Keyword>
+        <Keyword ID="22">
+            <Title>archimage</Title>
+            <Color>0.690196 0.345098 0.901961</Color>
+        </Keyword>
+        <Keyword ID="21">
+            <Title>mentalisme</Title>
+            <Color>0.835294 0.647059 0.980392</Color>
+        </Keyword>
+        <Keyword ID="19">
+            <Title>esprit</Title>
+            <Color>0.690196 0.333333 0.941176</Color>
+        </Keyword>
+        <Keyword ID="18">
+            <Title>hero</Title>
+            <Color>0.384314 0.301961 0.062745</Color>
+        </Keyword>
+        <Keyword ID="17">
+            <Title>bavare</Title>
+            <Color>0.039216 0.670588 0.317647</Color>
+        </Keyword>
+        <Keyword ID="16">
+            <Title>fleur</Title>
+            <Color>0.333333 0.341176 0.407843</Color>
+        </Keyword>
+        <Keyword ID="15">
+            <Title>agressif</Title>
+            <Color>0.145098 0.572549 0.827451</Color>
+        </Keyword>
+        <Keyword ID="14">
+            <Title>bleu</Title>
+            <Color>0.701961 0.082353 0.580392</Color>
+        </Keyword>
+        <Keyword ID="13">
+            <Title>rouge</Title>
+            <Color>0.380392 0.772549 0.427451</Color>
+        </Keyword>
+        <Keyword ID="12">
+            <Title>jaune</Title>
+            <Color>0.298039 0.592157 0.070588</Color>
+        </Keyword>
+        <Keyword ID="11">
+            <Title>vert</Title>
+            <Color>0.749020 0.780392 0.521569</Color>
+        </Keyword>
+        <Keyword ID="10">
+            <Title>blanc</Title>
+            <Color>0.596078 0.298039 0.929412</Color>
+        </Keyword>
+        <Keyword ID="9">
+            <Title>paralysie</Title>
+            <Color>0.039216 0.788235 0.811765</Color>
+        </Keyword>
+        <Keyword ID="8">
+            <Title>sûre</Title>
+            <Color>0.807843 0.752941 0.101961</Color>
+        </Keyword>
+        <Keyword ID="7">
+            <Title>sucré</Title>
+            <Color>0.803922 0.968627 0.250980</Color>
+        </Keyword>
+        <Keyword ID="6">
+            <Title>amer</Title>
+            <Color>0.411765 0.337255 0.349020</Color>
+        </Keyword>
+        <Keyword ID="5">
+            <Title>acide</Title>
+            <Color>0.427451 0.133333 0.843137</Color>
+        </Keyword>
+        <Keyword ID="4">
+            <Title>cuisine</Title>
+            <Color>0.074510 0.541176 0.043137</Color>
+        </Keyword>
+        <Keyword ID="3">
+            <Title>agrume</Title>
+            <Color>0.749020 0.678431 0.568627</Color>
+        </Keyword>
+        <Keyword ID="2">
+            <Title>fruit</Title>
+            <Color>0.176471 0.133333 0.450980</Color>
+        </Keyword>
+        <Keyword ID="1">
+            <Title>enigme1</Title>
+            <Color>0.364706 0.533333 0.827451</Color>
+        </Keyword>
+    </Keywords>
+    <PrintSettings PaperType="A4" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>
