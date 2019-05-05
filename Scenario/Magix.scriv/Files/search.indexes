@@ -2,10 +2,10 @@
 <SearchIndexes Version="1.0">
     <Documents>
         <Document ID="3">
-            <Title>1 - Etale du marchand</Title>
+            <Title>E1 - Etale du marchand</Title>
         </Document>
         <Document ID="5">
-            <Title>Enigmes</Title>
+            <Title>Tableaux</Title>
         </Document>
         <Document ID="6">
             <Title>Lexique</Title>
@@ -60,12 +60,13 @@
 Apprentissage : Mentaliste (autodidacte)</Synopsis>
             <Text>Notre héros. C’est un jeune homme de (17) ans qui a toujours vécu dans la rue. Par fierté il ne s’est jamais autorisé à mendier.
 Il est très malin et a appris de manière autodidacte un sort de mentaliste : la persuasion.
-Il est choisi par Orinius pour participer au concours de magie afin de devenir son apprentis.
+Il est choisi par Onirius pour participer au concours de magie afin de devenir son apprentis.
 On apprendra plus tard que son affiliation est l’esprit ce qui explique qu’il ait réussit à apprendre seul le mentalisme.
+￼
 ￼</Text>
         </Document>
         <Document ID="18">
-            <Title>Orinius</Title>
+            <Title>Onirius</Title>
             <Synopsis>Affiliation : Gravité
 Apprentissage : Tous</Synopsis>
             <Text>C’est l’archimage suprême du royaume. Il contrôle parfaitement le flux et le modèle selon ses désirs. Son affiliation d’origine est la gravité mais sa maîtrise du flux lui a permis d’apprendre tous les autres type de magie.
@@ -89,9 +90,13 @@ Illustré avec un échange de dialogue (donc plusieurs illustrations)
 Cinématique : Animation</Text>
         </Document>
         <Document ID="21">
-            <Title>UI</Title>
-            <Text>Ajouter la maquette
-￼</Text>
+            <Title>Barre d'action</Title>
+            <Text>Une barre d’action se trouvera en bas de l’écran, elle contiendra les differents items de l’inventaire.
+Un bouton sur la droite de la barre permettra de switcher afin d’utiliser les sorts.
+Un bouton au dessus de la barre permettra de la rabaisser afin d’aprecier la globalité de la scene.
+￼
+
+</Text>
         </Document>
         <Document ID="22">
             <Title>Secondaires</Title>
@@ -137,7 +142,7 @@ Si on a parlé à l’orna : “Je crois que cette orna m’aime bien vous savez
 “Bahh…”
 Si plus de réponse (dans le tableau)
 “Dégage de mon étale, vaurien”
-“	Si t’as pas d’argent, j’ai pas de temps à perdre !”
+“Si t’as pas d’argent, j’ai pas de temps à perdre !”
 “Tu vas salir mes produits, dégage !”
 
 Click droit (regarder)
@@ -153,7 +158,8 @@ La premiere fois : dialogue
 “Ah, euh derien, euh… Hein ? Attends une minute ! Laisse ça ici !”
 “Arf… Ca coutait rien d’essayer…”
 Ensuite : dans le tableau
-“Encore faut-il qu’il ait un cerveau…”</Text>
+“Encore faut-il qu’il ait un cerveau…”
+“Je dois le toucher pour que ca puisse marcher. Mais… j’en ai pas très envie…”</Text>
         </Document>
         <Document ID="29">
             <Title>Enfant mendiant</Title>
@@ -231,11 +237,12 @@ Ensuite : dans le tableau
 Légende :
 Spark
 
-Click gauche (Prendre) : animation
+Click gauche (Prendre) : 
 “Berk non ! Y’a trop de pépin là-dedans !”
 
 Click droit (regarder)
-“C’est une grappe de Bobinavia, un fruit sucré mais très sûre et plein de pépin. De loin, ca ressemble a une vieille main de sorciere…”
+“C’est une grappe de bobinavia, un fruit sucré mais très sûre et plein de pépin.”
+“De loin, ca ressemble a une main de sorciere…”
 
 Items :
 N/A
@@ -254,10 +261,11 @@ Légende :
 Spark
 
 Click gauche (Prendre) : dans le tableau
-“?”
+“Même pas en rêve, c’est beaucoup trop acide !”
 
 Click droit (regarder)
-“?”
+“C’est un lirou, un fruit extremement acide.”
+“Beau de loin mais loin d’être bon !”
 
 Items :
 N/A
@@ -265,23 +273,91 @@ N/A
 Sorts :
 Persuasion :
 dans le tableau
-“?”</Text>
+“Viens ici petit lirou, viens dans ma poche. Arf… il trop coriace…”
+“Faudrait que j’arrete de parler à des fruits, ca devient étrange, non ? Non…”
+“Un fruit acide, c’est plutôt basique !”</Text>
         </Document>
         <Document ID="33">
             <Title>Angirions</Title>
-            <Text>Voir fiche</Text>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : dans le tableau
+“Ca sert à rien, j’ai rien pour le cuire…”
+
+Click droit (regarder)
+“Un Angirion ! C’est très bon cuit mais infâme quand il est cru.”
+“J’en ai mangé un cru une fois, j’avais la bouche paralysée pendant toute une journée !”
+“C’est beau, on dirait un petit ange qui se mange”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+dans le tableau
+“Ce serait quand même étrange que ça marche, non ?”
+“Cuit, cuit, cuit, cuit !!! Arf… Non… rien à faire…”</Text>
         </Document>
         <Document ID="34">
             <Title>Carnus</Title>
-            <Text>Voir fiche</Text>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : dans le tableau
+“C’est moi qui aimerai manger, pas l’inverse.”
+“Non merci, elle est très bien sur cette étale”
+
+Click droit (regarder)
+“Une Carnus, un vrai chien de garde. Je compte plus les doigts que cette plante m’a déjà croqué…”
+“Je prefere la regarder de loin, c’est plus sûr.”
+“Elle me regarde de travers, je suis sûr qu’elle me trouve appetissant”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+dans le tableau
+“Coucher !”
+“Assis !”
+“Debout !”
+“Gentil carnus, c’est bien !”
+“Ne me mange pas ! Arf… sale bête !”</Text>
         </Document>
         <Document ID="35">
             <Title>Mamasantia</Title>
-            <Text>Voir fiche</Text>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : dans le tableau
+“Non, elle risque de crier”
+
+Click droit (regarder)
+“C’est une mamasantia, belle fleur mais vrai pipelette !”
+“Je me demande ce qu’elles peuvent bien dire sur moi…”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+dans le tableau
+“Bonjour belles fleurs, ca vous dit de faire un tour avec moi ?”
+“Oh mon dieu, un vagabon ! Mesdames ne le regardez pas, cela pourrait abimer votre teint ! Voyez-vous, un jour j’en ai croisé un…”
+“Arf… Les teigne !”</Text>
         </Document>
         <Document ID="36">
             <Title>Description</Title>
-            <Text>Le tableau regroupe l’étale du marchand avec 
+            <Text>Estimation : 5 à 10 min
+
+L’énigme regroupe l’étale du marchand avec 
 Le marchand
 Diverses marchandises :
 Fruits et legumes
@@ -314,17 +390,17 @@ Spark
 Touriste
 
 Click gauche (Prendre) : dans le tableau
-“?”
+“J’aimerai bien mais c’est beaucoup trop risqué.”
 
 Click droit (regarder)
-“?”
+“Je n’arrive même pas à imaginer tout ce que je pourrais faire avec cet argent !”
 
 Items :
 N/A
 
 Sorts :
 Persuasion : directement dans le tableau
-“?”</Text>
+“Impossible, elle y est beaucoup trop attachée…”</Text>
         </Document>
         <Document ID="39">
             <Title>Touriste</Title>
@@ -341,6 +417,10 @@ Click gauche (Parler) : dialogue
 
 Click droit (regarder)
 “Il a l’air très occupé à observer cette plante.”
+“Je serais lui, je n’approcherai pas si pret”
+“Il va lui arriver des bricole s’il continue…”
+Animation: la carnus mange le nez du touriste qui s’en defait puis recommence à l’observer
+“Je l’avais bien dit”
 
 Items :
 N/A
@@ -360,33 +440,40 @@ Notre personnage, Spark, est un jeune homme malin et débrouillard qui vit dans 
 
 Le jeu commence alors par une journée commune, Spark à faim et veut manger. Pour ce faire, il a une idée en tête : détourner l’attention du marchand et lui voler une orna. Pour ce faire, le joueur va devoir ruser (1er énigme : berner le vendeur) mais au moment où il avance sa main vers le fruit une belle enveloppe cachetée à la cire arrive de nulle part et se plante dedans ! Étonné de voir que celle-ci lui est adressée, il détale de l’étale sans oublier son butin.
 
-Une fois de retour dans son taudis, il ouvre l'enveloppe et découvre que le grand maître magicien, Orinius, en personne, l’invite à participer à une compétition. Celle-ci opposera les magiciens les plus talentueux du royaume dans diverses quêtes afin de jauger leurs capacités. À l’issus de cette compétition, l’un d’entre eux sera choisi afin de devenir l’apprenti officiel du grand maître et aura ainsi la chance de lui succéder à l’avenir au titre de maître suprême de la magie. 
+Une fois de retour dans son taudis, il ouvre l'enveloppe et découvre que le grand maître magicien, Onirius, en personne, l’invite à participer à une compétition. Celle-ci opposera les magiciens les plus talentueux du royaume dans diverses quêtes afin de jauger leurs capacités. À l’issus de cette compétition, l’un d’entre eux sera choisi afin de devenir l’apprenti officiel du grand maître et aura ainsi la chance de lui succéder à l’avenir au titre de maître suprême de la magie. 
 Afin de répondre favorable, il est simplement demandé de se rendre à l’aube, au centre du palais royal. Ni une, ni deux, c’est la chance de sa vie ! Notre héros s’empresse de se rendre au portes du palais, malheureusement, les gardes n’ont pas été prévenus de son arrivé et ils ne sont pas très accueillant (2eme enigme : les gardes en mousse)... Une fois entré dans le palais, notre héros va tenter de se rendre au centre de celui-ci mais se perd. Il n’a pas l’habitude d’errer dans de si vastes couloirs. Par chance, il tombera sur plusieurs cartes marquées “Vous êtes ici” qui lui permettront de se retrouver (phase de labyrinthe à voir).
-Il entre alors dans une magnifique bibliothèque avec au centre un immense pentacle. De nombreux autres magiciens sont présents, dont entre autre :
-Un jeune homme très prétentieux et noble qui maîtrise la pyromancie</Text>
+Il entre alors dans une magnifique bibliothèque avec au centre un immense pentagramme et decouvre les autres magiciens présents. 
+Après leur avoir parler et s’etre approché du centre du pentagramme, Onirius apparait sous une forme spectrale et leur explique la situation. 
+Leur epreuve sera de sortir de cette bibliotheque en contrant les sorts d’Onirius et d’atteindre la colline aux milles-graines (3eme enigme : la bibliotheque).
+Une fois sorti de la bibliotheque, notre héros se trouvera dans les soutterains du palais, puis les suivra pour sortir sur la colline.
+
+
+Il y a de nombreux livres dont certains qui expliquent la grande corruption ainsi que l’histoire du bouclier d’Onirius. Certains apprentis peuvent également nous apporter des informations.
+
+——
+
+Possibilité :
+Notre héros arrive sur une colline avec d’autres apprentis. Au loin, on peut voir le bouclier de protection d’Onirius.
+Notre héros arrive dans un marais avec d’autres apprentis.
+</Text>
         </Document>
         <Document ID="42">
-            <Title>2 - Gardes en mousse</Title>
+            <Title>E2 - Gardes en mousse</Title>
         </Document>
-        <Document ID="43"/>
         <Document ID="44">
-            <Title>3 - Labyrinth</Title>
+            <Title>Labyrinth</Title>
         </Document>
         <Document ID="45">
             <Title>Notes</Title>
         </Document>
         <Document ID="46">
             <Title>Flux</Title>
-            <Text>Peut importe le type de magie utilisé, tout vient en réalité d’une énergie appelé le flux qui circule partout dans le monde. Le flux se modèle selon le magicien pour prendre les propriétés désiré : feu, glace, etc… Ce que désire Orinius n’est pas un apprentis maîtrisant énormément de sort mais un apprentis qui parvient à manipuler le flux
+            <Text>Peut importe le type de magie utilisé, tout vient en réalité d’une énergie appelé le flux qui circule partout dans le monde. Le flux se modèle selon le magicien pour prendre les propriétés désiré : feu, glace, etc… Ce que désire Onirius n’est pas un apprentis maîtrisant énormément de sort mais un apprentis qui parvient à manipuler le flux
 
 Il faut avoir un contact direct avec le flux pour pouvoir le matérialiser et lui donner des propriétés physiques. Par exemple, on peut faire une boule de feu dans sa main mais on ne peut pas former une boule de feu directement dans le corps de notre adversaire. Notre héros utilise le flux present dans le cerveau de ses adversaires pour ses pouvoirs de mentaliste et d’esprit mais ses pouvoirs n’ont pas besoin de matérialisation physique (par exemple, ses illusions n’existent pas et ne peuvent pas attaquer)
 
 Une règle de base de la magie est de ne pas se faire toucher par son adversaire car cela lui donnerait une trop grosse puissance sur nous. De même il est dangereux de toucher directement son adversaire car il pourrait en profiter pour utiliser notre flux a son avantage.
 </Text>
-        </Document>
-        <Document ID="47">
-            <Title>Flux2</Title>
-            <Text>Il faut avoir un contact direct avec le flux pour pouvoir le matérialiser et lui donner des propriétés physiques. Par exemple, on peut faire une boule de feu dans sa main mais on ne peut pas former une boule de feu directement dans le corps de notre adversaire. Notre héros utilise le flux present dans le cerveau de ses adversaires pour ses pouvoirs de mentaliste et d’esprit mais ses pouvoirs n’ont pas besoin de matérialisation physique (par exemple, ses illusions n’existent pas et ne peuvent pas attaquer)</Text>
         </Document>
         <Document ID="48">
             <Title>Magie</Title>
@@ -397,18 +484,20 @@ En autodidact : c’est le cas de notre héros</Text>
         </Document>
         <Document ID="49">
             <Title>Spoil 1er mechant</Title>
-            <Text>Un des concurrent est en fait l'apprenti d’un mage noir qui souhaite faire tomber la barrière de protection d’Orinius afin que son maître envahisse le royaume.
+            <Text>Un des concurrent est en fait l'apprenti d’un mage noir qui souhaite faire tomber la barrière de protection d’Onirius afin que son maître envahisse le royaume.
 </Text>
         </Document>
         <Document ID="50">
             <Title>Magie</Title>
         </Document>
-        <Document ID="51"/>
         <Document ID="52">
             <Title>Esprit / Mentalisme</Title>
         </Document>
         <Document ID="53">
             <Title>Persuasion</Title>
+            <Text>Sort de persuasion que Spark a appris en autodidacte. Il permet de fortement suggerer à quelqu’un d’effectuer une action.
+Le sort peut être contré par une trop forte volonté à ne pas effectuer l’action en question.
+Pour que le sort fonctionne, il faut que la cible entende Spark et qu’il y ait un contact physique et visuel.</Text>
         </Document>
         <Document ID="54">
             <Title>Illusion</Title>
@@ -418,6 +507,201 @@ En autodidact : c’est le cas de notre héros</Text>
         </Document>
         <Document ID="56">
             <Title>Gravité</Title>
+        </Document>
+        <Document ID="57">
+            <Title>UI</Title>
+        </Document>
+        <Document ID="58">
+            <Title>Clicks</Title>
+            <Text>De base, nous aurons un simple curseur (à definir)
+
+Lorsque l’on passe la souris sur un element clickable
+A gauche : les actions actives (parler, prendre, utiliser, pousser, etc…)
+A droite : les actions d’observation (regarder, observer, analyser, etc…)
+
+Avec ou sans texte (style à definir) :
+￼  ￼ 
+
+Si on selectionne un objet ou un sort et que l’on passe la souris sur un element clickable : on aura un curseur representant l’objet.
+
+Avec ou sans texte (style à definir) :
+￼￼￼
+
+Ref :
+Deponia :
+ ￼
+Monkey Island :
+￼</Text>
+        </Document>
+        <Document ID="59">
+            <Title>Spoil Bouclier d'Onirius</Title>
+            <Text>Suite à la grande corruption, Onirius qui n’était pas encore archimage du royaume, mis en place un sort de protection pour stopper la corruption.
+Il est dit qu’il utilisa la puissance de reliques ancestrales et qu’il les disposa aux quatres coins du royaume dans des lieux sacré très riche en flux.
+Puis, il regroupa l’energie des reliques en installant un gigantesque pentacle au centre du royaume, dans la grande bibliotheque. Ce qui forma le bouclier.</Text>
+        </Document>
+        <Document ID="60">
+            <Title>Grande Corruption</Title>
+            <Text>D’après les livres, à l’origine les habitants du royaume etait libre de circuler partout dans le monde. On commercait avec de nombreux autres pays et les routes etait relativement sans danger mis à part quelques bandits et creatures sauvage.
+
+Malheureusement, il y a 82 ans, on ne sait pour quelle raison, les differentes terres se sont petit à petit corrompus les unes apres les autres.
+L’eau et les arbres devenaient noirs et les êtres qui entraient en contact avec cette magie noir devenait fou et incontrolable.
+C’est alors qu’Onirius fit son bouclier</Text>
+        </Document>
+        <Document ID="61">
+            <Title>reliques</Title>
+            <Text>Les reliques sont des objets diverses qui ont été créé à partir du flux par de certains mages dans l’histoire et qui sont resté permanent dans notre monde.
+C’est un processus rare et extremement difficile qui demande une grande quantité d’energie.</Text>
+        </Document>
+        <Document ID="62">
+            <Title>lieux sacrés</Title>
+            <Text>Les lieux sacré sont des lieux qui sont naturellement gorgé de flux. Il representent souvent une force de la nature comme un volcan, un lac, etc…</Text>
+        </Document>
+        <Document ID="63">
+            <Title>Taudis</Title>
+        </Document>
+        <Document ID="64">
+            <Title>Apprentis</Title>
+        </Document>
+        <Document ID="65">
+            <Title>Gardes du palais</Title>
+            <Synopsis>Enigme2
+</Synopsis>
+        </Document>
+        <Document ID="66"/>
+        <Document ID="67">
+            <Title>Bibliotheque</Title>
+        </Document>
+        <Document ID="68">
+            <Title>Onirius (spectrale)</Title>
+            <Synopsis>cinématique
+Il n'apparait qu'une fois qu'on a avancé au centre du pentagramme.</Synopsis>
+        </Document>
+        <Document ID="69">
+            <Title>E3 - Bibliotheque</Title>
+        </Document>
+        <Document ID="70">
+            <Title>Lieux</Title>
+        </Document>
+        <Document ID="71">
+            <Title>Palais royal</Title>
+        </Document>
+        <Document ID="72">
+            <Title>Grande bibliotheque</Title>
+        </Document>
+        <Document ID="73">
+            <Title>Eternara</Title>
+        </Document>
+        <Document ID="74">
+            <Title>Le vieux marché</Title>
+        </Document>
+        <Document ID="75">
+            <Title>La colline aux milles-graines</Title>
+        </Document>
+        <Document ID="76">
+            <Title>Description</Title>
+            <Text>Le tableau est composé de 
+-
+
+Les items possibles sont :
+Une moitié d’Orna
+
+Les sorts possibles sont :
+Persuasion
+
+Solution :
+-</Text>
+        </Document>
+        <Document ID="77">
+            <Title>Description</Title>
+            <Text>Le tableau est composé de 
+Le taudis de Spark
+Le marché de nuit
+La porte du palais
+
+Les items possibles sont :
+Une moitié d’Orna
+
+Les sorts possibles sont :
+Persuasion
+
+Solution :
+Il y a un garde devant la porte du palais et il ne nous laisse pas passer. Il faudra recuperer une bobinavia moisie par terre dans le marché (je vais prendre ça, quelqu’un risque de glisser dessus) et l’utiliser sur le pont devant le garde. Ensuite il faut insulter le garde pour qu’il nous coure apres et glisse sur la bobinavia.
+
+Note : Dans le taudis de Spark, on recuperera le carnet de note.</Text>
+        </Document>
+        <Document ID="78">
+            <Title>Description</Title>
+            <Text>Le tableau est composé de 
+-
+
+Les items possibles sont :
+Une moitié d’Orna
+
+Les sorts possibles sont :
+Persuasion
+
+Solution :
+-</Text>
+        </Document>
+        <Document ID="79">
+            <Title>Description</Title>
+            <Text>Le tableau est composé de 
+-
+
+Les items possibles sont :
+Une moitié d’Orna
+
+Les sorts possibles sont :
+Persuasion
+
+Solution :
+-</Text>
+        </Document>
+        <Document ID="80">
+            <Title>Description</Title>
+            <Text>Le tableau est composé de 
+-
+
+Les items possibles sont :
+Une moitié d’Orna
+
+Les sorts possibles sont :
+Persuasion
+
+Solution :
+-</Text>
+        </Document>
+        <Document ID="81">
+            <Title>Souterrain du palais</Title>
+        </Document>
+        <Document ID="82">
+            <Title>Mechanismes P&amp;C</Title>
+            <Text>Combinaisons d’objet
+PNJ :
+Decouverte
+Utilisation
+Objets
+Decouverte
+Utilisation
+Utiliser un objet externe pour declencher une action chez un pnj
+L’observation peut faire avancer l’action
+
+Finalité :
+Entrer ou sortir d’un lieu
+Decouvrir un secret ou un trésor
+Gagner en connaissance (par exemple lire un livre nous amene a nous rendre dans un lieu)
+Reparer un objet ou un mecanisme
+Dechiffrer
+Rapporter quelque chose ou une information à quelqu’un</Text>
+        </Document>
+        <Document ID="83">
+            <Title>Carnet de note</Title>
+            <Text>Le héro pourrait avoir un carnet de note où le joueur pourrait noter ses observations ou tout ce qu’il desire.</Text>
+        </Document>
+        <Document ID="84">
+            <Title>RAF</Title>
+            <Text>Faire la 2eme enigme
+Faire la carte</Text>
         </Document>
     </Documents>
 </SearchIndexes>
