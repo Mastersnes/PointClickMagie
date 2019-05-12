@@ -444,8 +444,7 @@ Une fois de retour dans son taudis, il ouvre l'enveloppe et découvre que le gra
 Afin de répondre favorable, il est simplement demandé de se rendre à l’aube, au centre du palais royal. Ni une, ni deux, c’est la chance de sa vie ! Notre héros s’empresse de se rendre au portes du palais, malheureusement, les gardes n’ont pas été prévenus de son arrivé et ils ne sont pas très accueillant (2eme enigme : les gardes en mousse)... Une fois entré dans le palais, notre héros va tenter de se rendre au centre de celui-ci mais se perd. Il n’a pas l’habitude d’errer dans de si vastes couloirs. Par chance, il tombera sur plusieurs cartes marquées “Vous êtes ici” qui lui permettront de se retrouver (phase de labyrinthe à voir).
 Il entre alors dans une magnifique bibliothèque avec au centre un immense pentagramme et decouvre les autres magiciens présents. 
 Après leur avoir parler et s’etre approché du centre du pentagramme, Onirius apparait sous une forme spectrale et leur explique la situation. 
-Leur epreuve sera de sortir de cette bibliotheque en contrant les sorts d’Onirius et d’atteindre la colline aux milles-graines (3eme enigme : la bibliotheque).
-Une fois sorti de la bibliotheque, notre héros se trouvera dans les soutterains du palais, puis les suivra pour sortir sur la colline.
+Leur premiere vraie epreuve sera de trouver et d’acquerir un objet canalysé.
 
 
 Il y a de nombreux livres dont certains qui expliquent la grande corruption ainsi que l’histoire du bouclier d’Onirius. Certains apprentis peuvent également nous apporter des informations.
@@ -468,12 +467,13 @@ Notre héros arrive dans un marais avec d’autres apprentis.
         </Document>
         <Document ID="46">
             <Title>Flux</Title>
-            <Text>Peut importe le type de magie utilisé, tout vient en réalité d’une énergie appelé le flux qui circule partout dans le monde. Le flux se modèle selon le magicien pour prendre les propriétés désiré : feu, glace, etc… Ce que désire Onirius n’est pas un apprentis maîtrisant énormément de sort mais un apprentis qui parvient à manipuler le flux
+            <Text>Le flux se trouve partout et en toute chôse. Il est généré naturellement par la planéte et circule dans le monde librement. Le flux de base est appelé le flux naturel et ne peut pas être utilisé en l’état. Un magicien doit d’abord capter le flux naturel et le concentrer en lui pour lui donner la forme qu’il desire. Le flux ainsi généré est appelé le flux canalisé. Il peut prendre toute les formes en fonction de l’affiliation du magicien (feu, glace, etc…). Ce que désire Onirius n’est pas un apprentis maîtrisant énormément de sort mais un apprentis qui parvient à bien manipuler le flux. En regle general, un flux canalysé reprend petit à petit ses propriété naturel et reprend sa place dans le cycle du monde. 
 
-Il faut avoir un contact direct avec le flux pour pouvoir le matérialiser et lui donner des propriétés physiques. Par exemple, on peut faire une boule de feu dans sa main mais on ne peut pas former une boule de feu directement dans le corps de notre adversaire. Notre héros utilise le flux present dans le cerveau de ses adversaires pour ses pouvoirs de mentaliste et d’esprit mais ses pouvoirs n’ont pas besoin de matérialisation physique (par exemple, ses illusions n’existent pas et ne peuvent pas attaquer)
+Il faut avoir un contact direct avec le flux pour pouvoir le matérialiser et lui donner des propriétés physiques car cela demande une grande concentration. Par exemple, on peut faire une boule de feu dans sa main mais on ne peut pas former une boule de feu directement dans le corps de notre adversaire. Notre héros injecte du flux canalysé (sans en avoir conscience) directement dans le cerveau de ses adversaires pour ses pouvoirs de mentaliste et d’esprit mais ses pouvoirs n’ont pas de matérialisation physique (par exemple, ses illusions n’existent pas et ne peuvent pas attaquer ou bien il ne peut pas endommager le cerveau de ses adversaires).
 
 Une règle de base de la magie est de ne pas se faire toucher par son adversaire car cela lui donnerait une trop grosse puissance sur nous. De même il est dangereux de toucher directement son adversaire car il pourrait en profiter pour utiliser notre flux a son avantage.
-</Text>
+
+Lorsque l’on meurs, le corps disparait et le flux naturel qui le composait revient petit à petit dans le cycle du monde.</Text>
         </Document>
         <Document ID="48">
             <Title>Magie</Title>
@@ -548,13 +548,21 @@ L’eau et les arbres devenaient noirs et les êtres qui entraient en contact av
 C’est alors qu’Onirius fit son bouclier</Text>
         </Document>
         <Document ID="61">
-            <Title>reliques</Title>
-            <Text>Les reliques sont des objets diverses qui ont été créé à partir du flux par de certains mages dans l’histoire et qui sont resté permanent dans notre monde.
-C’est un processus rare et extremement difficile qui demande une grande quantité d’energie.</Text>
+            <Title>Objets canalysés</Title>
+            <Text>Les objets canalysés sont des objets diverses qui sont concentré en flux canalysé.
+Il en existe plusieurs type :
+Les plus commun, sont des objets classique qui ont été très important pour une personne. À force d’utilisation, il leur ont transmis une partie de leur flux.
+L’autre type est plus rare mais (en général) beaucoup plus concentré, il s’agit d’objets créé par de puissants magiciens à partir de leurs flux et qui sont resté permanent dans notre monde. C’est un processus extremement difficile qui demande une grande quantité d’energie. On les appels des reliques
+
+Onirius s’en sert pour alimenter des especes de moteur à flux naturel afin de faire fonctionner son bouclier constamment</Text>
         </Document>
         <Document ID="62">
             <Title>lieux sacrés</Title>
-            <Text>Les lieux sacré sont des lieux qui sont naturellement gorgé de flux. Il representent souvent une force de la nature comme un volcan, un lac, etc…</Text>
+            <Text>Les lieux sacré sont des lieux qui sont naturellement gorgé de flux. Il representent souvent une force de la nature comme un volcan, un lac, etc…
+
+Le lac Esteth
+La nécropole d’Eternara
+Les catacombes sous la grande bibliotheque</Text>
         </Document>
         <Document ID="63">
             <Title>Taudis</Title>
@@ -587,6 +595,9 @@ Il n'apparait qu'une fois qu'on a avancé au centre du pentagramme.</Synopsis>
         </Document>
         <Document ID="72">
             <Title>Grande bibliotheque</Title>
+            <Text>Elle contient tout le savoir d’Eternara.
+Son sol est couvert d’un gigantesque pentagramme dessiné par Onirius. Il permet de concentrer les energies des differentes reliques disposé dans le royaume.
+Elle est disposé juste au dessus des catacombes, là où les plus grand magiciens d’Eternara reposent</Text>
         </Document>
         <Document ID="73">
             <Title>Eternara</Title>
@@ -701,7 +712,62 @@ Rapporter quelque chose ou une information à quelqu’un</Text>
         <Document ID="84">
             <Title>RAF</Title>
             <Text>Faire la 2eme enigme
+Faire la liste des items et sorts (là où on les obtiens, où on les utilise, où on les perd)
 Faire la carte</Text>
+        </Document>
+        <Document ID="85">
+            <Title>Objets &amp; Sorts</Title>
+        </Document>
+        <Document ID="86">
+            <Title>Orna</Title>
+            <Synopsis>Gain : E1
+Utilisation : ?
+Perte : ?</Synopsis>
+        </Document>
+        <Document ID="87">
+            <Title>Persuasion</Title>
+            <Synopsis>Gain : Debut
+Utilisation : E1
+Perte : Jamais</Synopsis>
+        </Document>
+        <Document ID="88">
+            <Title>Carnet de note</Title>
+            <Synopsis>Gain : Taudis
+Perte : Jamais</Synopsis>
+        </Document>
+        <Document ID="89">
+            <Title>Carte de la ville</Title>
+            <Synopsis>Gain : Taudis
+Perte : Jamais</Synopsis>
+        </Document>
+        <Document ID="90">
+            <Title>Cartes</Title>
+        </Document>
+        <Document ID="91">
+            <Title>Ville</Title>
+            <Text>RAF:
+
+
+Lieux sacrés :
+- Nécropole (OK)
+- Colline aux milles-graines (?)
+- Lac Esteth (OK)
+
+
+Magasins :
+- Stade
+- Thermes / Bain
+- Potager du palais</Text>
+        </Document>
+        <Document ID="92">
+            <Title>Le lac Esteth</Title>
+        </Document>
+        <Document ID="93">
+            <Title>La nécropole d'Eternara</Title>
+        </Document>
+        <Document ID="94">
+            <Title>Colline aux milles-graines</Title>
+            <Text>Afin de rendre à la nature ce qu’ils lui avaient pris. Les constructeurs de la route de la colline ont planté enormement d’arbres tout autour de la route qui borde la colline au mille graine d’ou son nom.</Text>
         </Document>
     </Documents>
 </SearchIndexes>
