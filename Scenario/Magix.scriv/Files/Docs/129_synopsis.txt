@@ -1,0 +1,2 @@
+Permet au joueur de noter des choses.
+Necessaire pour quitter la piece

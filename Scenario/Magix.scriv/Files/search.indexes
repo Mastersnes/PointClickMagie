@@ -5,7 +5,7 @@
             <Title>E1 - Etale du marchand</Title>
         </Document>
         <Document ID="5">
-            <Title>Tableaux</Title>
+            <Title>Scenes</Title>
         </Document>
         <Document ID="6">
             <Title>Lexique</Title>
@@ -19,7 +19,8 @@
         <Document ID="9">
             <Title>Une Orna</Title>
             <Synopsis>Enigme1</Synopsis>
-            <Text>Un fruit rouge et bleu très juteux et sucré mais un peu amer</Text>
+            <Text>Un fruit rouge et bleu très juteux et sucré mais un peu amer
+￼</Text>
         </Document>
         <Document ID="10">
             <Title>Une Bobinavia*</Title>
@@ -122,44 +123,14 @@ Il est très occupé à contempler une belle fleur en pot</Text>
             <Title>Enfant mendiant</Title>
             <Synopsis>Enigme1</Synopsis>
             <Text>C’est un petit garcon qui fait la manche à coté de l’étale.
-Notre héro ne l’aime pas car il lui rappel sa condition.</Text>
+Notre héro ne l’aime pas car il lui rappel sa condition.
+
+Il s’est enfuit de l’orphelinat et survit dans les rues en mendiant.
+Spark s’en servira dans la 1er enigme et il sera capturé par les gardes et renvoyé dans l’orphelinat.</Text>
         </Document>
         <Document ID="27">
             <Title>Marchand</Title>
-            <Text>Voir fiche
-
-Légende :
-Spark
-Marchand
-
-Click gauche (Parler) :  
-“Qu’est ce que tu veux ?” (en dialogue)
-“Je prendrais bien cette orna…”
-“T’as de quoi payer ?”
-“Bahh…”
-Si on a parlé à l’orna : “Je crois que cette orna m’aime bien vous savez”
-“Qu’est ce que ca peut me faire !? T’as de quoi la payer ?”
-“Bahh…”
-Si plus de réponse (dans le tableau)
-“Dégage de mon étale, vaurien”
-“Si t’as pas d’argent, j’ai pas de temps à perdre !”
-“Tu vas salir mes produits, dégage !”
-
-Click droit (regarder)
-“Ce n’est certainement pas le produit le plus frais de l’étale”
-
-Items :
-N/A
-
-Sorts :
-Persuasion :
-La premiere fois : dialogue
-“Merci pour l’Orna, c’est du bon boulot, à la prochaine !”
-“Ah, euh derien, euh… Hein ? Attends une minute ! Laisse ça ici !”
-“Arf… Ca coutait rien d’essayer…”
-Ensuite : dans le tableau
-“Encore faut-il qu’il ait un cerveau…”
-“Je dois le toucher pour que ca puisse marcher. Mais… j’en ai pas très envie…”</Text>
+            <Synopsis>Deux cas de figures</Synopsis>
         </Document>
         <Document ID="29">
             <Title>Enfant mendiant</Title>
@@ -180,6 +151,12 @@ Humm, t’as dut te regaler !
 Berk, m’en parle pas…
 Si on a regardé l’orna “Ca te dirais de m’aider à voler cette Orna ?”
 Oh, non merci, j’ai pas faim. Par contre, je dirais pas non à une tite piéce !
+“Bah alors, t’es pas à l’orphelinat ?”
+“Me suis enfuis, rah le bol qu’on me donne des ordres. C’est une vraie prison !”
+“Comme je te comprend…”
+“Ils te donnaient de la nourriture à l’orphelinat, pourquoi tu n’y retourne pas ?”
+“Je deteste la vieille megere qui se prend pour notre mere ! Je ne veux plus la revoir”
+“Ah oui… la vieille Estel… J’en garde pas de très bon souvenirs non plus…”
 Si plus de réponse : (dans le tableau)
 Une tite piéce siouplait !
 À vot’ bon coeur, m’sieur !
@@ -197,7 +174,7 @@ Si on a regardé l’Orna mais pas la bourse : “Hum… il me faudrait un angle
 Si on a regardé l’Orna et la bourse (animation)
 Notre héro, une main dans la poche, s’accroupit et touche l’enfant à l’epaule en le regardant dans les yeux
 “Le touriste, prend sa bourse, elle t’appartiens désormais.”
-Notre héro se releve et s’écarte legerement, laissant l’enfant se jeter sur la bourse du touriste puis s’enfuir
+Notre héro se releve et s’écarte legerement, laissant l’enfant se jeter sur la bourse du touriste puis s’enfuir (un dor tombe discretement par terre pres de l’etal)
 Le touriste, surpris, lache le carnus qui tombe par terre laissant s’echapper de la terre puis court à la poursuite de l’enfant
 Le marchand sort de son étale en râlant et s’accroupit pour nettoyer</Text>
         </Document>
@@ -212,13 +189,15 @@ Spark
 Orna
 
 Click gauche (Prendre) : animation
-On se fait taper sur la main par le marchand.
+Si marchand classique : On se fait taper sur la main par le marchand.
+Si marchand occupé : cinématique de la lettre d’Onirius + ajout à l’inventaire d’un demi-orna
 
 Click droit (regarder)
 “Hummm ! Qui va finir dans mon estomac ?”
 
 Items :
-N/A
+Dor :
+“Pourquoi le payer si je peux… l’emprunter ?”
 
 Sorts :
 Persuasion :
@@ -245,7 +224,9 @@ Click droit (regarder)
 “De loin, ca ressemble a une main de sorciere…”
 
 Items :
-N/A
+Dor :
+“C’est ce qui s’appel gacher son argent !”
+“Je pense à, à peu pres, un millier de meilleurs choses que je pourrais acheter”
 
 Sorts :
 Persuasion :
@@ -268,12 +249,13 @@ Click droit (regarder)
 “Beau de loin mais loin d’être bon !”
 
 Items :
-N/A
+Dor :
+“Non, il y a un autre fruit beaucoup plus interessant là bas…”
 
 Sorts :
 Persuasion :
 dans le tableau
-“Viens ici petit lirou, viens dans ma poche. Arf… il trop coriace…”
+“Viens ici petit lirou, viens dans ma poche. Arf… il est trop coriace…”
 “Faudrait que j’arrete de parler à des fruits, ca devient étrange, non ? Non…”
 “Un fruit acide, c’est plutôt basique !”</Text>
         </Document>
@@ -293,12 +275,12 @@ Click droit (regarder)
 “C’est beau, on dirait un petit ange qui se mange”
 
 Items :
-N/A
+Dor :
+“Ca ne sert a rien, je ne peux pas le cuir.”
 
 Sorts :
 Persuasion :
 dans le tableau
-“Ce serait quand même étrange que ça marche, non ?”
 “Cuit, cuit, cuit, cuit !!! Arf… Non… rien à faire…”</Text>
         </Document>
         <Document ID="34">
@@ -318,7 +300,8 @@ Click droit (regarder)
 “Elle me regarde de travers, je suis sûr qu’elle me trouve appetissant”
 
 Items :
-N/A
+Dor :
+“Hors de question, elle va manger ma piece !”
 
 Sorts :
 Persuasion :
@@ -344,7 +327,9 @@ Click droit (regarder)
 “Je me demande ce qu’elles peuvent bien dire sur moi…”
 
 Items :
-N/A
+Dor : dialogue
+“Eh bien ! Un seul dor ? Attention mesdames, les misereux sont de sortis ! D’ailleurs, cela me rappel une histoire…”
+“Elles vont me rendre fou…”
 
 Sorts :
 Persuasion :
@@ -355,25 +340,30 @@ dans le tableau
         </Document>
         <Document ID="36">
             <Title>Description</Title>
-            <Text>Estimation : 5 à 10 min
-
-L’énigme regroupe l’étale du marchand avec 
+            <Text>Moment : Fin de journée
+Tableaux :
+Etale du marchand (début)
+Un touriste qui contemple une Carnus avec attention
+La bourse du touriste
+Un enfant qui fait la manche à côté de l’étale
+Un dor (tombera et roulera près de l’etal quand l’enfant volera la bourse)
+Aller vers zoom sur l’étale
+Aller vers carrefour
+Zoom sur l’etale
 Le marchand
-Diverses marchandises :
-Fruits et legumes
 Des ornas dont une bien distinctive
 Des Bobinavia
 Des Lirous
 Des Angirions
-Fleurs
 Beaucoup de Carnus : Dans l’étale il y en a une qui mange le teeshirt du touriste et deux autres qui se croques entre eux.
 Quelques Mamasantia qui discutent ensemble.
-
-Un touriste qui contemple une Carnus avec attention
-Un enfant qui fait la manche à côté de l’étale
+Retourner vers l’etale du marchand
+Carrefour
+Un garde tres serieux qui semble tres concentré
+Aller vers étale du marchand
 
 Les items possibles sont :
-N/A
+Le dor (sauf sur le touriste, la bourse et l’enfant)
 
 Les sorts possibles sont :
 Persuasion
@@ -390,10 +380,10 @@ Spark
 Touriste
 
 Click gauche (Prendre) : dans le tableau
-“J’aimerai bien mais c’est beaucoup trop risqué.”
+“Ca ne m’attirerai que des ennuis.”
 
-Click droit (regarder)
-“Je n’arrive même pas à imaginer tout ce que je pourrais faire avec cet argent !”
+Click droit (regarder) :
+“Qu’est ce qu’il peut bien faire avec autant d’argent ?”
 
 Items :
 N/A
@@ -404,6 +394,7 @@ Persuasion : directement dans le tableau
         </Document>
         <Document ID="39">
             <Title>Touriste</Title>
+            <Synopsis>Animation : Regarde les carnus</Synopsis>
             <Text>Voir fiche
 
 Légende :
@@ -429,10 +420,6 @@ Sorts :
 Persuasion : directement dans le tableau
 “Impossible s’il ne m’entend pas…”</Text>
         </Document>
-        <Document ID="40">
-            <Title>Touriste</Title>
-            <Synopsis>Contient bourse</Synopsis>
-        </Document>
         <Document ID="41">
             <Title>Scénario</Title>
             <Text>L’histoire prend place dans le royaume d’Eternara.
@@ -440,27 +427,61 @@ Notre personnage, Spark, est un jeune homme malin et débrouillard qui vit dans 
 
 Le jeu commence alors par une journée commune, Spark à faim et veut manger. Pour ce faire, il a une idée en tête : détourner l’attention du marchand et lui voler une orna. Pour ce faire, le joueur va devoir ruser (1er énigme : berner le vendeur) mais au moment où il avance sa main vers le fruit une belle enveloppe cachetée à la cire arrive de nulle part et se plante dedans ! Étonné de voir que celle-ci lui est adressée, il détale de l’étale sans oublier son butin.
 
-Une fois de retour dans son taudis, il ouvre l'enveloppe et découvre que le grand maître magicien, Onirius, en personne, l’invite à participer à une compétition. Celle-ci opposera les magiciens les plus talentueux du royaume dans diverses quêtes afin de jauger leurs capacités. À l’issus de cette compétition, l’un d’entre eux sera choisi afin de devenir l’apprenti officiel du grand maître et aura ainsi la chance de lui succéder à l’avenir au titre de maître suprême de la magie. 
-Afin de répondre favorable, il est simplement demandé de se rendre à l’aube, au centre du palais royal. Ni une, ni deux, c’est la chance de sa vie ! Notre héros s’empresse de se rendre au portes du palais, malheureusement, les gardes n’ont pas été prévenus de son arrivé et ils ne sont pas très accueillant (2eme enigme : les gardes en mousse)... Une fois entré dans le palais, notre héros va tenter de se rendre au centre de celui-ci mais se perd. Il n’a pas l’habitude d’errer dans de si vastes couloirs. Par chance, il tombera sur plusieurs cartes marquées “Vous êtes ici” qui lui permettront de se retrouver (phase de labyrinthe à voir).
+Une fois de retour dans son taudis, il ouvre l'enveloppe et découvre que le grand maître magicien, Onirius, en personne, l’invite à participer à un examen. Celle-ci permettra aux magiciens les plus talentueux du royaume dêtre reconnu officiellement comme apprentis et de beneficier des avantages dut à ce rang. Un maître lui sera alors assigné et il pourra officiellement commencer sa formation en magie. Afin de tester ses capacité, il devra reussir une serie d’epreuve.
+Afin de répondre favorable, il est simplement demandé de se rendre à l’aube, au centre du palais royal. Ni une, ni deux, c’est la chance de sa vie ! Notre héros s’empresse de se rendre au portes du palais, malheureusement, les gardes n’ont pas été prévenus de son arrivé et ils ne sont pas très accueillant (2eme enigme : les gardes en mousse)... Une fois entré dans le palais, notre héros va tenter de se rendre au centre de celui-ci mais se perd. Il n’a pas l’habitude d’errer dans de si vastes couloirs. Par chance, il tombera sur plusieurs cartes marquées “Vous êtes ici” qui lui permettront de se retrouver (phase de labyrinthe).
 Il entre alors dans une magnifique bibliothèque avec au centre un immense pentagramme et decouvre les autres magiciens présents. 
-Après leur avoir parler et s’etre approché du centre du pentagramme, Onirius apparait sous une forme spectrale et leur explique la situation. 
-Leur premiere vraie epreuve sera de trouver et d’acquerir un objet canalysé.
-
-
-Il y a de nombreux livres dont certains qui expliquent la grande corruption ainsi que l’histoire du bouclier d’Onirius. Certains apprentis peuvent également nous apporter des informations.
+Après leur avoir parler et s’etre approché du centre du pentagramme, Onirius apparait et leur explique la situation. 
+Ils devront prouver leurs valeurs en participant à 3 epreuves : acquerir un objet canalysé, aider 3 personnes, ?
 
 ——
 
-Possibilité :
-Notre héros arrive sur une colline avec d’autres apprentis. Au loin, on peut voir le bouclier de protection d’Onirius.
-Notre héros arrive dans un marais avec d’autres apprentis.
+Grandes lignes :
+Didactitiel : Spark essais de voler une orna sur l’etale du marchand (3min)
+Regarder l’orna
+Regarder la bourse
+Persuader l’enfant (un dor tombe à terre)
+Voler l’orna
+Acte 1 : Compétition
+En volant l’Orna, Spark recoit une invitation d’Onirius. Il doit se rendre au centre du palais royal avant l’aube. (5min)
+Mechant garde
+Trouver la bobinavia moisie dans le marché
+Utiliser la bobinavia sur la porte du poste de garde
+Insulter le garde (il glisse en sortant et s’evanouie)
+Gentil garde
+Utiliser persuasion pendant qu’il nous montre la poignée de main secrete des gardes
+Trouver son chemin dans la bibliotheque
+Lorsqu’il entre dans la bibliotheque, Spark rencontre les autres apprentis et Onirius
+un noble du quartier riche de la ville qui a étudié la pyromancie auprès d’un grand maitre
+la fille d’une aquamancienne du village d’esteth
+le fils d’un mineur devenu apprentis d’un vieux mage sur le mont argol
+Le fils d’un fermier qui a devellopé des talents de telekinesie (apprentis du méchant)
+???
+ Afin de passer l’examen, il faudra qu’ils remplissent 3 epreuves :
+La puissance : trouver et acquerir un objet canalysé pour augmenter sa puissance magique (certains jeunes mage en possedent deja et passe illico cette epreuve) (10min)
+Acquerir la Fiole d’eau magique
+Indice : Parler à la vieille femme assis près de la fontaine (elle explique la magie de la fontaine)
+Trouver une fiole prés de la boutique de l’alchimiste
+Utiliser la fiole sur l’eau de la fontaine
+Acquerir le collier
+Indice : Parlez à l’ebeniste, il vous racontera la legende du collier
+Indice : Parlez au bijoutier, il vous diras qu’il ne possedera jamais un article aussi demodé.
+Decouvrir et regarder le vieux collier à l’etale de bijoux (il coute 5 dor)
+Indice : Negocier le prix (il baisse au max à 2 dor)
+Utiliser la fiole sur le presentoir à collier (la fiole brille)
+Demandez pour pouvoir regarder le collier de plus pres.
+Utiliser la persuasion sur le vendeur pour avoir le collier à 1 dor (à 0 ce serais du vol et le collier ne vous appartiendrait pas)
+Utiliser le dor de l’enigme 1 sur le vieux collier ou le vendeur
+La bonté : Aider 3 personnes et obtenir leur approbation
+???
+La ??? : ???
+Acte 2 : Trahison : Au moment ou Onirius devoile la plus puissante des reliques sous la bibliotheque, l’apprentis du méchant se devoile, detruit la relique puis s’enfuit en disparaissant.Onirius doit rester là pour garder le bouclier en place tant qu’il le peut
+Retrouver l’apprentis du méchant
+Arreter l’apprentis du méchant sous le cimetierre
+Reparer ou remplacer les reliques dans les differents lieux sacré pour reparer le bouclier d’Onirius
 </Text>
         </Document>
         <Document ID="42">
             <Title>E2 - Gardes en mousse</Title>
-        </Document>
-        <Document ID="44">
-            <Title>Labyrinth</Title>
         </Document>
         <Document ID="45">
             <Title>Notes</Title>
@@ -483,9 +504,15 @@ Avec un long apprentissage
 En autodidact : c’est le cas de notre héros</Text>
         </Document>
         <Document ID="49">
-            <Title>Spoil 1er mechant</Title>
+            <Title>Infos scenar / 1er mechant</Title>
             <Text>Un des concurrent est en fait l'apprenti d’un mage noir qui souhaite faire tomber la barrière de protection d’Onirius afin que son maître envahisse le royaume.
-</Text>
+Il controle les ombres mais pour faire moins “flagrant” il masque ca en de la telekinesie.
+Il porte un casque sur la tete qui est censé ameliorer ses pouvoirs de telekinesie.
+
+On l’affrontera dans la colline aux milles-graines.
+Il se servira des nombreuses lanternes pour avoir à disposition une multitude d’ombres et ainsi pieger les autres apprentis. Il faudra alors se cacher et casser les lanternes une a une. 
+Ses victimes seront alors libéré mais tomberont tous dans les pommes.
+Pour finir, il allumera une derniere torche pour empecher Spark d’approcher, il faudra alors envoyer une illusion pour le pieger et arriver par derriere.</Text>
         </Document>
         <Document ID="50">
             <Title>Magie</Title>
@@ -495,15 +522,24 @@ En autodidact : c’est le cas de notre héros</Text>
         </Document>
         <Document ID="53">
             <Title>Persuasion</Title>
+            <Synopsis>Gain : Debut
+Utilisation : E1
+Perte : Jamais</Synopsis>
             <Text>Sort de persuasion que Spark a appris en autodidacte. Il permet de fortement suggerer à quelqu’un d’effectuer une action.
 Le sort peut être contré par une trop forte volonté à ne pas effectuer l’action en question.
-Pour que le sort fonctionne, il faut que la cible entende Spark et qu’il y ait un contact physique et visuel.</Text>
+Pour que le sort fonctionne, il faut que la cible entende Spark et qu’il y ait un contact physique et visuel.
+
+Au bout d’un moment, Spark decouvrira qu’il peut l’utiliser afin d’endormir quelqu’un.</Text>
         </Document>
         <Document ID="54">
             <Title>Illusion</Title>
+            <Text>Sort d’illusion que Spark apprendra au cours de son aventure.
+Il permet de creer une illusion d’un objet inanimé.
+
+Au bout d’un moment, Spark le maitrisera tellement qu’il pourra creer une illusion de lui meme.</Text>
         </Document>
         <Document ID="55">
-            <Title>Pyromancie</Title>
+            <Title>Feu / Pyromancie</Title>
         </Document>
         <Document ID="56">
             <Title>Gravité</Title>
@@ -565,7 +601,9 @@ La nécropole d’Eternara
 Les catacombes sous la grande bibliotheque</Text>
         </Document>
         <Document ID="63">
-            <Title>Taudis</Title>
+            <Title>Etale du marchand (nuit)</Title>
+            <Synopsis>-&gt; Carrefour
+-&gt; Carte</Synopsis>
         </Document>
         <Document ID="64">
             <Title>Apprentis</Title>
@@ -574,18 +612,17 @@ Les catacombes sous la grande bibliotheque</Text>
             <Title>Gardes du palais</Title>
             <Synopsis>Enigme2
 </Synopsis>
+            <Text>Ils sont deux dans des postes de garde. L’un est gentil, l’autre n’a pas l’air très commode.
+Le gentil lit un magazine, le mechant joue avec son couteau.
+￼</Text>
         </Document>
-        <Document ID="66"/>
-        <Document ID="67">
-            <Title>Bibliotheque</Title>
-        </Document>
-        <Document ID="68">
-            <Title>Onirius (spectrale)</Title>
-            <Synopsis>cinématique
-Il n'apparait qu'une fois qu'on a avancé au centre du pentagramme.</Synopsis>
-        </Document>
-        <Document ID="69">
-            <Title>E3 - Bibliotheque</Title>
+        <Document ID="66">
+            <Title>Lorinia</Title>
+            <Synopsis>Aquamancienne</Synopsis>
+            <Text>Apprentie aquamancienne, elle a été elevé au sanctuaire de l’eau par sa mere au village d’Esteth qui lui a enseigné les bases de sa magie.
+Elle manipule l’eau depuis son plus jeune age.
+
+Elle participe à l’examen pour devenir aquamancienne et aider son village.</Text>
         </Document>
         <Document ID="70">
             <Title>Lieux</Title>
@@ -597,93 +634,56 @@ Il n'apparait qu'une fois qu'on a avancé au centre du pentagramme.</Synopsis>
             <Title>Grande bibliotheque</Title>
             <Text>Elle contient tout le savoir d’Eternara.
 Son sol est couvert d’un gigantesque pentagramme dessiné par Onirius. Il permet de concentrer les energies des differentes reliques disposé dans le royaume.
-Elle est disposé juste au dessus des catacombes, là où les plus grand magiciens d’Eternara reposent</Text>
+Elle est disposé juste au dessus des catacombes.</Text>
         </Document>
         <Document ID="73">
-            <Title>Eternara</Title>
+            <Title>Ville d'Eternara</Title>
         </Document>
         <Document ID="74">
             <Title>Le vieux marché</Title>
+            <Text>Symbole de l’age d’or d’eternara. Il est constitué de belles et grandes etales et de commerces en tout genre. Les gens venaient des quatres coins du monde pour profiter de ses produits.</Text>
         </Document>
         <Document ID="75">
-            <Title>La colline aux milles-graines</Title>
-        </Document>
-        <Document ID="76">
-            <Title>Description</Title>
-            <Text>Le tableau est composé de 
--
-
-Les items possibles sont :
-Une moitié d’Orna
-
-Les sorts possibles sont :
-Persuasion
-
-Solution :
--</Text>
+            <Title>La forêt des milles-graines</Title>
+            <Text>Afin de rendre à la nature ce qu’ils lui avaient pris. Les constructeurs de la route de la colline ont planté enormement d’arbres tout autour de la route qui borde la colline au mille graine d’ou son nom.</Text>
         </Document>
         <Document ID="77">
             <Title>Description</Title>
-            <Text>Le tableau est composé de 
-Le taudis de Spark
-Le marché de nuit
-La porte du palais
+            <Text>Moment : Nuit / Aube
+Tableaux :
+L’Etale du marchand
+Le dor tombé lors de l’enigme 1 s’il n’a pas été ramassé
+Une bobinavia moisie
+Aller vers carrefour
+Aller vers carte de la ville
+Le carrefour
+Les mêmes gardes que le jour qui font les mêmes rondes.
+Aller vers l’etale du marchand
+Aller vers carte de la ville
+Le taudis (début)
+Un carnet de note
+Une carte de la ville
+Aller vers carte de la ville
+L’entrée du palais
+Un garde gentil dans un poste de garde qui lit un magazine ou un journal
+un garde mechant dans un poste de garde qui joue avec son couteau
+La grille du palais
+Aller vers le palais (seulement si la grille est ouverte)
+Aller vers carte de la ville
+
 
 Les items possibles sont :
-Une moitié d’Orna
+Une moitié d’orna
+Un dor
+Une bobinavia moisie
+Invitation d’Onirius
 
 Les sorts possibles sont :
 Persuasion
 
 Solution :
-Il y a un garde devant la porte du palais et il ne nous laisse pas passer. Il faudra recuperer une bobinavia moisie par terre dans le marché (je vais prendre ça, quelqu’un risque de glisser dessus) et l’utiliser sur le pont devant le garde. Ensuite il faut insulter le garde pour qu’il nous coure apres et glisse sur la bobinavia.
-
-Note : Dans le taudis de Spark, on recuperera le carnet de note.</Text>
-        </Document>
-        <Document ID="78">
-            <Title>Description</Title>
-            <Text>Le tableau est composé de 
--
-
-Les items possibles sont :
-Une moitié d’Orna
-
-Les sorts possibles sont :
-Persuasion
-
-Solution :
--</Text>
-        </Document>
-        <Document ID="79">
-            <Title>Description</Title>
-            <Text>Le tableau est composé de 
--
-
-Les items possibles sont :
-Une moitié d’Orna
-
-Les sorts possibles sont :
-Persuasion
-
-Solution :
--</Text>
-        </Document>
-        <Document ID="80">
-            <Title>Description</Title>
-            <Text>Le tableau est composé de 
--
-
-Les items possibles sont :
-Une moitié d’Orna
-
-Les sorts possibles sont :
-Persuasion
-
-Solution :
--</Text>
-        </Document>
-        <Document ID="81">
-            <Title>Souterrain du palais</Title>
+Pour le mechant garde, il faudra utiliser la bobinavia moisie sur la porte et l’insulter. Il sortira en trombe et glissera sur la bobinavia.
+Pour le gentil garde, il faudra utiliser l’invitation d’Onirius</Text>
         </Document>
         <Document ID="82">
             <Title>Mechanismes P&amp;C</Title>
@@ -707,16 +707,8 @@ Rapporter quelque chose ou une information à quelqu’un</Text>
         </Document>
         <Document ID="83">
             <Title>Carnet de note</Title>
-            <Text>Le héro pourrait avoir un carnet de note où le joueur pourrait noter ses observations ou tout ce qu’il desire.</Text>
-        </Document>
-        <Document ID="84">
-            <Title>RAF</Title>
-            <Text>Faire la 2eme enigme
-Faire la liste des items et sorts (là où on les obtiens, où on les utilise, où on les perd)
-Faire la carte</Text>
-        </Document>
-        <Document ID="85">
-            <Title>Objets &amp; Sorts</Title>
+            <Text>Le héro pourrait avoir un carnet de note où le joueur pourrait noter ses observations ou tout ce qu’il desire.
+Il s’agirait d’une icone qui afficherait un carnet.</Text>
         </Document>
         <Document ID="86">
             <Title>Orna</Title>
@@ -724,40 +716,16 @@ Faire la carte</Text>
 Utilisation : ?
 Perte : ?</Synopsis>
         </Document>
-        <Document ID="87">
-            <Title>Persuasion</Title>
-            <Synopsis>Gain : Debut
-Utilisation : E1
-Perte : Jamais</Synopsis>
-        </Document>
         <Document ID="88">
             <Title>Carnet de note</Title>
-            <Synopsis>Gain : Taudis
+            <Synopsis>Gain : E2
 Perte : Jamais</Synopsis>
-        </Document>
-        <Document ID="89">
-            <Title>Carte de la ville</Title>
-            <Synopsis>Gain : Taudis
-Perte : Jamais</Synopsis>
-        </Document>
-        <Document ID="90">
-            <Title>Cartes</Title>
         </Document>
         <Document ID="91">
-            <Title>Ville</Title>
-            <Text>RAF:
-
-
-Lieux sacrés :
-- Nécropole (OK)
-- Colline aux milles-graines (?)
-- Lac Esteth (OK)
-
-
-Magasins :
-- Stade
-- Thermes / Bain
-- Potager du palais</Text>
+            <Title>Carte de la ville</Title>
+            <Synopsis>Gain : E2
+Perte : Jamais
+</Synopsis>
         </Document>
         <Document ID="92">
             <Title>Le lac Esteth</Title>
@@ -765,9 +733,653 @@ Magasins :
         <Document ID="93">
             <Title>La nécropole d'Eternara</Title>
         </Document>
-        <Document ID="94">
-            <Title>Colline aux milles-graines</Title>
-            <Text>Afin de rendre à la nature ce qu’ils lui avaient pris. Les constructeurs de la route de la colline ont planté enormement d’arbres tout autour de la route qui borde la colline au mille graine d’ou son nom.</Text>
+        <Document ID="95">
+            <Title>Royaume d'Eternara</Title>
+        </Document>
+        <Document ID="96">
+            <Title>L'orphelinat</Title>
+            <Text>Voyant le nombre d’orphelin augmenter et la pauvreté battre des record dans son royaume, le grand roi decida que les enfants de moins de 17ans sans parents seraient desormais sous la tutelle du royaume.
+Pour ce faire il ordonna la création d’un orphelinat afin de les heberger et leur fournir une bonne education.
+Malheureusement, une fois leur 17 ans passés, les nombreux enfants sont “relaché” dans la dur vie du royaume et doivent alors affronter seul les problemes de la vie.</Text>
+        </Document>
+        <Document ID="97">
+            <Title>Salle du trone</Title>
+            <Text>Lieu des affaires publiques. Chaque jour, des centaines de personnes font la queue afin d’esperer avoir une entrevue avec le grand roi</Text>
+        </Document>
+        <Document ID="98">
+            <Title>Ombres</Title>
+        </Document>
+        <Document ID="99">
+            <Title>Terre</Title>
+        </Document>
+        <Document ID="100">
+            <Title>Eau / Aquamancie</Title>
+            <Text>Les aquamanciens vivent communement au village d’Esteth et sont chargé par le royaume d’approvisionner le lac en eau depuis que le bouclier d’Onirius est levé. Cela demande une grande concentration et beaucoup d’energie car la quantité d’eau demandé est enorme.
+Une apprentie provient de ce village.</Text>
+        </Document>
+        <Document ID="101">
+            <Title>Village d'Esteth</Title>
+        </Document>
+        <Document ID="102">
+            <Title>Catacombes</Title>
+            <Text>Lieu où les plus grand magiciens d’Eternara reposent.
+Il contient en son centre l’oeil d’Onirias. Une puissante relique en forme de pierre precieuse rayonnant de mille-feu.
+Son pouvoir permet d’alimenter le coeur du bouclier</Text>
+        </Document>
+        <Document ID="103">
+            <Title>Objets</Title>
+        </Document>
+        <Document ID="104">
+            <Title>Chapelet du destin</Title>
+            <Text>Il y a bien longtemps, un ebeniste de talent tomba amoureux d’une riche demoiselle. Malheureusement, il etait pauvre, et le pere de la jeune fille ne voulait pas reconnaitre ce pretendant.
+Malgrè tout, pour la seduire, il decida un beau jour de lui confectionner le plus beau des colliers. Il utilisa le bois et les materiaux les plus precieux qu’il avait à disposition.
+La fille fut ermeveillé par tant de splendeur et tomba amoureux de cet homme qui risquait sa vie et sa carriere pour un amour jugé impossible.
+Ils continuerent à se faire la cours, en secret, loin des regards.
+Mais un jour, vint le moment où la dame dû prendre pour epoux un riche heritié que son pere lui avait choisi. Malgré les refus et les pleurs, elle ne pouvait rien y faire.
+
+Afin de la sauver de ce terrible destin, l’ebeniste emporta sa dulciné afin de s’enfuir loin de tout ces problemes.
+Malheureusement le riche heritié avait des soldats et des relations. Il les retrouva, fit enfermer l’ebeniste et épousa la jeune femme.
+Celle-ci passa sa vie à pleurer son amour perdu et mourru finalement de chagrin, le collier à la main.
+
+
+En réalité il ne vaut pas grand chose et n’a qu’une valeur sentimentale.
+Spark l’obtiendra auprès d’un marchand pour 1 dor.</Text>
+        </Document>
+        <Document ID="105">
+            <Title>Dor</Title>
+            <Text>Le Dor est la monnaie du royaume. C’est un petit cube en or gravé sur chacune des face.
+Il ressemble un peu a un petit dés.</Text>
+        </Document>
+        <Document ID="106">
+            <Title>Ross</Title>
+            <Synopsis>Terre</Synopsis>
+            <Text>Ross est le fils d’un mineur vivant sur le mont Argol. Il a devellopé dès son plus jeune age des talents particulier pour la maitrise de la terre. Le gardien du temple de la pierre, un vieil hermite, l’a pris sous son aile et lui a enseigné les bases en vue de l’examen.
+
+Il participe à l’examen sous les ordres de son maitre afin de parfaire son apprentissage.</Text>
+        </Document>
+        <Document ID="107">
+            <Title>Anir</Title>
+            <Synopsis>Feu</Synopsis>
+            <Text>C’est un noble venant du quartier bourge d’Eternara. Il a toujours eu des predispositions pour le feu et ses parents ont engagé un maitre magicien pour lui enseigner les bases afin de le preparer à l’examen.
+Il est extremement fier et ne supporte pas d’etre en compagnie de gueux.
+Il possede une epee de feu qui est un objet canalysé.
+
+Il participe à l’examen pour etre reconnu en tant que magicien et augmenter la reputation de sa famille.</Text>
+        </Document>
+        <Document ID="108">
+            <Title>Marchand vendeur</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Marchand
+
+Click gauche (Parler) :  
+“Bonj…” - “Qu’est ce que tu veux ?” (en dialogue)
+“Je prendrais bien cette orna…”
+“T’as de quoi payer ?”
+“Bahh…”
+Si on a parlé à l’orna : “Je crois que cette orna m’aime bien vous savez”
+“Qu’est ce que ca peut me faire !? T’as de quoi la payer ?”
+“Bahh…”
+Si plus de réponse (dans le tableau)
+“Dégage de mon étale, vaurien”
+“Si t’as pas d’argent, j’ai pas de temps à perdre !”
+“Tu vas salir mes produits, dégage !”
+
+Click droit (regarder)
+“Ce n’est certainement pas le produit le plus frais de l’étale”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+La premiere fois : dialogue
+“Merci pour l’Orna, c’est du bon boulot, à la prochaine !”
+“Ah, euh derien, euh… Hein ? Attends une minute ! Laisse ça ici !”
+“Arf… Ca coutait rien d’essayer…”
+Ensuite : dans le tableau
+“Encore faut-il qu’il ait un cerveau…”
+“Je dois le toucher pour que ca puisse marcher. Mais… j’en ai pas très envie…”</Text>
+        </Document>
+        <Document ID="109">
+            <Title>Marchand occupé</Title>
+            <Text>Voir fiche
+
+Devient occupé quand le touriste casse le pot en courant apres le mendiant
+
+Légende :
+Spark
+Marchand
+
+Click gauche (Parler) :  
+“Je suis occupé gamin !”
+“La jeunesse de nos jours…”
+“Elle avait rien demandé à personne cette plante…”
+“Y’en a partout…”
+“Quelle pagaille !”
+
+Click droit (regarder)
+“Il semble très concentré sur sa tache.”
+
+Items :
+Dor :
+“Vas jouer ailleurs gamin ! J’ai du boulot !”
+
+Sorts :
+Persuasion :
+“Il ne se laissera pas toucher si facilement…”
+“Il n’a pas l’air commode, mieux vaut le laisser tranquille”</Text>
+        </Document>
+        <Document ID="111">
+            <Title>Bobinavia moisie</Title>
+            <Synopsis>Gain : E2
+Utilisation : E2
+Perte : E2</Synopsis>
+        </Document>
+        <Document ID="114">
+            <Title>Herm</Title>
+            <Synopsis>Telekinesie (ombre)</Synopsis>
+            <Text>C’est le fils d’un fermier. Il a appris seul à se servir de ses pouvoirs de telekinesie mais ne les maitrise pas tres bien.
+
+En réalité, il controle les ombres ce qu’il masque par la telekinesie. Cette magie lui a été enseigné par Slort au travers du bouclier.
+
+Officielement, il participe à l’examen pour avoir un maitre et apprendre à maitriser ses sorts mais en réalité, il cherche à corrompre les reliques et creer une faille dans le bouclier.</Text>
+        </Document>
+        <Document ID="115">
+            <Title>Slort</Title>
+            <Synopsis>Affiliation : Tenebre
+Apprentissage : Ombre, Necromancie</Synopsis>
+            <Text>C’est un archimage noir très puissant. Tout comme Onirius, il avait autrefois en charge tout un royaume et etait reconnu pour ses talents. Mais il a cherché à accroitre sa puissance et à decider de puiser l’energie des gardiens du monde. Cela a eu pour effet de corrompre le monde et son esprit avec.
+Il est maintenant aux ordres de la corruption et cherche donc à briser le bouclier et tuer Onirius.</Text>
+        </Document>
+        <Document ID="116">
+            <Title>Garde fixe</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Garde
+
+Click gauche (Parler) : 
+“Bonjour”
+“…”
+“Hum… il est pas commode…”
+“Bonjour, vous venez souvent ici ?”
+“…”
+“Mouais… pas très bavard…”
+
+Click droit (regarder)
+“Il reste fixe, sans même cligner des yeux. Soit il observe tout ce qui se passe, soit il dort profondemment…”
+
+Items :
+Dor :
+“Je crois que j’en ai plus besoin que lui”
+“J’ai pas envie de lui donner un pourboire”
+
+Sorts :
+Persuasion :
+“Il a le regard noir, vaut mieux pas trop s’approcher…”</Text>
+        </Document>
+        <Document ID="117">
+            <Title>Gardes du marché</Title>
+            <Synopsis>Enigme1-2</Synopsis>
+            <Text>Ils sont 3. L’un est fixe au carrefour. Les deux autres font des rondes dans les ruelles du marché.</Text>
+        </Document>
+        <Document ID="118">
+            <Title>Carrefour</Title>
+            <Synopsis>-&gt; Etale
+-&gt; Carte</Synopsis>
+        </Document>
+        <Document ID="119">
+            <Title>Taudis</Title>
+            <Synopsis>-&gt; Carte
+
+Dois prendre les objets sinon &quot;Je devrais prendre mes affaires&quot;</Synopsis>
+        </Document>
+        <Document ID="120">
+            <Title>Entree du palais</Title>
+            <Synopsis>-&gt; Carte</Synopsis>
+        </Document>
+        <Document ID="121">
+            <Title>Etale du marchand</Title>
+            <Synopsis>-&gt; Zoom
+-&gt; Carrefour</Synopsis>
+        </Document>
+        <Document ID="122">
+            <Title>Zoom sur l'etale</Title>
+            <Synopsis>-&gt; Etale</Synopsis>
+        </Document>
+        <Document ID="123">
+            <Title>Carrefour</Title>
+            <Synopsis>-&gt; Etale</Synopsis>
+        </Document>
+        <Document ID="124">
+            <Title>Dor</Title>
+            <Synopsis>Si non ramassé lors de l'enigme 1</Synopsis>
+            <Text>Voir enigme1
+Voir fiche
+
+Items :
+Bobinavia moisie : “Je ne vais pas jeter ma bobinavia n’importe où…”
+Invitation d’Onirius : “Pas besoin d’invitation pour le prendre”</Text>
+        </Document>
+        <Document ID="125">
+            <Title>Dor</Title>
+            <Synopsis>Animation : brille
+Apparait apres que l'enfant vole la bourse</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : 
+Ajout à l’inventaire : “Eh hop ! Le debut de la fortune !”
+
+Click droit (regarder)
+“Tiens, Un dor ! Il a dut tomber de la bourse du touriste. Trouver n’est pas voler non ?”
+
+Items :
+N/A
+
+Sorts :
+Persuasion :
+Fr : “Je t’ordonne de dormir !!! Dors !! Aha”
+En : “Sesame, open the door ! Aha”</Text>
+        </Document>
+        <Document ID="126">
+            <Title>Bobinavia moisie</Title>
+            <Synopsis>A utiliser pour faire glisser le garde mechant</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : 
+Ajout à l’inventaire : “Je pourrais en avoir besoin”
+
+Click droit (regarder)
+“Même moisie et à terre, elle a toujours l’air aussi repoussante.”
+“C’est dangereux, quelqu’un pourrait glisser dessus !”
+
+Items :
+Une moitié d’orna : “Drôle de mélange !”
+Un dor : “Je ne vais quand même pas payer pour ce dechet !”
+Invitation d’Onirius : “J’ai trop peur de la tacher”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Je ne vois pas ce qui pourrais me persuader de le faire…”</Text>
+        </Document>
+        <Document ID="127">
+            <Title>Garde fixe</Title>
+            <Text>Voir enigme1
+Voir fiche
+
+Items :
+Bobinavia moisie : “Je ne pense pas que ca lui plairait”
+Invitation d’Onirius : “Rien à faire, il m’ignore completement”</Text>
+        </Document>
+        <Document ID="128">
+            <Title>Estel</Title>
+            <Text>C’est la vieille tenanciere de l’orphelinat.
+Elle considere tout les enfants de l’orphelinat comme ses propres enfant et est un peu severe et injuste avec eux. Mais c’est le plus souvent pour leur bien.</Text>
+        </Document>
+        <Document ID="129">
+            <Title>Carnet de note</Title>
+            <Synopsis>Permet au joueur de noter des choses.
+Necessaire pour quitter la piece</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : 
+Ajout à l’UI : “Mieux vaut prendre des notes”
+
+Click droit (regarder)
+“Mon carnet de note. Bien pratique en cas de trou de memoire !”
+
+Items :
+Une moitié d’orna : “Berk ! Je risque de le salir !”
+Un dor : “1 Dor seulement ? 2, j’irais pas plus bas !”
+Invitation d’Onirius : “Non, rien a decrypter”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Je lis en lui comme dans un livre !”</Text>
+        </Document>
+        <Document ID="130">
+            <Title>Carte de la ville</Title>
+            <Synopsis>Permet de se deplacer facilement en ville
+Necessaire pour quitter la piece</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Prendre) : 
+Ajout à l’UI :  “C’est quand même mieux quand on sait où on va !”
+
+Click droit (regarder)
+“La carte de la ville, bien pratique pour se situer dans ce gigantesque labyrinth !”
+
+Items :
+Une moitié d’orna : “Je pense pas qu’elle ait faim”
+Un dor : “On me l’a donné à l’office de tourisme, c’est pas maintenant que je vais la payer !”
+Invitation d’Onirius : “Il faut que j’aille au palais”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Ma gentille petite carte, pourrais-tu me guider s’il te plait ?”</Text>
+        </Document>
+        <Document ID="131">
+            <Title>Garde gentil</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Garde gentil
+Garde méchant
+
+Click gauche (parler) : 
+“Bonjour, je peux vous deranger ?” - “Bonjour, que puis-je faire pour toi mon garçon ?”
+“J’aimerai entrer dans le palais s’il vous plait”
+“Ahh, désolé mais plus de visite à cette heure-ci”
+“On veut pas de toi ici ! Vas-t’en !”
+“Il serait pas un peu ronchont votre collegue ?”
+“Oh, un petit peu. Mais tu sais, il suffit de l’ignorer.”
+“J’entend tout hein !”
+“J’ai rendez-vous au palais”
+“Hum, tu as une invitation ?”
+“Peut-importe ! On passe pas !”
+
+Click droit (regarder)
+“Un garde dans un petit batiment en bois. Je ne sais pas ce qu’il lit mais ça a l’air interessant !”
+
+Items :
+Une moitié d’orna : “Oh non merci, c’est gentil mais j’ai déjà mangé”
+Un dor : “Tu devrais le garder, je suis bien payé tu sais.”
+Une bobinavia moisie : “Berk ! Tu devrais jeter ça à la poubelle !”
+Invitation d’Onirius : 
+“J’ai rendez-vous avec Onirius, voici l’invitation”
+“Bien-sur, je vais ouvrir la grille”
+La grille commence à s’ouvrir
+Si garde méchant : 
+“Hors de question ! Même si c’était la reine d’Orneterre, on a des ordre : Personne ne passe !”
+La grille se referme d’un coup
+Sinon : 
+La grille s’ouvre completement
+“Voilà c’est ouvert ! Bonne visite ! … Tiens ? C’est drollement calme ici…”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Il faudrait que je puisse le toucher pour ça”</Text>
+        </Document>
+        <Document ID="132">
+            <Title>Garde méchant</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Garde méchant
+
+Click gauche (parler) : 
+“Bonjour, je peux vous deranger ?” - “Non ! Vas t’en ! Je suis occupé !”
+“J’aimerai entrer dans le palais s’il vous plait”
+“C’est hors de question ! Vas-t’en !”
+“Il serait pas un peu distrait votre collegue ?”
+“Occupe toi de tes affaires morveux !”
+“J’ai rendez-vous au palais”
+“Qu’est-ce que ca peut me faire !? Les ordres c’est les ordres !”
+
+Click droit (regarder)
+“Un garde dans un petit batiment en bois. Il à l’air de mauvais poil.”
+
+Items :
+Une moitié d’orna : 
+“Tu veux m’empoisonner ? Je suis trop coriace pour toi morveux !”
+Si bobinavia : Il se leve, sort de son poste, glisse et s’evanouie
+Sinon : Il se leve, sort de son poste et vous court apres mais vous lui echappez
+Un dor : 
+“Corruption d’un agent ! Ca va te couter gros gamin !”
+Si bobinavia : Il se leve, sort de son poste, glisse et s’evanouie
+Sinon : Il se leve, sort de son poste et vous court apres mais vous lui echappez
+Une bobinavia moisie : 
+Tu veux empoisonner un garde ?! Tu vas le regretter !”
+Il se leve, sort de son poste et vous court apres mais vous lui echappez
+Invitation d’Onirius : 
+“J’ai rendez-vous avec Onirius, voici l’invitation”
+“Tu pourrais avoir rendez-vous avec le roi, ca ne m’interreserai pas ! On ne passe pas !”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Il faudrait que je puisse le toucher pour ça. Etrangement, j’en ai pas vraiment envie…”</Text>
+        </Document>
+        <Document ID="133">
+            <Title>Grille du palais</Title>
+            <Synopsis>Fermé au debut
+ouvert par le garde gentil par persuasion</Synopsis>
+            <Text>
+Légende :
+Spark
+
+Click gauche (ouvrir) : 
+“Rien à faire, elle ne veut pas bouger”
+
+Click droit (regarder)
+“Impossible de rentrer dans le palais avec cette grille…”
+
+Items :
+Une moitié d’orna : “Ca risque juste de salir la grille”
+Un dor : “Certainement pas, ! Je vais le perdre de l’autre côté !”
+Une bobinavia moisie : “Hum… Ca ne sert à rien de la graisser”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Grille, ouvre toi !”
+“…”
+“Non, ca ne marche pas”
+“Aussi aimable qu’une grille de palais”</Text>
+        </Document>
+        <Document ID="134">
+            <Title>Gain&amp;Perte</Title>
+        </Document>
+        <Document ID="135">
+            <Title>Objets</Title>
+        </Document>
+        <Document ID="136">
+            <Title>Sorts</Title>
+        </Document>
+        <Document ID="137">
+            <Title>1 Dor</Title>
+            <Synopsis>Gain : E1 ou E2
+Utilisation : E3
+Perte : E3</Synopsis>
+        </Document>
+        <Document ID="138">
+            <Title>Persuasion</Title>
+            <Synopsis>Gain : Debut
+Utilisation : E1
+Perte : Jamais</Synopsis>
+        </Document>
+        <Document ID="139">
+            <Title>Carte</Title>
+            <Text>Le joueur pourra cliquer sur une icone “carte” qui lui permettra d’acceder à la carte courante (si il est en vill :, la carte de la ville, si il est dans le monde : la carte du monde)</Text>
+        </Document>
+        <Document ID="140">
+            <Title>Description</Title>
+            <Text>￼</Text>
+        </Document>
+        <Document ID="141">
+            <Title>Sel</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+Marchand
+
+Click gauche (Prendre) : 
+“Eh ! Touche pas à ca gamin !”
+
+Click droit (regarder)
+“Du sel de toutes les couleurs !”
+
+Items :
+Dor :
+“C’est beau mais je suis plus sucré que salé”
+
+Sorts :
+Persuasion :
+“Je n’ai pas trop envie d’y mettre mon grain de sel”</Text>
+        </Document>
+        <Document ID="142">
+            <Title>Za (Chat)</Title>
+            <Synopsis>Animation : Ronfle</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Carresser) : 
+“Il est beaucoup trop haut !”
+
+Click droit (regarder)
+“Il dort comme une pierre !”
+
+Items :
+Dor :
+“Je n’ai pas envie de le reveiller”
+
+Sorts :
+Persuasion :
+“C’est trop risqué, Baron pourrait intervenir…”</Text>
+        </Document>
+        <Document ID="144">
+            <Title>Sel</Title>
+        </Document>
+        <Document ID="145">
+            <Title>Faune &amp; Flore</Title>
+        </Document>
+        <Document ID="146">
+            <Title>Animaux</Title>
+        </Document>
+        <Document ID="147">
+            <Title>Za (Chat)</Title>
+        </Document>
+        <Document ID="148">
+            <Title>Portes</Title>
+            <Synopsis>Portes des postes de garde</Synopsis>
+            <Text>La porte du poste du garde méchant
+
+Légende :
+Spark
+
+Click gauche (ouvrir) : 
+Toc toc toc
+Si mechant garde : “Casse toi ou je m’enerve !”
+Si gentil garde : “Occupé !”
+“Je n’ai pas trop envie de me retrouver à l’interieur avec lui…”
+
+Click droit (regarder)
+“La porte du poste de garde.”
+
+Items :
+Une moitié d’orna : “Je n’aime pas trop jeter la bonne nourriture”
+Un dor : 
+FR : “C’est ce qu’on appel jeter son argent par les portes”
+EN : “It’s not a dor, It’s a door”
+Une bobinavia moisie : Il se baisse et pose la bobinavia au sol
+Invitation d’Onirius : “Ce n’est pas un fax, c’est une porte !”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Même si elle s’ouvrait, je serais bien embétté”</Text>
+        </Document>
+        <Document ID="149">
+            <Title>C - Taudis</Title>
+            <Synopsis>Cinémation</Synopsis>
+            <Text>Moment : Crepuscule
+Lieu : Taudis
+
+Spark s’enfuit et arrive dans son taudis. Il lit alors la lettre d’Onirius et apprend qu’il est convoqué au palais et qu’il doit s’y rendre avant l’aube afin de passer un examen de magie.</Text>
+        </Document>
+        <Document ID="150">
+            <Title>R - Labyrinth du palais</Title>
+            <Text>Moment : Aube
+Lieu : Entrée du palais
+
+On arrive dans un tableau avec plusieurs directions :
+1ere porte : C’est un placard à balais
+2eme porte : méne à la 4eme porte
+3eme porte méne à la 2eme porte
+4eme porte méne à la 3eme porte
+5eme porte méne à la bibliotheque
+
+Il y a une carte marqué “Vous êtes ici” et indiquant qu’il faut prendre la porte tout à droite
+C’est plus une phase humoristique en reference à la maison qui rend fou.</Text>
+        </Document>
+        <Document ID="151">
+            <Title>E3 - Les épreuves</Title>
+        </Document>
+        <Document ID="152">
+            <Title>E3-1 - Puissance</Title>
+        </Document>
+        <Document ID="153">
+            <Title>E3-2 - Bonté</Title>
+        </Document>
+        <Document ID="154">
+            <Title>E3-3 - ???</Title>
+        </Document>
+        <Document ID="155">
+            <Title>Description</Title>
+            <Text>Moment : Matin
+Tableaux :
+Bibliotheque (début)
+Aller vers entrée du palais
+Entrée du palais
+Aller vers Bibliotheque
+Allert vers Grande place Nord
+Grande place Nord
+Aller vers entrée du palais
+Aller vers Grande place sud
+Aller vers ???
+Grande place Sud
+Aller vers Grande place nord
+Aller vers ???
+Etale du marchand
+Aller vers zoom sur l’étale
+Aller vers carrefour
+Zoom sur l’etale
+Le marchand
+Des ornas
+Des Bobinavia
+Des Lirous
+Des Angirions
+Beaucoup de Carnus
+Quelques Mamasantia qui discutent ensemble.
+Retourner vers l’etale du marchand
+Carrefour
+Un garde tres serieux qui semble tres concentré
+Aller vers étale du marchand
+
+Les items possibles sont :
+Une moitié d’orna
+Le dor
+
+Les sorts possibles sont :
+Persuasion
+
+Solution :
+</Text>
         </Document>
     </Documents>
 </SearchIndexes>
