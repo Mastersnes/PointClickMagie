@@ -474,13 +474,12 @@ la fille d’une aquamancienne du village d’esteth
 le fils d’un mineur devenu apprentis d’un vieux mage sur le mont argol
 Le fils d’un fermier qui a devellopé des talents de telekinesie (apprentis du méchant)
 ???
- Afin de passer l’examen, il faudra qu’ils remplissent 3 epreuves :
-La puissance : Ouvrir un coffre ensorcelé par Onirius. Pour cela, ils auront besoin de se servir d’un objet canalysé
-Lire le traité sur la magie dans la bibliotheque.
+ Afin de passer l’examen, il faudra qu’ils remplissent 3 epreuves. Onirius ne revele que la premiere :
+La puissance : Ouvrir un coffre ensorcelé par Onirius.
 Acquerir la Fiole d’eau magique
 Indice : Parler à la vieille femme assis près de la fontaine (elle explique la magie de la fontaine)
 Trouver du sel près de l’etale du marchant
-Faire diversion chez l’alchimiste en placant du sel dans le chaudron
+Faire diversion chez l’alchimiste en placant du sel dans le chaudron de nourriture
 Prendre une fiole dans la boutique de l’alchimiste
 Utiliser la fiole sur l’eau de la fontaine
 Acquerir le collier
@@ -493,16 +492,19 @@ Demandez pour pouvoir regarder le collier de plus pres.
 Utiliser la persuasion sur le vendeur pour avoir le collier à 1 dor (à 0 ce serais du vol et le collier ne vous appartiendrait pas)
 Utiliser le dor de l’enigme 1 sur le vieux collier ou le vendeur
 Ouvrir le coffre
-
-La bonté : Aider 3 personnes et obtenir leur approbation
+Indice : Lire le traité sur la magie (paragraphe objet canalysé) dans la bibliotheque qui nous apprend qu’un objet canalysé augmente considerablement la puissance d’un magicien.
+Utiliser l’orna sur le repaire du scubrock. Le scubrock sortira pour manger l’Orna
+Utiliser persuasion sur le scubrock pour qu’il ouvre le coffre.
+Le coffre contient un parchemin expliquant la seconde epreuve et une sorte de carnet de fidelité à 3 places : La bonté : Aider 3 personnes et obtenir leur approbation
 ???
-La patience (animation) : Ecouter le discours d’Onirius sur l’histoire de la corruption
-Onirius fait entrer les participants dans les catacombes et leur explique l’histoire de la corruption et ce qu’il a dut faire pour la contrer. Pendant ce temps, les torches autour s’allument une à une
-Lorsque toute les torches sont allumées et que la relique la plus puissante apparait, le discours s’arrete subitement et plus personne ne peut bouger.
-L’apprentis du méchant se detache du lot, detruit la relique et s’enfuis avant que quiconque ne puisse reagir.
+La patience (animation) : Ecouter le discours d’Onirius
+Onirius fait entrer les participants dans les catacombes et leur montre la relique centrale en leur expliquant l’histoire sur la corruption.
+L’apprentis du méchant en profite qu’il soit proche de la relique pour relacher du flux corrompus dans la salle et combattre Onirius.
+Le flux commence a corrompre la relique mais Onirius parvient à le stopper et en même temps à repousser l’apprentis.
+L’apprentis se voyant surpasser s’enfuit en explosant l’entrée. Les bloquant dans les souterrains
 Acte 2 : Trahison
-En detruisant la relique central, il a affaiblis fortement le bouclier et Onirius doit rester là pour le stabiliser.
-???
+En corrompant la relique central, il a affaiblis fortement le bouclier et Onirius doit rester là pour le stabiliser. Vous devez sortir et trouver un moyen d’arreter l’apprentis
+Trouver le passage secret qui permet de sortir
 </Text>
         </Document>
         <Document ID="42">
@@ -534,7 +536,7 @@ En autodidact : c’est le cas de notre héros</Text>
 Il controle les ombres mais pour faire moins “flagrant” il masque ca en de la telekinesie.
 Il porte un casque sur la tete qui est censé ameliorer ses pouvoirs de telekinesie.
 
-On l’affrontera dans la colline aux milles-graines.
+On l’affrontera dans le temple du mont argol.
 Il se servira des nombreuses lanternes pour avoir à disposition une multitude d’ombres et ainsi pieger les autres apprentis. Il faudra alors se cacher et casser les lanternes une a une. 
 Ses victimes seront alors libéré mais tomberont tous dans les pommes.
 Pour finir, il allumera une derniere torche pour empecher Spark d’approcher, il faudra alors envoyer une illusion pour le pieger et arriver par derriere.</Text>
@@ -1159,7 +1161,7 @@ La grille se referme d’un coup
 Sinon : 
 La grille s’ouvre completement
 “Voilà c’est ouvert ! Bonne visite ! … Tiens ? C’est drollement calme ici…”
-Sel : “???”
+Sel : “Merci mon garcon mais j’evite de manger trop de sel. C’est pas bon pour mes reins.”
 
 Sorts :
 Persuasion :
@@ -1206,7 +1208,9 @@ Il se leve, sort de son poste et vous court apres mais vous lui echappez
 Invitation d’Onirius : 
 “J’ai rendez-vous avec Onirius, voici l’invitation”
 “Tu pourrais avoir rendez-vous avec le roi, ca ne m’interreserai pas ! On ne passe pas !”
-Sel : “???”
+Sel : “Ah ! Du trafic de drogue je suis sur ! T’as peur de rien gamin !”
+Si bobinavia : Il se leve, sort de son poste, glisse et s’evanouie
+Sinon : Il se leve, sort de son poste et vous court apres mais vous lui echappez
 
 Sorts :
 Persuasion :
@@ -1225,19 +1229,20 @@ Click gauche (ouvrir) :
 “Rien à faire, elle ne veut pas bouger”
 
 Click droit (regarder)
-“Impossible de rentrer dans le palais avec cette grille…”
+Si fermé : “Impossible de rentrer dans le palais avec cette grille…”
+Sinon : “Ah c’est quand même mieux ouvert !”
 
 Items :
 Une moitié d’orna : “Ca risque juste de salir la grille”
-Un dor : “Certainement pas, ! Je vais le perdre de l’autre côté !”
+Un dor : “C’est pas une machine a sous !”
 Une bobinavia moisie : “Hum… Ca ne sert à rien de la graisser”
-Invitation d’Onirius : “???”
-Sel : “???”
+Invitation d’Onirius : “J’aurait l’air malin si je la perd derriere !”
+Sel : “Il ne faudrait pas que ca rouille !”
 
 Sorts :
 Persuasion :
 dans le tableau
-“Grille, ouvre toi !”
+Si fermé : “Grille, ouvre toi !”
 “…”
 “Non, ca ne marche pas”
 “Aussi aimable qu’une grille de palais”</Text>
@@ -1328,6 +1333,9 @@ Persuasion :
         </Document>
         <Document ID="147">
             <Title>Za (Chat)</Title>
+            <Text>Le Za est une sorte de chat noir tout fin et elancé aux yeux rouges foncé.
+Il dors presque toute la journée et se nourris principalement de la lumiere du soleil et de la lune.
+La nuit tombé il devient blanc aux yeux bleu et s’amuse souvent à epié les gens dans de sombres cachettes.</Text>
         </Document>
         <Document ID="148">
             <Title>Portes</Title>
@@ -1353,7 +1361,7 @@ FR : “C’est ce qu’on appel jeter son argent par les portes”
 EN : “It’s not a dor, It’s a door”
 Une bobinavia moisie : Il se baisse et pose la bobinavia au sol
 Invitation d’Onirius : “Ce n’est pas un fax, c’est une porte !”
-Sel : “???”
+Sel : “C’est decidement une mauvaise idée…”
 
 Sorts :
 Persuasion :
@@ -1362,7 +1370,6 @@ dans le tableau
         </Document>
         <Document ID="149">
             <Title>C - Taudis</Title>
-            <Synopsis>Cinémation</Synopsis>
             <Text>Moment : Crepuscule
 Lieu : Taudis
 
@@ -1402,9 +1409,9 @@ Tableaux :
 Bibliotheque (début)
 Un Pentacle
 Les apprentis
-Livre 1
-Livre 2
-Livre 3
+Livre 1 : L’histoire d’eternara
+Livre 2 : Traités de magie
+Livre 3 : 
 Aller vers porte du palais
 Porte du palais
 Postes de garde vide
@@ -1496,13 +1503,15 @@ Persuasion
 
 Solution :
 Parler à la vieille femme de la fontaine pour decouvrir la magie de l’eau
-prendre la fiole derriere la boutique de l’alchimiste
+Utiliser le sel dans le chaudron de l’alchimiste
+prendre la fiole dans la boutique de l’alchimiste
 utiliser la fiole sur l’eau de la fontaine. 
 Decouvrir le collier à l’etale de bijoux
 utiliser la fiole dessus pour decouvrir l’objet canalysé.
 Persuader le vendeur de le vendre 1 dor
 utiliser le dor restant pour l’acheter.
-Ouvrir le coffre ???</Text>
+Utiliser la moitié d’orna sur le repaire du scubrock
+Utiliser persuasion sur le scubrock</Text>
         </Document>
         <Document ID="156">
             <Title>Bibliotheque</Title>
@@ -1608,7 +1617,7 @@ Une moitié d’orna : “Surtout pas ! Ca risquerait d’invoquer le grand dém
 Un dor : “Je crois que ce n’est pas à vendre”
 Fiole vide : “Je ne peux pas la remplir avec ça”
 Fiole d’eau magique : “Elle brille legerement.”
-Sel : “”
+Sel : “Mieux vaut le garder, je pourrais en avoir encore besoin”
 
 Sorts :
 Persuasion :
@@ -1617,7 +1626,7 @@ dans le tableau
         </Document>
         <Document ID="174">
             <Title>Lorinia</Title>
-            <Synopsis>debut &amp; !collier : present
+            <Synopsis>!collier : present
 collier : absent</Synopsis>
             <Text>Voir fiche
 
@@ -1639,23 +1648,24 @@ Accroche :
 Choix :
 “Tu t’en sors pour l’epreuve ?”
 “Je pensais faire quelques recherches à la bibliotheque. Si je ne trouve pas, je retournerai certainement me renseigner chez moi.”
-“Tu vis pas ici ?”
+Si question 01 : “Tu vis pas ici ?”
 “Non, je viens du village d’à côté, le village d’Esthet, tu connais ?”
 “Non, j’ai jamais vraiment bougé d’Eternara tu sais…”
 “C’est un petit village de pécheur à l’Est. Nos mages alimente aussi le royaume en eau depuis la corruption.”
 “Sacré travail !”
 “Oui, c’est incroyablement fatiguant ! C’est d’ailleurs pour devenir l’un des leurs que je participe aux epreuves. Pour que ma mere puisse officielement me prendre comme apprentis.”
-Si question 01 : “Ta mere est magicienne ?! T’as de la chance !”
+Si question 02 : “Ta mere est magicienne ?! T’as de la chance !”
 “Oui, c’est l’aquamancienne en chef du village, elle est en charge du sanctuaire.”
 “Impressionnant ! Elle doit avoir beaucoup de responsabilité”
 “Ne m’en parle pas, elle n’est pas souvent disponible… Mais bientôt je pourrais l’aider !”
-Si question 01 : “La corruption ? Qu’est ce que c’est ?”
+Si question 02 &amp; qu’on a pas lu la corruption : “La corruption ? Qu’est ce que c’est ?”
 “J’en connais un qui n’a pas suivi à l’école ! C’est une catastrophe qui a eu lieu y’a pas mal de temps ! J’ai vu plein de livres ici qui en parle, tu devrais y jeter un oeil.”
 “J’irais voir, merci !”
-“T’as une piste pour l’objet ?”
-“Ma famille se transmet une pierre en forme de goutte depuis des générations. Je dois faire quelque recherche mais c’est possible que ce soit un de ces objets canalysé.”
 “T’as des idées pour ouvrir le coffre ?”
-“Pour l’instant aucune non… Je dois continuer mes recherches”
+Si on a lu le traité de magie : “Pour l’instant aucune non… Rien à faire, je manque de puissance. Je dois continuer mes recherches”
+Si on a lu le traité de magie : “Oui, il semblerait qu’un objet concentré en flux pourrait augmenter la puissance de son porteur”
+“Oui j’en cherche un aussi, un objet canalysé”
+“Ma famille se transmet une pierre en forme de goutte depuis des générations. Je dois faire quelque recherche mais c’est possible que ca en soit un.”
 “À la prochaine !”
 “À bientot, bonne chance pour l’epreuve”
 “Merci, toi aussi !”
@@ -1668,7 +1678,7 @@ Une moitié d’orna : “Non merci, c’est gentil, je n’ai pas très faim.�
 Un dor : “Non, elle pourrait trouver ca louche.”
 Fiole vide : “Elle ne rentreras jamais là dedans !”
 Fiole d’eau magique : “La fiole brille intensement”
-Sel : “”
+Sel : “Je pense que c’est au quatrieme degrés de la politesse.”
 
 Sorts :
 Persuasion :
@@ -1679,7 +1689,7 @@ dans le tableau
         <Document ID="175">
             <Title>Ross</Title>
             <Synopsis>debut : present
-puis : absent</Synopsis>
+ensuite : absent</Synopsis>
             <Text>Voir fiche
 
 Present juste au debut, il est ensuite absent car il est deja a l’epreuve 2
@@ -1695,31 +1705,33 @@ Accroche :
 “Hey, Ross !”
 “Spark ! Ca se passe bien ?”
 Choix :
-“Tu vas pas faire l’epreuve ?”
-“C’etait pas marrant, je l’ai terminé avant même de l’avoir commencé”
+(A) “Ca se passe bien l’epreuve ?”
+“C’etait pas marrant, je l’ai presque terminé avant même de l’avoir commencé”
 “Comment ça ?”
 “J’avais l’objet canalysé avant même d’arriver en ville.”
-“T’es pas d’ici ?”
+(B) Si question A : “T’es pas d’ici ?”
 “Non, je viens du Mont Argol. La grosse montagne que tu vois quand tu leve la tête, c’est ma maison.”
 “Eh bah ! Sacré maison ! Tu dois t’y perdre non ?”
-“C’est le privilége des gardiens du feu et de la terre : heriter du volcan sacré.”
-“Les gardiens ? T’es un gardien ?”
+“C’est le privilége des gardiens du temple du feu et de la terre : heriter du volcan sacré.”
+Si question B : “Les gardiens ? T’es un gardien ?”
 “Non pas encore, mais je suis l’apprentis de l’actuel gardien. Il m’a chargé de passer les epreuves. C’est un peu comme un examen pour moi, tu vois.”
-Si question 01 : “C’est quoi ce temple dont tu parle ? Je pensais que le roi avait fait abolir toute forme de religion.”
+Si question B : “C’est quoi ce temple dont tu parle ? Je pensais que le roi avait fait abolir toute forme de religion.”
 “Ce n’est pas vraiment une religion mais plus un respect de nos ancetres. Les temples ont été placé aux origines de notre royaume mais le temple du feu et de la terre est le seul ayant une double utilité. Le gardien se doit de preserver le volcan afin qu’il n’entre jamais en eruption.”
 “Controller un volcan ! C’est impossible !”
 “Ca demande une puissance et une sagesse inimaginable. Mon maitre est quelqu’un d’incroyable. Tu devrais le rencontrer !”
 “J’aimerai beaucoup !”
-“T’as trouvé l’objet ?”
-“Oui regarde il est devant toi”
+Si question A
+Si !traité magie : “Un objet canalysé ? C’est quoi ?”
+Si traité magie : “Tu as un objet canalysé ?”
+“Regarde, il est juste devant toi”
 “Mais, c’est un simple baton de marche”
 “C’est un cadeau de mon maitre. Il me permet de canalyser mes pouvoirs et de les diriger directement où je le souhaite.”
 “Sympa ! T’as de la chance !”
 “T’inquiete, tu vas bientôt trouver le tiens. Courage !”
 “T’as reussis a ouvrir le coffre ?”
-“Je travail dessus là mais ca devrait pas être bien compliqué. Suffit de bien se concentrer sur l’ouverture.”
-“Bah y’en a pas !”
-“Oui hein, c’est bien ca le probleme…”
+“J’ai presque reussis, suffit de bien se concentrer sur l’ouverture.”
+“Mais elle est à l’interieur !”
+“Oui hein, c’est bien ca le problème. Precision et puissance en même temps, c’est pas facile !”
 “À la prochaine !”
 “Ouai à plus !”
 
@@ -1732,10 +1744,7 @@ Un dor : “La richesse est dans les faits, le reste est illusoir”
 “C’est profond ! C’est de toi ?”
 “Non, c’est un enseignement de mon maitre.”
 “On voit bien qu’il a jamais eu faim !”
-Fiole vide : “Jolie fiole !”
-“Ah euh… merci !”
-Fiole d’eau magique : “La fiole brille fortement”
-Sel : “”
+Sel : “Berk ! Non j’aime pas ! Je suis plutôt sucré.”
 
 Sorts :
 Persuasion :
@@ -1745,8 +1754,8 @@ dans le tableau
         </Document>
         <Document ID="176">
             <Title>Anir</Title>
-            <Synopsis>debut &amp; !coffre : present
-coffre : absent</Synopsis>
+            <Synopsis>coffre fermé : present
+coffre ouvert : absent</Synopsis>
             <Text>Voir fiche
 
 Présent au debut et jusqu’a ce qu’on ouvre le coffre
@@ -1765,18 +1774,14 @@ Accroche :
 “Hey Anir !”
 “Tiens… le paysan. Que me veux tu ?”
 Choix :
-“Tu vas pas faire les epreuves ?”
+“Comment ca se passe pour l’epreuve ?”
 “Ce n’est qu’une formalité. Les gens comme moi n’ont pas à s’en faire pour ce genre de chose…”
-“T’as une piste pour l’objet ?”
+“T’as une piste pour ouvrir le coffre ?”
 “J’ai de nombreuse pistes. Malheureusement pour toi, tu ne merite pas de les connaitre…”
-“T’as reussis à ouvrir le coffre ?”
-“Non. Mais ce n’est qu’une question de temps.”
-Si collier : “Toujours coincé sur le coffre ?”
+Si collier : (A) “Toujours coincé sur le coffre ?”
 “Je vais trouver ! Les autres l’ont juste ouvert comme ca, ca doit pas être si compliqué !”
-Si question coffre : “Tu l’as bien regardé ?”
-“Qu’est ce que tu crois ? Mes yeux sont bien plus precis que les tiens le paysan ! S’il y avait un mecanisme secret, je l’aurait trouvé ! A moins que…”
-Si question precedente : “A moins que quoi ?”
-“Laisse tomber, un avorton comme toi ne comprendrai pas !”
+Si question (A) : (B) “Tu as peut-être oublié quelque-chose ?”
+“Qu’est ce que tu crois ? Mon esprit est bien plus aiguisé que le tiens le paysan ! S’il manquait un element je l’aurait deviné !”
 “À plus !”
 “À jamais”
 
@@ -1787,9 +1792,10 @@ Click droit (regarder)
 Items :
 Une moitié d’orna : “Ne m’approche pas avec tes dechets”
 Un dor : “Cela doit representer beaucoup d’argent pour quelqu’un comme toi…”
+Fiole vide : “Va cuver ailleurs !”
 Fiole d’eau magique : “La fiole brille fortement”
-Collier du destin : “Eh bien, ta relique semble aussi pitoyable que toi…”
-Sel : “”
+Collier du destin : “Eh bien, ta babiole semble aussi pitoyable que toi…”
+Sel : “Je crois qu’il est déjà bien assez enervé comme ca !”
 
 Sorts :
 Persuasion :
@@ -1799,7 +1805,7 @@ dans le tableau
         <Document ID="177">
             <Title>Herm</Title>
             <Synopsis>debut : present
-puis : absent</Synopsis>
+ensuite : absent</Synopsis>
             <Text>Voir fiche
 
 Présent au debut puis absent (dans la ferme)
@@ -1817,7 +1823,7 @@ Accroche :
 “Salut Herm !”
 “Hein ? Ah euh oui ?”
 Choix :
-Si debut : “Tu vas pas faire les epreuves ?”
+Si debut : “Tu fais pas l’epreuve ?”
 “Oh euh si je vais y aller, j’ai un peu de route…”
 “T’es pas d’ici ?”
 “Si, enfin presque, on vient de la ferme. Avec mes parent on a l’habitude de venir livrer les marchants de l’etale”
@@ -1825,8 +1831,13 @@ Si debut : “Tu vas pas faire les epreuves ?”
 “Bah t’es pas marchand, si ?”
 “Euh non, c’etait juste une blague”
 “Ah ok…”
-Si debut : “T’as une piste pour l’objet ?”
-“Non, je sais pas. On verra la bas.”
+Si debut : “T’as reussis à ouvrir le coffre ?”
+“Ah ca, euh oui, c’est fait.”
+“Wahh ! Comment tu t’y es pris ?”
+“De quoi ?”
+“Bah pour ouvrir le coffre !”
+“Euh, je sais plus…”
+“Euh ok…”
 “À plus !”
 “Oui, à bientôt”
 
@@ -1837,8 +1848,9 @@ Items :
 Une moitié d’orna : “On en a plein a la ferme, celui-ci a plus l’air très frais.”
 “Tant qu’il se mange, ca me va”
 Un dor : “Ah euh. Bah j’ai rien a vendre là”
-Fiole d’eau magique : “La fiole brille fortement”
-Sel : “”
+Sel : “C’est quoi ?”
+“Bah du sel”
+“Ah, ok… Bizarre…”
 
 Sorts :
 Persuasion :
@@ -1940,15 +1952,44 @@ dans le tableau
 C’est un talisman qui marque l’entrée des catacombes.</Text>
         </Document>
         <Document ID="209">
-            <Title>Livre 1</Title>
+            <Title>Livre 1 - Histoire</Title>
+            <Synopsis>La grande histoire d'eternara</Synopsis>
             <Text>
 Légende :
 Spark
 
 Click gauche (Lire) : 
-“La grande histoire d’eternara, tome 1 - La création.”
-“C’est en des temps anciens que l’histoire commence. Le premier peuple à fouler ces terres venaient du desert venteux au Sud-Est”
 
+…Le premier peuple…
+“…Le premier peuple venaient du Sud-Est, de la cité antique de Ranhielt : une gigantesque oasis dans un desert de sable.”
+“Malheureusement, avec le temps, l’eau vint à manquer : ils ne pouvaient plus rester. Ils marcherent des années durant à la recherche d’une nouvelle vie…”
+“Leur errance les mena vers les plaines. C’est là qu’ils decouvrirent le lac Esthet et ses bienfaits. Ainsi, ils batîrent les fondations d’une nouvelle cité fortifié afin de faire face aux attaques des sauvages…”
+…Le second peuple…
+“…C’est lors des travaux du fleuve Bramhus qu’ils decouvrirent le second peuple, une grande nation de marins qui avaient fuit la guerre à bord de leur navires.”
+“La ville grandissait et prenait de l’ampleur. Un grand port fut construit et l’ont commenca les travaux pour le second fleuve, Lethius. Les jumeaux venaient de naitre…”..
+…Le dernier peuple…
+“…Le dernier peuple vivait sur le mont Argol et vieillait sur le temple du feu et de la terre. Ils vivaient en harmonie avec le volcan, en prenant soin qu’il ne se reveille jamais.”
+“La cité nouvellement batie, offrant de la modernité et du travail, attira forcement les jeunes de la tribu qui finit finalement par s’estomper peu à peu.”
+“Aujourd’hui encore, les sages gardiens se transmettent au fil des ages leur savoir et les rites sacré de protection du terrible volcan…”
+La grande Eternara
+“…C’est alors que la cité devint un grand pôle de marchandage et qu’elle gagna fortement en richesse.”
+“Les 3 peuples precurseurs accueillirent peu à peu de nombreux voyageurs venant des quatres coins du monde.”
+“Eternara était à son apogée…”
+L’age sombre
+“…Tous les peuples étaient regroupés et s’entendaient à merveille. Hormis quelques accrocs sans importance tout se passait pour le mieux.”
+“Les regles strictes du royaume imposait le respect des croyances de chacun et chacun se devait de garder ses convictions pour soit.”
+“Tout aurait pu continuer ainsi, mais tout ces regroupements de pensées diverse en un lieu si restreint rendit le flux instable.”
+“Des creatures commencerent à emerger durant les ceremonies et attaquerent la population. Une guerre contre un enemie inconnu venait de debuter.”
+“De nombreux catalystes tous plus courageux et talentueux que les autres tenterent de stabiliser le flux mais cela ne fit que retarder l’inévitable. On nomma cette periode ‘l’age sombre’”
+“Lorek le sage, notre grand roi de l’époque pris alors une décision difficile mais indispensable. Il ordonna la destruction de tout temple religieux, interdisit toute procession et tout culte.”
+“Il ordonna également que les catalystes soit repéré et formé le plus tôt possible. Les accidents de flux devait être evité à tout pris…”
+La grande corruption
+“…Nul ne sait d’où est venu le mal ni comment il s’est formé. Les premiers temoignages venant de l’Est parlait d’une horde de creatures demoniaques”
+“Au départ, nos catalystes penserent aussitot à une instabilité dans le flux et envoyerent des emiserent regler la situation. Malheureusement aucun ne revint.”
+“La situation etait bien plus grave : le mal gagnait toujours plus de terrain et semblait tout contaminer sur son passage. Chaque parcelle de vie disparaissait pour laisser place aux tenebres.”
+“Onirius, qui n’etait alors qu’un jeune catalyste au service du royaume, trouva une solution en urgence : en utilisant les anciennes reliques sacré il forma un bouclier d’energie pure tout autour du royaume.”
+“La corruption pu être stoppé mais pas endigué. Depuis ce jour, nous vivons en autonomie au sein d’Eternara. Nous ne savons ce qu’il est advenu des autres royaumes. Puisse-t-il avoir eu autant de chance que nous autres…”
+“Plus rien d’interessant après ça”
 
 Click droit (regarder)
 “La grande histoire d’eternara, en 24 volumes. Eh bah ! Y’en a qui ont du temps à perdre !”
@@ -1959,6 +2000,7 @@ Un dor : “Payer pour lire ? Et quoi encore ! C’est déjà bien assez fatigua
 Fiole vide : “Je ne vois pas trop comment”
 Fiole d’eau magique : “L’eau reste inerte”
 Collier du destin : “Aucune raison de le caché là”
+Sel : “Et un peu de poivre en grain ! Ah ? Non…”
 
 Sorts :
 Persuasion :
@@ -1984,26 +2026,235 @@ début : parle puis disparait
 collier : present</Synopsis>
             <Text>Voir fiche
 
+“Bienvenue à tous ! Je me nomme Onirius et je serais votre examinateur durant ces prochains jours.”
+“Je vous ai reunis ici car vous êtes des Catalystes. faites partie des rares êtres à pouvoir controler le flux.”
+
+“Vous reunis ici afin de passer quelques epreuves à l’issus desquelles vous serez officielement reconnu comme apprentis du royaume. De ce fait, un maitre et une chambre du palais vous sera attribué et vous commencerez votre apprentissage.”
+“
+
+
+
 “Bienvenue ! Vous avez tous repondu à mon invitation et êtes reunis ici pour devenir apprentis officiel et ainsi servir le royaume.”
 “Je suis certains que ces quelques petites epreuves ne vous poseront aucune difficulté. Commencons d’ailleurs par la premiere : L’epreuve de puissance !”
 Onirius fais apparaitre un coffre par apprentis
-“Voyez ces coffres, je les ai scéllé à l’aide du flux qui les constitue. Votre but sera d’ouvrir le votre à l’aide d’un objet canalysé, aussi appelé relique.” 
+“Voici de simples coffres. Comme vous pourrez le constater, ils sont fermé et ne possede aucune clef. Il vous sera donc inutile de les crocheter, forcer, ou de chercher un mecanisme quelconque”
+“L’ouverture est très simple mais se trouve à l’interieur même du coffre. Il vous faudra user à la fois d’une grande puissance et d’une grande precision afin de l’enclencher et d’acceder ainsi a la seconde epreuve”.
 “N’hesitez pas à consulter les ouvrages présent dans la bibliotheque. Cela vous apportera une grande aide”
 “Pour ma part, je dois me retirer. Je reviendrais vers vous lorsque le moment sera venu. Bon courage apprentis !”</Text>
         </Document>
         <Document ID="212">
-            <Title>Livre 2</Title>
+            <Title>Livre 2 - Traitès</Title>
+            <Synopsis>Grand traité de magie</Synopsis>
+            <Text>
+Légende :
+Spark
+
+Click gauche (Lire) : 
+
+“Il est en ce monde de nombreux mysteres; Ceux-ci ne sont en réalité que des études inachevés. L’etude de la magie n’en est qu’a ses balbutiement, demellont ensemble le vrai du faux…”
+“T1 - Cycle du vie du flux”
+“Le flux dit naturel se trouve partout et dans toute chôse. Il represente l’essence même de tout ce qui existe en ce monde.”
+“Il s’agit d’une energie généré par le coeur de notre planéte et qui circule ensuite librement dans notre monde.”
+“Un catalyste peut capter le flux naturel et le concentrer en lui afin de lui donner la forme et les attributs de son affiliation.”
+“Un catalystes experimenté arrivent toute fois à donner d’autres propriétés à leur flux par un long apprentissage.”
+“Un flux canalysé est alors généré et reprend (sauf exception) ses propriétés naturel peu à peu au fil du temps.”
+“T2 - Les differents aspects du flux”
+“Nous parlons dans de nombreux ouvrages des deux aspects les plus connus du flux : le naturel ainsi que le canalysé; Mais d’autres aspects existent et sont encore bien méconnus.”
+“Comme nous le savons, le flux canalysé change de forme en fonction de l’affiliation du catalyst qui le developpe. De la même maniere, le flux naturel adopte une forme particuliere en fonction de son environnement.”
+“Ainsi, un flux particulierement noir a pu étre observé dans certains lieux dotés d’un lourd passé. Ce flux, outre la pression qu’il fait subir, perturbe grandement les sorts des catalystes qui s’en impregne.”
+“Nul doute que d’autres aspects existent, les mysteres du monde n’attendent qu’à être devoilé…”
+“T3 - Reliques : outils de puissance et de précision”
+“Il est en ce monde certains objets particulierement chargé en flux canalysé”
+“Ceux-ci peuvent être tout à fait annodins mais renfermer une puissance incommensurable.”
+“Nous en denombrons aujourd’hui deux type : ”
+“1 - Tout d’abord les objets canalysés simples. Ce sont les plus communs et les moins puissant.“
+“Ils sont généré de maniére tout à fait inconsciente par une personne ayant un lien particulier avec un objet”
+“Si ce lien est assez fort, la personne transmet alors inconsciemment et tout au long de sa vie une partie de son flux à l’objet qui devient alors canalysé.”
+“Tout catalyste qui se respecte se doit de posseder un objet canalysé qui lui correspond afin de rendre sa maitrise du flux plus fine et precise.”
+“2 - Ensuite, les reliques. Il s’agit d’un processus rare et très complexe, réalisé par quelques genies.”
+“Le principe consiste à generer un objet à partir de son propre flux et de le charger suffisament pour qu’il subsiste de lui même de façons permanente.”
+Les elements ainsi généré sont des puits de puissances extremement instable qui ne peuvent en regle general être controllé de facon constante.”
+“T4 - Les lieux sacrés”
+“Le monde regorge de merveille, les lieux sacré en sont partie integrante.”
+“Il s’agit, à l’origine, de lieux naturellements gorgé en flux. Très important, ce sont les veines qui alimente le monde.”
+“Sans ces lieux, le flux ne pourrait plus circuler et le monde deviendrait alors une coquille vide”
+“Nos ancetres en ont decouvert certains et les ont preserver en construisant de somptueux temples oublié depuis.”
+“Malgré tout, quelques-uns sont encore en activité, comme le temple de l’eau du lac Esthet ou encore celui du feu et de la terre sur le mont Argol.”
+“Il existe également un cas rare de lieux sacré artificiel : Il s’agit de la célébre nécropole d’Eternara.”
+“Le corps de nos defuns, en disparaisant lentement, rendent doucement à la terre le flux naturel qui les a créés.”
+“La memoire de ceux qui reste permet d’alimenter ainsi un lieu aussi rare que magnifique…”
+“T5 - Conseils aux jeunes catalystes”
+“1 - Tout d’abord, le plus important, ne vous laissez jamais toucher.”
+“En effet, la puissance d’un catalyste vient avant tout de la distance qu’il a avec sa cible.”
+“Cela s’explique par le fait que le flux canalysé reprend ses propriété naturelle de facon très rapide au départ puis de plus en plus lentement.”
+“2 - Tout catalyste devrait s’equiper d’un objet canalysé afin d’ameliorer sa puissance et sa precision. Pour plus d’information voir le T2 sur le sujet.”
+“3 - Un jeune catalyste devrait toujours se concentrer sur son affiliation de base.”
+“Changer son affiliation est un procédé extremement complexe qui n’est pas donné au premier venu.”
+“Travailler sur sa propre affiliation permet de mieux comprendre les mecanismes du flux pour ensuite le maitriser à la perfection.”
+“4 - Il existe 3 manieres de devenir catalyste : L’apprentissage, l’hérédité et l’autodidaxie; mais peut importe le commencement, la maitrise vient toujours par la pratique.”
+
+Click droit (regarder)
+“Traités de magie. Ah ça, ca m’interesse !”
+
+Items :
+Une moitié d’orna : “Le salir ? Et quoi encore ! C’est une merveille ce livre !”
+Un dor : “C’est du dor ce livre !”
+Fiole vide : “Trop de connaissance, ca ne rentrera pas.”
+Fiole d’eau magique : “L’eau reste inerte”
+Collier du destin : “Aucune raison de le cacher là”
+Sel : “Et un peu de sucre en poudre ! Ah ? Non…”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Surtout pas, je risquerai de changer l’essence même de ce monde ! Ou pas…”</Text>
         </Document>
         <Document ID="213">
-            <Title>Livre 3</Title>
+            <Title>Livre 3 - Les grands</Title>
+            <Text>
+Légende :
+Spark
+
+Click gauche (Lire) : 
+
+“Irhn le curieux - Nous ne connaissons que peu de chôse sur ce grand maître outre qu’il est mentionné dans les légendes comme étant le premier à avoir etudier le flux.”
+“Nous lui devons tout ce que nous connaissons aujourd’hui sur les propriétés du flux ainsi que sa pratique. En réalité, nous pouvons le considerer comme étant le premier vrai catalyste.”
+“Yord l’ancien - Premier gardien du temple du feu et de la terre et créateur de l’ordre des gardiens. La légende raconte qu’il stoppa in-extremis le volcan du mont Argol dans son eruption ce qui permit de sauver l’ensemble de la vallée.”
+“Bien que cet acte héroique ce soit déroulé longtemps avant la création même de notre royaume, les prouesses et l’enseignement de ce grand maître resteront à jamais dans les mémoires.”
+“Brohwer la brute - Au départ simple fermier, Brohwer s’est vite affirmé en tant que veritable guerrier et devint vite le chef des armées lors des premieres invasions barbare.”
+“Sa force et son courage aiderent à repousser les envahisseur et permirent la construction des premices de la vieille cité.”
+“Ayatan l’architecte - Connu comme étant la plus grande catalyste de notre temps, elle dirigea les travaux des jumeaux Brahmus et Lethius.”
+“Premiere grande gardienne du temple de l’eau, elle enseigna à ses eleves la maitrise de son element afin que jamais rien ne contamine nos terres.”
+“Lorek le sage - Roi majestueux mais également grand catalyste, il sauva le royaume du fleaux de l’age sombre. Il ne perdit jamais son sang froid alors que d’horribles creatures assiegeait le royaume.”
+“Sa force mentale permit de stopper l’assaut et de faire en sorte qu’elle ne se reproduise plus jamais. Il restera à jamais le modéle des plus grand rois”
+“Onirius le puissant - Prodige dans la maitrise du flux, il stoppa la propagation du mal connu sous le nom de la corruption. Depuis tout ce temps, il maintiens en place un bouclier de protection sur le royaume qui retiens les tenebre en dehors de nos terre.”
+“Plus rien d’interessant après ça”
+
+Click droit (regarder)
+“Guide des grands de ce monde, tiens ? Il a l’air sympa lui !”
+
+Items :
+Une moitié d’orna : “Y’en aura pas pour tous le monde !”
+Un dor : “Je pense pas que ca aidera beaucoup”
+Fiole vide : “Je ne vois pas trop comment”
+Fiole d’eau magique : “L’eau reste inerte”
+Collier du destin : “Aucune raison de le caché là”
+Sel : “Et un peu de vitriol ! Oula, vaut mieux pas…”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Ils sont trop puissant pour moi…”</Text>
         </Document>
         <Document ID="214">
             <Title>Coffre doré</Title>
             <Synopsis>Doit être ouvert avec le collier</Synopsis>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Ouvrir) : 
+“Impossible de l’ouvrir…”
+
+Click droit (regarder)
+“Magnifique mais aucun moyen de l’ouvrir. Je ne vois même pas de serrure…”
+“Il y a bien un passage entre le haut et le bas, mais c’est beaucoup trop etroit !”
+
+Items :
+Une moitié d’orna : “Je pense aps que l’ecrabouiller sur la parois aide beaucoup”
+Un dor : “Même ce dor ne rentre pas”
+Fiole vide : “Non, je vais la casser”
+Fiole d’eau magique : “Elle brille legerement.”
+Sel : “J’ai beau le saupoudrer, ce n’est pas de la poudre de fée…”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Ouvre-toi !!!”</Text>
         </Document>
         <Document ID="215">
             <Title>Sel</Title>
             <Text>E1</Text>
+        </Document>
+        <Document ID="216">
+            <Title>Scubrock</Title>
+            <Text>Le scubrock est un petit animal tout plat ressemblant à un mouchoir froisé.
+Il aime se cacher dans les endroits sombre et poussiereux et adore manger les choses qui trainent.
+On le laisse volontier vivre dans les recoins des maisons et des chateaux car il nettois toujours ce qui tombe malencontresement derriere les meubles.
+
+Il n’est pas très craintif et se laisse même carreser parfois.</Text>
+        </Document>
+        <Document ID="217">
+            <Title>Repaire du scubrock</Title>
+            <Text>Voir fiche
+
+Légende :
+Spark
+
+Click gauche (Ouvrir) : 
+“Impossible de l’ouvrir…”
+
+Click droit (regarder)
+“Magnifique mais aucun moyen de l’ouvrir. Je ne vois même pas de serrure…”
+“Il y a bien un passage entre le haut et le bas, mais c’est beaucoup trop etroit !”
+
+Items :
+Une moitié d’orna : “Je pense aps que l’ecrabouiller sur la parois aide beaucoup”
+Un dor : “Même ce dor ne rentre pas”
+Fiole vide : “Non, je vais la casser”
+Fiole d’eau magique : “Elle brille legerement.”
+Sel : “J’ai beau le saupoudrer, ce n’est pas de la poudre de fée…”
+
+Sorts :
+Persuasion :
+dans le tableau
+“Ouvre-toi !!!”</Text>
+        </Document>
+        <Document ID="218">
+            <Title>Coffres dorés</Title>
+            <Text>Ce sont de simples coffres qui ont été modifié par la magie d’Onirius.
+Ils ne peuvent être ouvert que de l’interieur, cela demande donc de concentrer une magie assez puissante et assez precise pour forcer l’ouverture.</Text>
+        </Document>
+        <Document ID="219">
+            <Title>C - Accueil</Title>
+            <Text>Moment : Matin
+Lieu : Bibliotheque
+
+Spark entre dans la gigantesque bibliotheque et vois les nombreux apprentis. Il s’avance vers le centre de la piece quand Onirius apparait et les accueil :
+
+“Bienvenue à vous tous ! Je me nomme Onirius. Je serais votre examinateur durant ces prochains jours.”
+“Comme vous le savez peut-être, notre monde ainsi que tous les elements qui le compose est formé essentiellement de flux, une energie vitale généré par notre planéte.”
+“Vous êtes des Catalyste, des êtres capables de canalyser ce flux afin de lui donner des propriétés qui vous sont propre.”
+“Vous êtes reunis ici afin de passer une serie d’epreuve à l’issue desquelles vous serez reconnus officiellement comme etant apprentis du royaume.”
+“Outre ce titre, une chambre permanente au sein du palais ainsi qu’un maitre vous seront attribué. Vous serez alors en mesure de parfaire votre apprentissage afin de devenir protecteur d’Eternara !”
+
+Onirius fera alors apparaitre une serie de coffre devant lui
+
+“Voici un coffre pour chacun d’entre-vous. Votre premiere epreuve sera simplement de l’ouvrir.”
+“Inutile de chercher à le crocheter, c’est impossible car l’ouverture se trouve à l’interieur. Vous devrez user de puissance, de precision et de créativité.”
+“N’hesitez pas à vous servir des ouvrages de la bibliotheque, ils vous seront d’un grand secours.”
+“Bon courage apprentis, je sais que vous en serez capable.”
+
+Onirius disparait et laisse les coffres</Text>
+        </Document>
+        <Document ID="220">
+            <Title>Chronologie</Title>
+            <Text>0 - 54      -&gt; Départ de Ranhielt et errance
+54          -&gt; Création de la cité fortifiée
+65 - 78     -&gt; Travaux du fleuve Brahmus
+74     -&gt; Rencontre avec le second peuple
+75 - 84     -&gt; Travaux du fleuve Lethius
+115         -&gt; Rencontre avec le second peuple
+130         -&gt; Création du royaume d’eternara
+198 - 255   -&gt; Age sombre
+250    -&gt; Abolition des croyances
+315         -&gt; Eruption du mont argol avortée
+520 - xxxx -&gt; Grande Corruption
+602        -&gt; Epoque courante</Text>
+        </Document>
+        <Document ID="221">
+            <Title>Scubrock</Title>
         </Document>
     </Documents>
 </SearchIndexes>

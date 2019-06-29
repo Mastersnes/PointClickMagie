@@ -1,2 +1,2 @@
-debut & !coffre : present
-coffre : absent
+coffre fermé : present
+coffre ouvert : absent
