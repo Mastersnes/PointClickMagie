@@ -2158,11 +2158,11 @@ Click gauche (Ouvrir) :
 “Impossible de l’ouvrir…”
 
 Click droit (regarder)
-“Magnifique mais aucun moyen de l’ouvrir. Je ne vois même pas de serrure…”
+“Magnifique, mais aucun moyen de l’ouvrir. Je ne vois même pas de serrure…”
 “Il y a bien un passage entre le haut et le bas, mais c’est beaucoup trop etroit !”
 
 Items :
-Une moitié d’orna : “Je pense aps que l’ecrabouiller sur la parois aide beaucoup”
+Une moitié d’orna : “Je pense pas que l’ecrabouiller sur la parois soit la meilleure idée”
 Un dor : “Même ce dor ne rentre pas”
 Fiole vide : “Non, je vais la casser”
 Fiole d’eau magique : “Elle brille legerement.”
@@ -2187,29 +2187,28 @@ Il n’est pas très craintif et se laisse même carreser parfois.</Text>
         </Document>
         <Document ID="217">
             <Title>Repaire du scubrock</Title>
-            <Text>Voir fiche
-
-Légende :
+            <Text>Légende :
 Spark
 
-Click gauche (Ouvrir) : 
-“Impossible de l’ouvrir…”
+Click gauche (Toucher) : 
+“Impossible, il est bien caché.”
 
 Click droit (regarder)
-“Magnifique mais aucun moyen de l’ouvrir. Je ne vois même pas de serrure…”
-“Il y a bien un passage entre le haut et le bas, mais c’est beaucoup trop etroit !”
+“On dirait bien qu’un scubrock est passé par là !”
+“Il se cache, on dirait qu’il a peur”
 
 Items :
-Une moitié d’orna : “Je pense aps que l’ecrabouiller sur la parois aide beaucoup”
-Un dor : “Même ce dor ne rentre pas”
-Fiole vide : “Non, je vais la casser”
-Fiole d’eau magique : “Elle brille legerement.”
-Sel : “J’ai beau le saupoudrer, ce n’est pas de la poudre de fée…”
+Une moitié d’orna : “Tiens c’est pour toi”
+Le scubrock sort doucement et commence a grignotter l’orna au sol
+Un dor : “Ca va lui faire encore plus peur”
+Fiole vide : “Je ne vais pas l’enfermer, c’est trop cruel”
+Fiole d’eau magique : “L’eau reste inerte.”
+Sel : “Il n’en veut pas”
 
 Sorts :
 Persuasion :
 dans le tableau
-“Ouvre-toi !!!”</Text>
+“Il est trop bien caché pour que je le touche”</Text>
         </Document>
         <Document ID="218">
             <Title>Coffres dorés</Title>
@@ -2255,6 +2254,32 @@ Onirius disparait et laisse les coffres</Text>
         </Document>
         <Document ID="221">
             <Title>Scubrock</Title>
+            <Text>Légende :
+Spark
+
+Click gauche (Carreser) : 
+“T’es adorable toi !”
+
+Click droit (regarder)
+“Un jolie scubrock tout chiffoné !”
+“Ca doit faire un moment qu’il se cache dans le palais”
+
+Items :
+Un dor : “Lui il a pas besoin de ça pour manger”
+Fiole vide : “Je ne vais pas l’enfermer, c’est trop cruel”
+Fiole d’eau magique : “L’eau reste inerte.”
+Sel : “Il n’en veut pas.”
+
+Sorts :
+Persuasion :
+Si collier du destin
+Spark touche le dos du scubrock en le carressant
+“Ouvre ce coffre”
+Le scubrock arrete de manger et entre dans le coffre qui s’ouvre en quelque seconde ensuite il retourne grignotter son orna
+“Merci mon vieux !”</Text>
+        </Document>
+        <Document ID="222">
+            <Title>Vid</Title>
         </Document>
     </Documents>
 </SearchIndexes>

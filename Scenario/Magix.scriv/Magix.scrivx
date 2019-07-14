@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.9.0" Device="WX-OR6184399" Modified="2019-06-28 16:45:28 +0200" ModID="A1F2000D-7848-40C4-9E23-90A5E5B3A60F">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.10.0" Device="WX-OR6184399" Modified="2019-06-29 22:54:14 +0200" ModID="B4F2DD34-C078-4E87-A9DE-A3B0513BC0A6">
     <Binder>
         <BinderItem ID="0" UUID="5866BFE9-CA45-41F0-8520-049D4FE627F2" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:39:18 +0200" Type="DraftFolder">
             <Title>Magix</Title>
@@ -555,12 +555,12 @@
                                 <KeywordID>45</KeywordID>
                             </Keywords>
                             <Children>
-                                <BinderItem ID="155" UUID="69AF0706-BCB9-4860-A684-4EB6F953C16B" Created="2019-05-22 14:58:17 +0200" Modified="2019-06-28 16:16:48 +0200" Type="Text">
+                                <BinderItem ID="155" UUID="69AF0706-BCB9-4860-A684-4EB6F953C16B" Created="2019-05-22 14:58:17 +0200" Modified="2019-06-29 17:20:18 +0200" Type="Text">
                                     <Title>Description</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <FileExtension>rtf</FileExtension>
-                                        <IconFileName>Warning.tiff</IconFileName>
+                                        <IconFileName>To Do.tiff</IconFileName>
                                     </MetaData>
                                     <TextSettings>
                                         <TextSelection>1738,0</TextSelection>
@@ -586,7 +586,7 @@
                                                 <IconFileName>To Do.tiff</IconFileName>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>27,0</TextSelection>
+                                                <TextSelection Caret="639">0,639</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
@@ -673,7 +673,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="214" UUID="CAB4803B-BAD5-4B5A-B15A-9DD7F4C221DF" Created="2019-06-09 09:52:35 +0200" Modified="2019-06-28 16:07:54 +0200" Type="Text">
+                                        <BinderItem ID="214" UUID="CAB4803B-BAD5-4B5A-B15A-9DD7F4C221DF" Created="2019-06-09 09:52:35 +0200" Modified="2019-06-29 17:07:46 +0200" Type="Text">
                                             <Title>Coffre doré</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -682,29 +682,33 @@
                                                 <IconFileName>To Do.tiff</IconFileName>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection Caret="597">0,597</TextSelection>
+                                                <TextSelection>10,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="217" UUID="548D3B57-A7A2-4B5D-989E-93CF81877DCA" Created="2019-06-12 11:38:51 +0200" Modified="2019-06-28 16:17:15 +0200" Type="Text">
+                                        <BinderItem ID="217" UUID="548D3B57-A7A2-4B5D-989E-93CF81877DCA" Created="2019-06-12 11:38:51 +0200" Modified="2019-06-29 17:11:51 +0200" Type="Text">
                                             <Title>Repaire du scubrock</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
                                                 <StatusID>2</StatusID>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Warning.tiff</IconFileName>
+                                                <IconFileName>To Do.tiff</IconFileName>
                                             </MetaData>
                                             <TextSettings>
-                                                <TextSelection>79,0</TextSelection>
+                                                <TextSelection Caret="563">0,563</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="221" UUID="F82AEA84-AF67-45D6-BD7E-7F3C04E360EB" Created="2019-06-28 16:15:45 +0200" Modified="2019-06-28 16:17:02 +0200" Type="Text">
+                                        <BinderItem ID="221" UUID="F82AEA84-AF67-45D6-BD7E-7F3C04E360EB" Created="2019-06-28 16:15:45 +0200" Modified="2019-06-29 17:19:59 +0200" Type="Text">
                                             <Title>Scubrock</Title>
                                             <MetaData>
+                                                <LabelID>0</LabelID>
+                                                <StatusID>2</StatusID>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
+                                                <IconFileName>To Do.tiff</IconFileName>
                                             </MetaData>
                                             <TextSettings>
+                                                <TextSelection>543,0</TextSelection>
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
@@ -718,19 +722,6 @@
                                     <TextSettings>
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
-                                    <Children>
-                                        <BinderItem ID="179" UUID="836505E1-8134-47C9-BF4A-1D87CFFC171F" Created="2019-05-31 13:09:10 +0200" Modified="2019-05-31 13:09:26 +0200" Type="Text">
-                                            <Title>Poste de garde vide</Title>
-                                            <MetaData>
-                                                <StatusID>3</StatusID>
-                                                <IncludeInCompile>Yes</IncludeInCompile>
-                                                <IconFileName>Warning.tiff</IconFileName>
-                                            </MetaData>
-                                            <TextSettings>
-                                                <Target Type="Words">0</Target>
-                                            </TextSettings>
-                                        </BinderItem>
-                                    </Children>
                                 </BinderItem>
                                 <BinderItem ID="158" UUID="131F8903-6677-4177-9792-C30E980A1D3A" Created="2019-05-26 15:43:37 +0200" Modified="2019-05-26 15:48:23 +0200" Type="Folder">
                                     <Title>Grande place</Title>
@@ -2257,69 +2248,6 @@
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
-            <Children>
-                <BinderItem ID="152" UUID="E0376C2E-CD60-490D-9CBE-2610DE6EF109" Created="2019-05-22 14:52:13 +0200" Modified="2019-05-22 14:58:15 +0200" Type="Folder">
-                    <Title>E3-1 - Puissance</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <IconFileName>Warning.tiff</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem ID="153" UUID="5F3EF2DB-33F3-43A3-80B9-A6B28D6757D5" Created="2019-05-22 14:53:37 +0200" Modified="2019-05-22 14:58:15 +0200" Type="Folder">
-                    <Title>E3-2 - Bonté</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <IconFileName>Warning.tiff</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem ID="154" UUID="0D75641F-FBFE-4BD9-B520-E786A33F26E6" Created="2019-05-22 14:53:45 +0200" Modified="2019-05-22 14:58:15 +0200" Type="Folder">
-                    <Title>E3-3 - ???</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <IconFileName>Warning.tiff</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem ID="178" UUID="7850B54C-9E73-470C-ADF3-ACAAFC3343F4" Created="2019-05-31 13:07:00 +0200" Modified="2019-05-31 13:07:00 +0200" Type="Text">
-                    <Title></Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem ID="202" UUID="8A1E6058-FCE3-4522-90DA-BC9B43B961B6" Created="2019-05-31 13:15:52 +0200" Modified="2019-05-31 13:16:04 +0200" Type="Text">
-                    <Title>Alchimiste (Interieur)</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem ID="211" UUID="A1831423-5FF9-40D5-A246-A54D7BC8CED2" Created="2019-06-07 11:49:37 +0200" Modified="2019-06-14 13:20:39 +0200" Type="Text">
-                    <Title>Onirius</Title>
-                    <MetaData>
-                        <StatusID>3</StatusID>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                        <FileExtension>rtf</FileExtension>
-                        <IconFileName>To Do.tiff</IconFileName>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>217,0</TextSelection>
-                        <Target Type="Words">0</Target>
-                    </TextSettings>
-                </BinderItem>
-            </Children>
         </BinderItem>
     </Binder>
     <LabelSettings>
@@ -2350,7 +2278,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="662" Characters="4004" Date="2019-06-28 09:41:44 +0200"/>
+        <PreviousSession Words="100" Characters="598" Date="2019-06-29 17:06:00 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="8D947EB0-6E78-4E1F-BE76-2C1C7F4DA91A" Color="0.901961 0.917647 0.933333">
