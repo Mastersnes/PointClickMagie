@@ -1393,15 +1393,6 @@ C’est plus une phase humoristique en reference à la maison qui rend fou.</Tex
         <Document ID="151">
             <Title>E3 - La puissance</Title>
         </Document>
-        <Document ID="152">
-            <Title>E3-1 - Puissance</Title>
-        </Document>
-        <Document ID="153">
-            <Title>E3-2 - Bonté</Title>
-        </Document>
-        <Document ID="154">
-            <Title>E3-3 - ???</Title>
-        </Document>
         <Document ID="155">
             <Title>Description</Title>
             <Text>Moment : Matin
@@ -1858,10 +1849,6 @@ dans le tableau
 “Tu devrais pas toucher les gens comme ca. C’est pas très… polie”
 “Ah euh… désolé”</Text>
         </Document>
-        <Document ID="178"/>
-        <Document ID="179">
-            <Title>Poste de garde vide</Title>
-        </Document>
         <Document ID="180">
             <Title>Fontaine</Title>
         </Document>
@@ -1927,9 +1914,6 @@ dans le tableau
         </Document>
         <Document ID="201">
             <Title>Vitrine</Title>
-        </Document>
-        <Document ID="202">
-            <Title>Alchimiste (Interieur)</Title>
         </Document>
         <Document ID="203">
             <Title>Fioles pleines</Title>
@@ -2018,29 +2002,6 @@ C’est lors des travaux de Bramhus qu’ils decouvrirent le second peuple, une 
 Le dernier peuple vivait sur le mont Argol et vieillait sur le temple du feu et de la terre. Ils vivaient en harmonie avec le volcan, en prenant soin qu’il ne se reveille jamais. La cité, offrant de la modernité et du travail, attira forcement les jeunes de la tribu qui finit finalement par s’estomper peu à peu. Il reste encore quelques vieux gardiens qui se transmettent au fil des ages leur savoir et les rites sacré de protection du volcan.
 
 La cité devint alors une capital de marchandage et gagna enormement en richesse. Les 3 peuples accueillir petit à petit de nombreux autres venant des quatres coin du continent et attiré par la richesse et la reussite. Eternara etait à son apogé.</Text>
-        </Document>
-        <Document ID="211">
-            <Title>Onirius</Title>
-            <Synopsis>Automatique
-début : parle puis disparait
-collier : present</Synopsis>
-            <Text>Voir fiche
-
-“Bienvenue à tous ! Je me nomme Onirius et je serais votre examinateur durant ces prochains jours.”
-“Je vous ai reunis ici car vous êtes des Catalystes. faites partie des rares êtres à pouvoir controler le flux.”
-
-“Vous reunis ici afin de passer quelques epreuves à l’issus desquelles vous serez officielement reconnu comme apprentis du royaume. De ce fait, un maitre et une chambre du palais vous sera attribué et vous commencerez votre apprentissage.”
-“
-
-
-
-“Bienvenue ! Vous avez tous repondu à mon invitation et êtes reunis ici pour devenir apprentis officiel et ainsi servir le royaume.”
-“Je suis certains que ces quelques petites epreuves ne vous poseront aucune difficulté. Commencons d’ailleurs par la premiere : L’epreuve de puissance !”
-Onirius fais apparaitre un coffre par apprentis
-“Voici de simples coffres. Comme vous pourrez le constater, ils sont fermé et ne possede aucune clef. Il vous sera donc inutile de les crocheter, forcer, ou de chercher un mecanisme quelconque”
-“L’ouverture est très simple mais se trouve à l’interieur même du coffre. Il vous faudra user à la fois d’une grande puissance et d’une grande precision afin de l’enclencher et d’acceder ainsi a la seconde epreuve”.
-“N’hesitez pas à consulter les ouvrages présent dans la bibliotheque. Cela vous apportera une grande aide”
-“Pour ma part, je dois me retirer. Je reviendrais vers vous lorsque le moment sera venu. Bon courage apprentis !”</Text>
         </Document>
         <Document ID="212">
             <Title>Livre 2 - Traitès</Title>
@@ -2279,7 +2240,90 @@ Le scubrock arrete de manger et entre dans le coffre qui s’ouvre en quelque se
 “Merci mon vieux !”</Text>
         </Document>
         <Document ID="222">
-            <Title>Vid</Title>
+            <Title>Bilan</Title>
+        </Document>
+        <Document ID="223">
+            <Title>Histoire</Title>
+            <Text>Génese
+Notre terre s’est constituée lentement, par aglutination et concentration des energies de l’espaces : Le Flux. Toute cette puissance, tournoyant sans fin, a permit de lui donner vie à elle et a ses nombreux enfants. 
+Pour se preserver, elle et l’equilibre de son flux, elle donna tout d’abord naissance aux gardiens : Créatures géante et bienveillante chargé de proteger ses points vitaux; puis, de la même facon, aux autres especes la peuplant. Lui permettant ainsi de renouveller sans cesse sont propre flux. Toutes creatures etaient destiné à entretenir le flux puis à le rendre à sa mort. Ainsi se devait d’etre le cycle du flux eternel.
+
+Les premiers hommes
+Nos ancêtres venait de l’ouest, errant sans fin à la recherche d’une terre où vivre et s’épanouir. C’est ainsi qu’ils decouvrirent “Lak’ Akoum”, le serpent de feu et la merveilleuse oasis qu’il gardait aux abord de la gorge hurlante. Petit à petit, au fil des siecles, ils apprirent à vivre en harmonie, venerant le grand gardien et l’epaulant dans sa tache en créant la cité antique de Ranhielt. 
+C’est dans ce paradis qu’ils apprirent à controler le flux et que les premiers Catalystes firent leurs premieres decouverte.
+
+Desequilibre
+Les hommes vivaient ainsi, s’occupant de leur propre besoin et aidant le gardien à proteger le lieu sacré sur lequel ils avaient elu domicile. L’energie du flux leur permettaient d’executer des taches jusqu’alors bien trop difficile ou fatiguante et devenait petit à petit un element vital de leur société.
+
+Un jeune homme curieux répondant au nom de Torrick, desireux d’en savoir d’avantage sur la provenance de ce pouvoir, s’interessa alors aux differentes sources de flux. Il constata ainsi un fort desequilibre.
+En réalité, l’homme n’etait doté que de très peu de flux et les catalystes, sans vraiment le savoir, puisait leur pouvoir dans une source qui se trouvait sous leur pied. 
+Au contraire, certaines creatures de la nature, disposait dès leur naissance d’une forte concentration en flux le plus impressionnant de tous étant le serpent sacré qui en possedait une quantité astronomique.
+Il remarqua également que lorsqu’une creature mourrait, l’ensemble de son flux etait libéré et perdu dans le vide du monde. Tant d’energie et de pouvoir perdu le revolta, il ne put s’y resourdre et mis au point un systeme lui permettant de capter cette energie morte et de l’aspirer en lui, augmentant ainsi son pouvoir en devenant un receptacle du flux. Les problémes ne tarderent pas à affluer, l’energie des morts n’etaient pas de l’energie perdu, elle etait en réalité destiné à retourner dans le cycle terrestre et permettre ainsi l’equilibre du monde. L’oasis deperissait et se transformait peu à peu en un lieu sans vie. 
+
+Le gardien, aidé par les Catalyste de la cité, identifia rapidement le fauteur de trouble et detruisit la machine. Malheureusement, le pouvoir grandissant et la trop forte concentration en flux rendirent Torrick completement fou : son corps reclamait toujours plus d’energie. Un combat titanesque eu lieu, laissant encore ses traces aujourd’hui, caché par les sables du desert.
+Le gardien avait l’avantage mais, à chaque Catalyste abattu, Torrick gagnait toujours plus en puissance repoussant sans cesse les attaques de ses agresseurs. Usant de la puissance du lieu sacré, Lak’ Akoum tenta le tout pour le tout et se sacrifia pour vaincre le criminel. La legende raconte que son corps se trouverait encore sous la cité de Ranhielt, attendant la liberation complete du flux qu’il contient…
+
+Exode
+Tout n’etait que poussiere, il n’y avait plus rien à proteger, le gardien etait mort et l’oasis asséchée. 
+Malgrè leur tristesse, les hommes se mirent en route à la recherche d’un nouveau foyer, d’un nouveau lieu a proteger. Certains repartirent vers l’est, esperant retrouver les origines de leur peuple; D’autre resterent, promettant de veiller le corps de leur sauveur à jamais; Les derniers enfin, desireux de partager au monde les enseignements de leur defunt gardien, s’engoufrerent dans les gorges venteuses à l’ouest.
+Après plusieurs jours de marche dans les precipices de la montagne, ils decouvrirent une gigantesque plaine regorgeant de merveille. Ici, il batirent les premice de la grande cité D’Eternara. Un lieu de sagesse et de protection ou toute personne et tout peuple pacifiste serait le bienvenu. 
+
+Le peuple de l’eau
+Leur premier travail de construction fut de rediriger le lac avoisinant vers la cité afin d’abreuver ses habitants en eau et de faire pousser les cultures. C’est lors de ces travaux qu’ils decouvrirent le peuple pecheurs des Esbeth. Ils se lierent d’amitié, tout deux desireux de partager les savoirs et la culture de l’autre. Le peuple d’Eternara leur apporterent la connaissance et la maitrise du flux, celui d’Esbeth l’art de la peche et le respect de l’eau. 
+Autrefois nomade, le peuple d’Esbeth utilisa la puissance du flux afin de creer un village au abord de la cité naissante d’Eternara afin de controller l’utilisation de leur lac sacré et continuer le partage avec leurs nouveaux amis. La premiere alliance etait née.
+
+La grande cité du savoir
+Le temps s’écoulait et avec lui la cité devenait le havre de paix et de savoir auquel elle aspirait. Diverses tribus, ayant eu vent de ce lieu, demanderent à les rejoindre et apporterent au peuple d’Eternara leur savoirs variés tel que la culture des Bobinavia, la transformation des materiaux et l’art des potions curatives. Des marchands venaient de toutes part en quete du somptueux marché où l’on disait pouvoir trouver tout ce que l’esprit peut imaginer. La cité etait un lieu d’échange et de commerce mais également de savoir. Les plus grands savants du monde se relayait au sein de la grande bibliotheque afin d’en apprendre d’avantage sur ce flux et les mysteres du monde.
+
+Le flux sombre
+o</Text>
+        </Document>
+        <Document ID="224">
+            <Title>Schéma 1</Title>
+            <Text>1) Présentation de l’intrigue : le flux corrompus (cinématique)
+2) Présentation du personnage principal : Petite enigme avec Spark
+Qui est Spark ?
+Comment réagit Spark ?
+Pourquoi il ne mendit pas comme les autres ?
+3) Mise en place de l’intrigue : 
+Invitation d’Onirius
+Qui est Onirius ?
+Relation avec Spark ?
+Pourquoi lui ?
+Comment il a recu la lettre ?
+Est ce qu’il va y aller et pourquoi ?
+Est qu’il a des doutes ?
+D’autres Catalyste ?
+Premiere Enigme
+4) Rappel de la motivation / passage emotion : 
+5) Decouverte de la merde : Onirius les amene dans les catacombes et leur explique la corruption mais coupé par l’element perturbateur
+6) Element perturbateur : Plus personne ne peut bouger. L’apprentit méchant se devoile et bloque tout le monde pour detruire le crystal de Lak’ Atoum
+Que va faire Spark ?
+Que vont faire les autres ?
+Comment il va briser le crystal ?
+7) Action / emotion :
+8) Reussite : 
+9) Reussite secondaire :
+10) Fin
+
+
+
+
+X)
+Comment l’apprentit méchant s’est fait manipulé ?</Text>
+        </Document>
+        <Document ID="225">
+            <Title>Idées</Title>
+            <Text>A un moment Spark pourrait être enfermé et pour sortir, il se concentrerait pour generer une illusion (il l’apprend là) en dehors de la piece que l’on pourrait controler pour trouver un moyen de sortir.
+Les monstres engendrés par la corruption pourraient s’appeler “Aberrations”.
+A un moment une des reliques sacrées éclatera, destabilisant le dôme de protection et nos héros devront alors fuir avant de se faire rattraper par la corruption. Spark, en essayant de sauver ses amis, se fera toucher avant de pouvoir entrer dans le dôme et commencera donc à se transformer en abération. Il redeviendra lui-même après un plongeon dans ses souvenirs et comprendra qui il est réellement : Un gardien.</Text>
+        </Document>
+        <Document ID="226">
+            <Title>Schéma 2</Title>
+            <Text>Cinématique : Spark se reveil d’une sieste dans le marché, il a faim
+Jeu : Spark tente de voler une Orna sur le stand du marchand
+Cinématique : En s’enfuyant, Spark se fait surprendre par des voyous qui l’ont vu faire. Ils veulent utiliser ses talents pour infiltrer le palais et voler des objets de valeur. Spark n’a pas d’autre choix que d’accepter.
+</Text>
         </Document>
     </Documents>
 </SearchIndexes>

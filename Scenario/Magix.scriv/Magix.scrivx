@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.10.0" Device="WX-OR6184399" Modified="2019-06-29 22:54:14 +0200" ModID="B4F2DD34-C078-4E87-A9DE-A3B0513BC0A6">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.14.0" Device="WX-OR6184399" Modified="2020-07-11 19:53:32 +0200" ModID="4E0131C4-5C1D-46A4-BDB1-C1F12DE57CA5">
     <Binder>
         <BinderItem ID="0" UUID="5866BFE9-CA45-41F0-8520-049D4FE627F2" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:39:18 +0200" Type="DraftFolder">
             <Title>Magix</Title>
@@ -14,14 +14,14 @@
                         <IconFileName>Book (Blue Book).tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>4865,0</TextSelection>
+                        <TextSelection>1367,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <References>
                         <Reference Destination="file:///C:/snes/Perso/PointClickMagie/Scenario/tableaux.pdn">tableaux.pdn</Reference>
                     </References>
                 </BinderItem>
-                <BinderItem ID="5" UUID="90B93B34-2513-416A-837D-287F046AF0A8" Created="2019-04-29 16:46:14 +0200" Modified="2019-05-18 09:34:19 +0200" Type="Folder">
+                <BinderItem ID="5" UUID="90B93B34-2513-416A-837D-287F046AF0A8" Created="2019-04-29 16:46:14 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
                     <Title>Scenes</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -714,7 +714,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="157" UUID="FFD8394B-1C71-4FA6-B42E-B84818457FE6" Created="2019-05-26 15:43:32 +0200" Modified="2019-05-26 15:47:48 +0200" Type="Folder">
+                                <BinderItem ID="157" UUID="FFD8394B-1C71-4FA6-B42E-B84818457FE6" Created="2019-05-26 15:43:32 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
                                     <Title>Porte du palais</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1723,7 +1723,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="50" UUID="8F353ACB-2F44-41D8-8624-FB46B24DA057" Created="2019-05-01 13:29:22 +0200" Modified="2019-05-01 13:29:30 +0200" Type="Folder">
+                        <BinderItem ID="50" UUID="8F353ACB-2F44-41D8-8624-FB46B24DA057" Created="2019-05-01 13:29:22 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
                             <Title>Magie</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1948,7 +1948,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="19" UUID="767E067A-954D-42DC-A057-6FCE8A9CD29C" Created="2019-04-30 11:14:21 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                <BinderItem ID="19" UUID="767E067A-954D-42DC-A057-6FCE8A9CD29C" Created="2019-04-30 11:14:21 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
                     <Title>Game Design</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2129,7 +2129,7 @@
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>350,0</TextSelection>
+                                <TextSelection Caret="33">25,8</TextSelection>
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
@@ -2249,6 +2249,59 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
         </BinderItem>
+        <BinderItem ID="222" UUID="13FAA053-3275-4FCC-B191-25E362D47714" Created="2019-09-19 09:38:11 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
+            <Title>Bilan</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+            <Children>
+                <BinderItem ID="223" UUID="B59E8EC9-0AF6-424C-BB24-CB10F86BB871" Created="2019-09-19 09:38:22 +0200" Modified="2020-07-10 11:31:59 +0200" Type="Text">
+                    <Title>Histoire</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>5819,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="224" UUID="62D073A9-CB20-4D18-BA16-065F4CEF6F2F" Created="2019-09-29 13:43:37 +0200" Modified="2020-05-14 14:10:01 +0200" Type="Text">
+                    <Title>Schéma 1</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <StatusID>1</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>997,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="226" UUID="BE4DD27F-31AE-4A07-BB36-7353A29A8F94" Created="2020-05-14 14:10:07 +0200" Modified="2020-05-14 14:24:26 +0200" Type="Text">
+                    <Title>Schéma 2</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>39,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="225" UUID="08285899-096D-4462-8177-C37A5A29CF25" Created="2020-04-13 16:18:15 +0200" Modified="2020-04-16 11:37:03 +0200" Type="Text">
+                    <Title>Idées</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>280,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
     </Binder>
     <LabelSettings>
         <Title>Étiquette</Title>
@@ -2278,7 +2331,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="100" Characters="598" Date="2019-06-29 17:06:00 +0200"/>
+        <PreviousSession Words="296" Characters="1770" Date="2020-07-10 10:18:30 +0200"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="8D947EB0-6E78-4E1F-BE76-2C1C7F4DA91A" Color="0.901961 0.917647 0.933333">

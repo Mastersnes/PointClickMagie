@@ -1,0 +1,1392 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLActivity",
+					"_id": "AAAAAAFs3amee8mTiXU=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Scenes",
+					"ownedElements": [
+						{
+							"_type": "UMLActivityDiagram",
+							"_id": "AAAAAAFs3amee8mUimg=",
+							"_parent": {
+								"$ref": "AAAAAAFs3amee8mTiXU="
+							},
+							"name": "Scenes",
+							"defaultDiagram": true,
+							"ownedViews": [
+								{
+									"_type": "UMLControlNodeView",
+									"_id": "AAAAAAFs3anrA8mcJEQ=",
+									"_parent": {
+										"$ref": "AAAAAAFs3amee8mUimg="
+									},
+									"model": {
+										"$ref": "AAAAAAFs3anrA8ma1vY="
+									},
+									"font": "Arial;13;0",
+									"containerChangeable": true,
+									"left": 16,
+									"top": 8,
+									"width": 20,
+									"height": 20
+								},
+								{
+									"_type": "UMLActionView",
+									"_id": "AAAAAAFs3aoX4cmj8Sw=",
+									"_parent": {
+										"$ref": "AAAAAAFs3amee8mUimg="
+									},
+									"model": {
+										"$ref": "AAAAAAFs3aoX4cmhC94="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAFs3aoX4cmkVZQ=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aoX4cmj8Sw="
+											},
+											"model": {
+												"$ref": "AAAAAAFs3aoX4cmhC94="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFs3aoX4cmlrGs=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aoX4cmkVZQ="
+													},
+													"visible": false,
+													"fillColor": "#ffadad",
+													"font": "Arial;13;0",
+													"left": -288,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFs3aoX4cmmPD8=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aoX4cmkVZQ="
+													},
+													"fillColor": "#ffadad",
+													"font": "Arial;13;1",
+													"left": 45,
+													"top": 55,
+													"width": 135.7890625,
+													"height": 13,
+													"text": "Cinématique de début"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFs3aoX4cmnppA=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aoX4cmkVZQ="
+													},
+													"visible": false,
+													"fillColor": "#ffadad",
+													"font": "Arial;13;0",
+													"left": -288,
+													"width": 81.630859375,
+													"height": 13,
+													"text": "(from Scenes)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFs3aoX4cmopSg=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aoX4cmkVZQ="
+													},
+													"visible": false,
+													"fillColor": "#ffadad",
+													"font": "Arial;13;0",
+													"left": -288,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"fillColor": "#ffadad",
+											"font": "Arial;13;0",
+											"left": 40,
+											"top": 48,
+											"width": 145.7890625,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAFs3aoX4cmlrGs="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAFs3aoX4cmmPD8="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAFs3aoX4cmnppA="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAFs3aoX4cmopSg="
+											}
+										}
+									],
+									"fillColor": "#ffadad",
+									"font": "Arial;13;0",
+									"containerChangeable": true,
+									"left": 40,
+									"top": 48,
+									"width": 145.7890625,
+									"height": 41,
+									"nameCompartment": {
+										"$ref": "AAAAAAFs3aoX4cmkVZQ="
+									}
+								},
+								{
+									"_type": "UMLControlFlowView",
+									"_id": "AAAAAAFs3asUbsnd2Tg=",
+									"_parent": {
+										"$ref": "AAAAAAFs3amee8mUimg="
+									},
+									"model": {
+										"$ref": "AAAAAAFs3asUbsncBe0="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFs3asUb8ne4qw=",
+											"_parent": {
+												"$ref": "AAAAAAFs3asUbsnd2Tg="
+											},
+											"model": {
+												"$ref": "AAAAAAFs3asUbsncBe0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 63,
+											"top": 16,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAFs3asUbsnd2Tg="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFs3asUb8nfQf4=",
+											"_parent": {
+												"$ref": "AAAAAAFs3asUbsnd2Tg="
+											},
+											"model": {
+												"$ref": "AAAAAAFs3asUbsncBe0="
+											},
+											"visible": null,
+											"font": "Arial;13;0",
+											"left": 71,
+											"top": 3,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 30,
+											"hostEdge": {
+												"$ref": "AAAAAAFs3asUbsnd2Tg="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFs3asUb8ng+WU=",
+											"_parent": {
+												"$ref": "AAAAAAFs3asUbsnd2Tg="
+											},
+											"model": {
+												"$ref": "AAAAAAFs3asUbsncBe0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 48,
+											"top": 41,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAFs3asUbsnd2Tg="
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFs3aoX4cmj8Sw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFs3anrA8mcJEQ="
+									},
+									"lineStyle": 1,
+									"points": "36:23;76:47",
+									"showVisibility": true,
+									"nameLabel": {
+										"$ref": "AAAAAAFs3asUb8ne4qw="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFs3asUb8nfQf4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFs3asUb8ng+WU="
+									}
+								}
+							]
+						}
+					],
+					"nodes": [
+						{
+							"_type": "UMLInitialNode",
+							"_id": "AAAAAAFs3anrA8ma1vY=",
+							"_parent": {
+								"$ref": "AAAAAAFs3amee8mTiXU="
+							},
+							"name": "Début"
+						},
+						{
+							"_type": "UMLAction",
+							"_id": "AAAAAAFs3aoX4cmhC94=",
+							"_parent": {
+								"$ref": "AAAAAAFs3amee8mTiXU="
+							},
+							"name": "Cinématique de début",
+							"ownedElements": [
+								{
+									"_type": "FCFlowchart",
+									"_id": "AAAAAAFs3aukXsnz75Q=",
+									"_parent": {
+										"$ref": "AAAAAAFs3aoX4cmhC94="
+									},
+									"name": "Cinématique",
+									"ownedElements": [
+										{
+											"_type": "FCFlowchartDiagram",
+											"_id": "AAAAAAFs3aukXsn0zYk=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Cinématique de début",
+											"ownedViews": [
+												{
+													"_type": "FCProcessView",
+													"_id": "AAAAAAFs3a7cDMpb56U=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3a7cDMpZ0zY="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3a7cDMpcQgA=",
+															"_parent": {
+																"$ref": "AAAAAAFs3a7cDMpb56U="
+															},
+															"font": "Arial;13;0",
+															"left": 34,
+															"top": 106,
+															"width": 213,
+															"height": 26,
+															"text": "Animation : Goutte dorée qui tombe sur un fond noir (le flux).",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 24,
+													"top": 96,
+													"width": 233,
+													"height": 49,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3a7cDMpcQgA="
+													}
+												},
+												{
+													"_type": "UMLNoteView",
+													"_id": "AAAAAAFs3a9CDspip9s=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"fillColor": "#ffca2b",
+													"font": "Arial;13;0",
+													"left": 56,
+													"top": 8,
+													"width": 100,
+													"height": 77,
+													"text": "Pour le faire tourner, je peux le faire dans mon code"
+												},
+												{
+													"_type": "UMLNoteLinkView",
+													"_id": "AAAAAAFs3a9CTcplegk=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3a9CDspip9s="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3a7cDMpb56U="
+													},
+													"lineStyle": 1,
+													"points": "128:95;123:85"
+												},
+												{
+													"_type": "FCTerminatorView",
+													"_id": "AAAAAAFs3bCf0cqZi58=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bCf0cqXlhw="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bCf0cqaGPE=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bCf0cqZi58="
+															},
+															"font": "Arial;13;0",
+															"left": 74,
+															"top": 186,
+															"width": 68.63720703125,
+															"height": 39,
+															"text": "Son : Vent dans les arbres",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 64,
+													"top": 176,
+													"width": 88.63720703125,
+													"height": 59,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bCf0cqaGPE="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bE9J8qnt1U=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bE9J8qlY50="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bE9J8qoXZU=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bE9J8qnt1U="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bE9J8qlY50="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 154,
+															"top": 153,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bE9J8qnt1U="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bCf0cqZi58="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3a7cDMpb56U="
+													},
+													"lineStyle": 2,
+													"points": "140:144;140:176",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bE9J8qoXZU="
+													}
+												},
+												{
+													"_type": "FCProcessView",
+													"_id": "AAAAAAFs3bFpdcqwvt4=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bFpdcqu6X0="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bFpdsqxD7I=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bFpdcqwvt4="
+															},
+															"font": "Arial;13;0",
+															"left": 338,
+															"top": 106,
+															"width": 277,
+															"height": 52,
+															"text": "La goutte flotte dans l'air et tourne sur elle même pour former une boule dorée (la planéte). Des flots de liquide doré sortent par endroit (les lieux sacrés)",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 328,
+													"top": 96,
+													"width": 297,
+													"height": 73,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bFpdsqxD7I="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bFp1sq4z4s=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bFp1sq2e78="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bFp18q5DWw=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bFp1sq4z4s="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bFp1sq2e78="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 292,
+															"top": 99,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bFp1sq4z4s="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bFpdcqwvt4="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3a7cDMpb56U="
+													},
+													"lineStyle": 2,
+													"points": "256:120;328:120",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bFp18q5DWw="
+													}
+												},
+												{
+													"_type": "FCTerminatorView",
+													"_id": "AAAAAAFs3bJDJ8rHOPo=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bJDJ8rFCL4="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bJDJ8rIWXw=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bJDJ8rHOPo="
+															},
+															"font": "Arial;13;0",
+															"left": 730,
+															"top": 98,
+															"width": 68.63720703125,
+															"height": 52,
+															"text": "Vent dans les arbres, legeres vibrations",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 720,
+													"top": 88,
+													"width": 88.63720703125,
+													"height": 72,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bJDJ8rIWXw="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bJ+08rSMb4=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bJ+08rQ1tI="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bJ+08rTyPU=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bJ+08rSMb4="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bJ+08rQ1tI="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 672,
+															"top": 102,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bJ+08rSMb4="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bJDJ8rHOPo="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bFpdcqwvt4="
+													},
+													"lineStyle": 2,
+													"points": "624:123;720:123",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bJ+08rTyPU="
+													}
+												},
+												{
+													"_type": "FCProcessView",
+													"_id": "AAAAAAFs3bL9QcrcpAY=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bL9QcraJhA="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bL9QcrdHcE=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bL9QcrcpAY="
+															},
+															"font": "Arial;13;0",
+															"left": 378,
+															"top": 226,
+															"width": 173,
+															"height": 52,
+															"text": "L'un des flots devient grisatre ou verdatre et contamine doucement l'ensemble (la corruption)",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 368,
+													"top": 216,
+													"width": 193,
+													"height": 81,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bL9QcrdHcE="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bL9qMrkwlQ=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bL9qMriSCU="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bL9qMrlGzQ=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bL9qMrkwlQ="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bL9qMriSCU="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 490,
+															"top": 185,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bL9qMrkwlQ="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bL9QcrcpAY="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bFpdcqwvt4="
+													},
+													"lineStyle": 2,
+													"points": "476:168;476:216",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bL9qMrlGzQ="
+													}
+												},
+												{
+													"_type": "FCTerminatorView",
+													"_id": "AAAAAAFs3bORBMry8KI=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bORBMrwBfg="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bORBMrz4Bc=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bORBMry8KI="
+															},
+															"font": "Arial;13;0",
+															"left": 754,
+															"top": 226,
+															"width": 69.3798828125,
+															"height": 52,
+															"text": "Le grondement se fait plus fort",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 744,
+													"top": 216,
+													"width": 89.3798828125,
+													"height": 72,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bORBMrz4Bc="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bO+rMr78y4=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bO+q8r5ssk="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bO+rMr8qgo=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bO+rMr78y4="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bO+q8r5ssk="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 652,
+															"top": 214,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bO+rMr78y4="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bORBMry8KI="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bL9QcrcpAY="
+													},
+													"lineStyle": 2,
+													"points": "560:235;744:235",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bO+rMr8qgo="
+													}
+												},
+												{
+													"_type": "FCProcessView",
+													"_id": "AAAAAAFs3bPaccsGQcc=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bPacMsEIGU="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bPaccsHF/k=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bPaccsGQcc="
+															},
+															"font": "Arial;13;0",
+															"left": 362,
+															"top": 362,
+															"width": 221,
+															"height": 52,
+															"text": "La boule qui continue a tourner devient presque entierement verdatre et coule comme une vieille crotte de nez",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 352,
+													"top": 352,
+													"width": 241,
+													"height": 89,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bPaccsHF/k="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bPa2ssOrO4=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bPa2ssMeA8="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bPa2ssP0ro=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bPa2ssOrO4="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bPa2ssMeA8="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 474,
+															"top": 317,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bPa2ssOrO4="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bPaccsGQcc="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bL9QcrcpAY="
+													},
+													"lineStyle": 2,
+													"points": "460:296;460:352",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bPa2ssP0ro="
+													}
+												},
+												{
+													"_type": "FCProcessView",
+													"_id": "AAAAAAFs3bRTf8sZgQA=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bRTfssX97E="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bRTf8sagX8=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bRTf8sZgQA="
+															},
+															"font": "Arial;13;0",
+															"left": 410,
+															"top": 498,
+															"width": 173,
+															"height": 26,
+															"text": "La boule disparait et il ne reste plus que le fond noir",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 400,
+													"top": 488,
+													"width": 193,
+													"height": 57,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bRTf8sagX8="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bRT+8sha6k=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bRT+8sfnYM="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bRT+8si2Bw=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bRT+8sha6k="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bRT+8sfnYM="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 477,
+															"top": 457,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bRT+8sha6k="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bRTf8sZgQA="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bPaccsGQcc="
+													},
+													"lineStyle": 2,
+													"points": "463:440;463:488",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bRT+8si2Bw="
+													}
+												},
+												{
+													"_type": "FCTerminatorView",
+													"_id": "AAAAAAFs3bR/y8stCbM=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bR/yssrrPo="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bR/y8su/bQ=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bR/y8stCbM="
+															},
+															"font": "Arial;13;0",
+															"left": 754,
+															"top": 378,
+															"width": 69.3798828125,
+															"height": 26,
+															"text": "Fort grondement",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 744,
+													"top": 368,
+													"width": 89.3798828125,
+													"height": 46,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bR/y8su/bQ="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bSlsss2T1s=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bSlscs0eOo="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bSlsss3V3c=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bSlsss2T1s="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bSlscs0eOo="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 668,
+															"top": 369,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bSlsss2T1s="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bR/y8stCbM="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bPaccsGQcc="
+													},
+													"lineStyle": 2,
+													"points": "592:390;744:390",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bSlsss3V3c="
+													}
+												},
+												{
+													"_type": "FCTerminatorView",
+													"_id": "AAAAAAFs3bUEoMtG/RU=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bUEoMtEBNk="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bUEoMtHNQw=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bUEoMtG/RU="
+															},
+															"font": "Arial;13;0",
+															"left": 754,
+															"top": 490,
+															"width": 68.63720703125,
+															"height": 65,
+															"text": "Le bruit se transforme en celui d'un ventre qui a faim",
+															"wordWrap": true
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 744,
+													"top": 480,
+													"width": 88.63720703125,
+													"height": 85,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bUEoMtHNQw="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bVsNctQ0Ro=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bVsNctOSY4="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bVsNctRwXY=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bVsNctQ0Ro="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bVsNctOSY4="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 668,
+															"top": 501,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bVsNctQ0Ro="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bUEoMtG/RU="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bRTf8sZgQA="
+													},
+													"lineStyle": 2,
+													"points": "592:522;744:522",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bVsNctRwXY="
+													}
+												},
+												{
+													"_type": "FCDecisionView",
+													"_id": "AAAAAAFs3bYhZ8t6ayY=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bYhZ8t4HDo="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFs3bYhZ8t7npU=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bYhZ8t6ayY="
+															},
+															"fillColor": "#d6adff",
+															"font": "Arial;13;0",
+															"left": 426.25,
+															"top": 652.25,
+															"width": 132.5,
+															"height": 56.5,
+															"text": "Changement d'écran sur la premiere scene où Spark se reveil sur un banc du marché",
+															"wordWrap": true
+														}
+													],
+													"fillColor": "#d6adff",
+													"font": "Arial;13;0",
+													"left": 360,
+													"top": 624,
+													"width": 265,
+													"height": 113,
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bYhZ8t7npU="
+													}
+												},
+												{
+													"_type": "FCFlowView",
+													"_id": "AAAAAAFs3bZ0tMuMfNI=",
+													"_parent": {
+														"$ref": "AAAAAAFs3aukXsn0zYk="
+													},
+													"model": {
+														"$ref": "AAAAAAFs3bZ0tMuKdpc="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFs3bZ0tcuNmog=",
+															"_parent": {
+																"$ref": "AAAAAAFs3bZ0tMuMfNI="
+															},
+															"model": {
+																"$ref": "AAAAAAFs3bZ0tMuKdpc="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 502,
+															"top": 577,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFs3bZ0tMuMfNI="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFs3bYhZ8t6ayY="
+													},
+													"tail": {
+														"$ref": "AAAAAAFs3bRTf8sZgQA="
+													},
+													"lineStyle": 2,
+													"points": "488:544;488:624",
+													"nameLabel": {
+														"$ref": "AAAAAAFs3bZ0tcuNmog="
+													}
+												}
+											]
+										},
+										{
+											"_type": "FCProcess",
+											"_id": "AAAAAAFs3a7cDMpZ0zY=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Animation : Goutte dorée qui tombe sur un fond noir (le flux).",
+											"ownedElements": [
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bE9J8qlY50=",
+													"_parent": {
+														"$ref": "AAAAAAFs3a7cDMpZ0zY="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3a7cDMpZ0zY="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bCf0cqXlhw="
+													}
+												},
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bFp1sq2e78=",
+													"_parent": {
+														"$ref": "AAAAAAFs3a7cDMpZ0zY="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3a7cDMpZ0zY="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bFpdcqu6X0="
+													}
+												}
+											]
+										},
+										{
+											"_type": "FCTerminator",
+											"_id": "AAAAAAFs3bCf0cqXlhw=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Son : Vent dans les arbres"
+										},
+										{
+											"_type": "FCProcess",
+											"_id": "AAAAAAFs3bFpdcqu6X0=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "La goutte flotte dans l'air et tourne sur elle même pour former une boule dorée (la planéte). Des flots de liquide doré sortent par endroit (les lieux sacrés)",
+											"ownedElements": [
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bJ+08rQ1tI=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bFpdcqu6X0="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bFpdcqu6X0="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bJDJ8rFCL4="
+													}
+												},
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bL9qMriSCU=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bFpdcqu6X0="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bFpdcqu6X0="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bL9QcraJhA="
+													}
+												}
+											]
+										},
+										{
+											"_type": "FCTerminator",
+											"_id": "AAAAAAFs3bJDJ8rFCL4=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Vent dans les arbres, legeres vibrations"
+										},
+										{
+											"_type": "FCProcess",
+											"_id": "AAAAAAFs3bL9QcraJhA=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "L'un des flots devient grisatre ou verdatre et contamine doucement l'ensemble (la corruption)",
+											"ownedElements": [
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bO+q8r5ssk=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bL9QcraJhA="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bL9QcraJhA="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bORBMrwBfg="
+													}
+												},
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bPa2ssMeA8=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bL9QcraJhA="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bL9QcraJhA="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bPacMsEIGU="
+													}
+												}
+											]
+										},
+										{
+											"_type": "FCTerminator",
+											"_id": "AAAAAAFs3bORBMrwBfg=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Le grondement se fait plus fort"
+										},
+										{
+											"_type": "FCProcess",
+											"_id": "AAAAAAFs3bPacMsEIGU=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "La boule qui continue a tourner devient presque entierement verdatre et coule comme une vieille crotte de nez",
+											"ownedElements": [
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bRT+8sfnYM=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bPacMsEIGU="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bPacMsEIGU="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bRTfssX97E="
+													}
+												},
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bSlscs0eOo=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bPacMsEIGU="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bPacMsEIGU="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bR/yssrrPo="
+													}
+												}
+											]
+										},
+										{
+											"_type": "FCProcess",
+											"_id": "AAAAAAFs3bRTfssX97E=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "La boule disparait et il ne reste plus que le fond noir",
+											"ownedElements": [
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bVsNctOSY4=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bRTfssX97E="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bRTfssX97E="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bUEoMtEBNk="
+													}
+												},
+												{
+													"_type": "FCFlow",
+													"_id": "AAAAAAFs3bZ0tMuKdpc=",
+													"_parent": {
+														"$ref": "AAAAAAFs3bRTfssX97E="
+													},
+													"source": {
+														"$ref": "AAAAAAFs3bRTfssX97E="
+													},
+													"target": {
+														"$ref": "AAAAAAFs3bYhZ8t4HDo="
+													}
+												}
+											]
+										},
+										{
+											"_type": "FCTerminator",
+											"_id": "AAAAAAFs3bR/yssrrPo=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Fort grondement"
+										},
+										{
+											"_type": "FCTerminator",
+											"_id": "AAAAAAFs3bUEoMtEBNk=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Le bruit se transforme en celui d'un ventre qui a faim"
+										},
+										{
+											"_type": "FCDecision",
+											"_id": "AAAAAAFs3bYhZ8t4HDo=",
+											"_parent": {
+												"$ref": "AAAAAAFs3aukXsnz75Q="
+											},
+											"name": "Changement d'écran sur la premiere scene où Spark se reveil sur un banc du marché"
+										}
+									]
+								}
+							]
+						}
+					],
+					"edges": [
+						{
+							"_type": "UMLControlFlow",
+							"_id": "AAAAAAFs3asUbsncBe0=",
+							"_parent": {
+								"$ref": "AAAAAAFs3amee8mTiXU="
+							},
+							"source": {
+								"$ref": "AAAAAAFs3anrA8ma1vY="
+							},
+							"target": {
+								"$ref": "AAAAAAFs3aoX4cmhC94="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
