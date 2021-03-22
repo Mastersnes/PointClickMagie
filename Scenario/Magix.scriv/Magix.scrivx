@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.14.0" Device="WX-OR6184399" Modified="2020-07-11 19:53:32 +0200" ModID="4E0131C4-5C1D-46A4-BDB1-C1F12DE57CA5">
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="LAPTOP-U5M5NETV" Modified="2020-11-30 18:01:59 +0100" ModID="4E0131C4-5C1D-46A4-BDB1-C1F12DE57CA5">
     <Binder>
-        <BinderItem ID="0" UUID="5866BFE9-CA45-41F0-8520-049D4FE627F2" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:39:18 +0200" Type="DraftFolder">
+        <BinderItem ID="0" UUID="5866BFE9-CA45-41F0-8520-049D4FE627F2" Created="2019-04-29 16:04:22 +0100" Modified="2019-04-29 16:39:18 +0100" Type="DraftFolder">
             <Title>Magix</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem ID="41" UUID="5FF0ED96-6251-40FF-A020-031CAD1145F0" Created="2019-05-01 13:14:06 +0200" Modified="2019-06-28 16:16:38 +0200" Type="Text">
+                <BinderItem ID="41" UUID="5FF0ED96-6251-40FF-A020-031CAD1145F0" Created="2019-05-01 13:14:06 +0100" Modified="2019-06-28 16:16:38 +0100" Type="Text">
                     <Title>Scénario</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -21,7 +21,7 @@
                         <Reference Destination="file:///C:/snes/Perso/PointClickMagie/Scenario/tableaux.pdn">tableaux.pdn</Reference>
                     </References>
                 </BinderItem>
-                <BinderItem ID="5" UUID="90B93B34-2513-416A-837D-287F046AF0A8" Created="2019-04-29 16:46:14 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
+                <BinderItem ID="5" UUID="90B93B34-2513-416A-837D-287F046AF0A8" Created="2019-04-29 16:46:14 +0100" Modified="2019-09-19 15:54:40 +0100" Type="Folder">
                     <Title>Scenes</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -31,7 +31,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="3" UUID="1476C784-AD4C-4995-9BB4-98E90D212893" Created="2019-04-29 16:45:24 +0200" Modified="2019-05-22 14:52:43 +0200" Type="Folder">
+                        <BinderItem ID="3" UUID="1476C784-AD4C-4995-9BB4-98E90D212893" Created="2019-04-29 16:45:24 +0100" Modified="2019-05-22 14:52:43 +0100" Type="Folder">
                             <Title>E1 - Etale du marchand</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -45,7 +45,7 @@
                                 <KeywordID>1</KeywordID>
                             </Keywords>
                             <Children>
-                                <BinderItem ID="36" UUID="6E67E60D-C034-4F2A-AD64-949F9A147AAB" Created="2019-04-30 14:26:04 +0200" Modified="2019-06-11 13:55:25 +0200" Type="Text">
+                                <BinderItem ID="36" UUID="6E67E60D-C034-4F2A-AD64-949F9A147AAB" Created="2019-04-30 14:26:04 +0100" Modified="2019-06-11 13:55:25 +0100" Type="Text">
                                     <Title>Description</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -56,7 +56,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="121" UUID="D3D742D4-924A-4A70-BBA2-DCE6DDD7804B" Created="2019-05-19 16:59:06 +0200" Modified="2019-05-21 15:50:10 +0200" Type="Folder">
+                                <BinderItem ID="121" UUID="D3D742D4-924A-4A70-BBA2-DCE6DDD7804B" Created="2019-05-19 16:59:06 +0100" Modified="2019-05-21 15:50:10 +0100" Type="Folder">
                                     <Title>Etale du marchand</Title>
                                     <MetaData>
                                         <LabelID>1</LabelID>
@@ -67,7 +67,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="140" UUID="E67B4934-4E8C-4F6F-B9DC-B5D086E516C4" Created="2019-05-21 15:50:35 +0200" Modified="2019-05-31 13:08:36 +0200" Type="Text">
+                                        <BinderItem ID="140" UUID="E67B4934-4E8C-4F6F-B9DC-B5D086E516C4" Created="2019-05-21 15:50:35 +0100" Modified="2019-05-31 13:08:36 +0100" Type="Text">
                                             <Title>Image</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -77,7 +77,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="39" UUID="83D26CD4-F0C8-414C-AE0D-B5BB618036C8" Created="2019-04-30 15:33:39 +0200" Modified="2019-06-11 16:51:18 +0200" Type="Text">
+                                        <BinderItem ID="39" UUID="83D26CD4-F0C8-414C-AE0D-B5BB618036C8" Created="2019-04-30 15:33:39 +0100" Modified="2019-06-11 16:51:18 +0100" Type="Text">
                                             <Title>Touriste</Title>
                                             <MetaData>
                                                 <StatusID>2</StatusID>
@@ -90,7 +90,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="38" UUID="97966B1B-1340-42E2-B337-EBD8E051659F" Created="2019-04-30 15:22:37 +0200" Modified="2019-06-11 16:46:22 +0200" Type="Text">
+                                        <BinderItem ID="38" UUID="97966B1B-1340-42E2-B337-EBD8E051659F" Created="2019-04-30 15:22:37 +0100" Modified="2019-06-11 16:46:22 +0100" Type="Text">
                                             <Title>Bourse</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -104,7 +104,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="29" UUID="F3F99C1B-1218-47E5-9EA4-8CE204F31CC3" Created="2019-04-30 11:57:14 +0200" Modified="2019-06-11 16:29:30 +0200" Type="Text">
+                                        <BinderItem ID="29" UUID="F3F99C1B-1218-47E5-9EA4-8CE204F31CC3" Created="2019-04-30 11:57:14 +0100" Modified="2019-06-11 16:29:30 +0100" Type="Text">
                                             <Title>Enfant mendiant</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -118,7 +118,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="125" UUID="5F820359-4E13-4433-83A2-5306219AA892" Created="2019-05-19 17:11:14 +0200" Modified="2019-06-11 16:28:59 +0200" Type="Text">
+                                        <BinderItem ID="125" UUID="5F820359-4E13-4433-83A2-5306219AA892" Created="2019-05-19 17:11:14 +0100" Modified="2019-06-11 16:28:59 +0100" Type="Text">
                                             <Title>Dor</Title>
                                             <MetaData>
                                                 <StatusID>5</StatusID>
@@ -130,7 +130,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="141" UUID="A8FA82DB-D908-47DB-95E7-91F6DCEE6AD6" Created="2019-05-21 15:51:52 +0200" Modified="2019-06-12 11:39:36 +0200" Type="Text">
+                                        <BinderItem ID="141" UUID="A8FA82DB-D908-47DB-95E7-91F6DCEE6AD6" Created="2019-05-21 15:51:52 +0100" Modified="2019-06-12 11:39:36 +0100" Type="Text">
                                             <Title>Sel</Title>
                                             <MetaData>
                                                 <StatusID>5</StatusID>
@@ -142,7 +142,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="142" UUID="ACD526F9-4357-4FD9-85BF-5B017E397967" Created="2019-05-21 15:51:58 +0200" Modified="2019-06-11 14:18:47 +0200" Type="Text">
+                                        <BinderItem ID="142" UUID="ACD526F9-4357-4FD9-85BF-5B017E397967" Created="2019-05-21 15:51:58 +0100" Modified="2019-06-11 14:18:47 +0100" Type="Text">
                                             <Title>Za (Chat)</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -154,7 +154,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="122" UUID="4705A43B-9434-4E8D-B399-C213363A9AB3" Created="2019-05-19 17:02:06 +0200" Modified="2019-05-21 15:09:18 +0200" Type="Folder">
+                                        <BinderItem ID="122" UUID="4705A43B-9434-4E8D-B399-C213363A9AB3" Created="2019-05-19 17:02:06 +0100" Modified="2019-05-21 15:09:18 +0100" Type="Folder">
                                             <Title>Zoom sur l'etale</Title>
                                             <MetaData>
                                                 <StatusID>4</StatusID>
@@ -164,7 +164,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="27" UUID="A6B40248-8215-437C-9EFE-8CC4BD61BE01" Created="2019-04-30 11:57:04 +0200" Modified="2019-05-19 08:56:29 +0200" Type="Folder">
+                                                <BinderItem ID="27" UUID="A6B40248-8215-437C-9EFE-8CC4BD61BE01" Created="2019-04-30 11:57:04 +0100" Modified="2019-05-19 08:56:29 +0100" Type="Folder">
                                                     <Title>Marchand</Title>
                                                     <MetaData>
                                                         <LabelID>0</LabelID>
@@ -175,7 +175,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
-                                                        <BinderItem ID="108" UUID="0EA3989A-09F7-46CC-8E44-AE550BDCFCC1" Created="2019-05-19 08:55:20 +0200" Modified="2019-06-11 16:52:29 +0200" Type="Text">
+                                                        <BinderItem ID="108" UUID="0EA3989A-09F7-46CC-8E44-AE550BDCFCC1" Created="2019-05-19 08:55:20 +0100" Modified="2019-06-11 16:52:29 +0100" Type="Text">
                                                             <Title>Marchand vendeur</Title>
                                                             <MetaData>
                                                                 <LabelID>0</LabelID>
@@ -188,7 +188,7 @@
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                         </BinderItem>
-                                                        <BinderItem ID="109" UUID="63F2E647-42F0-43FC-B45C-30055D03B183" Created="2019-05-19 08:55:33 +0200" Modified="2019-06-11 16:52:45 +0200" Type="Text">
+                                                        <BinderItem ID="109" UUID="63F2E647-42F0-43FC-B45C-30055D03B183" Created="2019-05-19 08:55:33 +0100" Modified="2019-06-11 16:52:45 +0100" Type="Text">
                                                             <Title>Marchand occupé</Title>
                                                             <MetaData>
                                                                 <StatusID>2</StatusID>
@@ -202,7 +202,7 @@
                                                         </BinderItem>
                                                     </Children>
                                                 </BinderItem>
-                                                <BinderItem ID="30" UUID="D8AD71C8-3D9F-4C39-B05A-B4AA6772E64E" Created="2019-04-30 11:57:50 +0200" Modified="2019-06-11 14:20:51 +0200" Type="Text">
+                                                <BinderItem ID="30" UUID="D8AD71C8-3D9F-4C39-B05A-B4AA6772E64E" Created="2019-04-30 11:57:50 +0100" Modified="2019-06-11 14:20:51 +0100" Type="Text">
                                                     <Title>Orna</Title>
                                                     <MetaData>
                                                         <LabelID>0</LabelID>
@@ -216,7 +216,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="31" UUID="95541F99-A681-4A70-8B8F-B9A148E6CC55" Created="2019-04-30 11:59:33 +0200" Modified="2019-06-11 14:21:33 +0200" Type="Text">
+                                                <BinderItem ID="31" UUID="95541F99-A681-4A70-8B8F-B9A148E6CC55" Created="2019-04-30 11:59:33 +0100" Modified="2019-06-11 14:21:33 +0100" Type="Text">
                                                     <Title>Bobinavias</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -229,7 +229,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="32" UUID="FCD226BA-8D56-400B-83A4-A3D9DC2C3AA5" Created="2019-04-30 11:59:40 +0200" Modified="2019-06-11 15:49:25 +0200" Type="Text">
+                                                <BinderItem ID="32" UUID="FCD226BA-8D56-400B-83A4-A3D9DC2C3AA5" Created="2019-04-30 11:59:40 +0100" Modified="2019-06-11 15:49:25 +0100" Type="Text">
                                                     <Title>Lirous</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -242,7 +242,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="33" UUID="32C51CD8-F990-4F2C-8ACF-A4D3C54EE284" Created="2019-04-30 11:59:53 +0200" Modified="2019-06-11 15:50:55 +0200" Type="Text">
+                                                <BinderItem ID="33" UUID="32C51CD8-F990-4F2C-8ACF-A4D3C54EE284" Created="2019-04-30 11:59:53 +0100" Modified="2019-06-11 15:50:55 +0100" Type="Text">
                                                     <Title>Angirions</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -255,7 +255,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="34" UUID="6B4563A9-8044-40E2-9E4B-2AB5B28A3F5D" Created="2019-04-30 12:44:21 +0200" Modified="2019-06-11 15:56:48 +0200" Type="Text">
+                                                <BinderItem ID="34" UUID="6B4563A9-8044-40E2-9E4B-2AB5B28A3F5D" Created="2019-04-30 12:44:21 +0100" Modified="2019-06-11 15:56:48 +0100" Type="Text">
                                                     <Title>Carnus</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -268,7 +268,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="35" UUID="BA0FBC69-1056-4FFB-A3E8-9B20DC8FC62C" Created="2019-04-30 12:44:27 +0200" Modified="2019-06-11 16:09:34 +0200" Type="Text">
+                                                <BinderItem ID="35" UUID="BA0FBC69-1056-4FFB-A3E8-9B20DC8FC62C" Created="2019-04-30 12:44:27 +0100" Modified="2019-06-11 16:09:34 +0100" Type="Text">
                                                     <Title>Mamasantia</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -285,7 +285,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="123" UUID="FDE05D35-5447-4667-88B5-9890FE278B4C" Created="2019-05-19 17:04:20 +0200" Modified="2019-05-21 15:09:18 +0200" Type="Folder">
+                                <BinderItem ID="123" UUID="FDE05D35-5447-4667-88B5-9890FE278B4C" Created="2019-05-19 17:04:20 +0100" Modified="2019-05-21 15:09:18 +0100" Type="Folder">
                                     <Title>Carrefour</Title>
                                     <MetaData>
                                         <StatusID>4</StatusID>
@@ -295,7 +295,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="116" UUID="7110F662-912F-458C-A605-70F28A2270B7" Created="2019-05-19 10:09:22 +0200" Modified="2019-06-11 16:56:25 +0200" Type="Text">
+                                        <BinderItem ID="116" UUID="7110F662-912F-458C-A605-70F28A2270B7" Created="2019-05-19 10:09:22 +0100" Modified="2019-06-11 16:56:25 +0100" Type="Text">
                                             <Title>Garde fixe</Title>
                                             <MetaData>
                                                 <StatusID>0</StatusID>
@@ -312,7 +312,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="149" UUID="C9374B7B-73CA-493B-8E44-11717EB8B723" Created="2019-05-22 14:39:17 +0200" Modified="2019-06-14 13:21:48 +0200" Type="Text">
+                        <BinderItem ID="149" UUID="C9374B7B-73CA-493B-8E44-11717EB8B723" Created="2019-05-22 14:39:17 +0100" Modified="2019-06-14 13:21:48 +0100" Type="Text">
                             <Title>C - Taudis</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -326,7 +326,7 @@
                                 <KeywordID>42</KeywordID>
                             </Keywords>
                         </BinderItem>
-                        <BinderItem ID="42" UUID="3A340C27-E675-4F6F-B169-2E85288CF01A" Created="2019-05-01 13:17:25 +0200" Modified="2019-05-22 14:52:51 +0200" Type="Folder">
+                        <BinderItem ID="42" UUID="3A340C27-E675-4F6F-B169-2E85288CF01A" Created="2019-05-01 13:17:25 +0100" Modified="2019-05-22 14:52:51 +0100" Type="Folder">
                             <Title>E2 - Gardes en mousse</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -340,7 +340,7 @@
                                 <KeywordID>33</KeywordID>
                             </Keywords>
                             <Children>
-                                <BinderItem ID="77" UUID="B395DC67-F250-4E1B-B6F5-21C58C0B8819" Created="2019-05-05 10:30:33 +0200" Modified="2019-06-11 13:55:35 +0200" Type="Text">
+                                <BinderItem ID="77" UUID="B395DC67-F250-4E1B-B6F5-21C58C0B8819" Created="2019-05-05 10:30:33 +0100" Modified="2019-06-11 13:55:35 +0100" Type="Text">
                                     <Title>Description</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -351,7 +351,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="63" UUID="48DDF5A5-439D-4247-B5F4-D8DF31E39CE7" Created="2019-05-05 10:06:51 +0200" Modified="2019-05-21 15:08:31 +0200" Type="Folder">
+                                <BinderItem ID="63" UUID="48DDF5A5-439D-4247-B5F4-D8DF31E39CE7" Created="2019-05-05 10:06:51 +0100" Modified="2019-05-21 15:08:31 +0100" Type="Folder">
                                     <Title>Etale du marchand (nuit)</Title>
                                     <MetaData>
                                         <StatusID>4</StatusID>
@@ -361,7 +361,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="124" UUID="3CD0B8BF-E800-4E1B-A706-834C5936C09E" Created="2019-05-19 17:10:41 +0200" Modified="2019-05-22 14:39:06 +0200" Type="Text">
+                                        <BinderItem ID="124" UUID="3CD0B8BF-E800-4E1B-A706-834C5936C09E" Created="2019-05-19 17:10:41 +0100" Modified="2019-05-22 14:39:06 +0100" Type="Text">
                                             <Title>Dor</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -374,7 +374,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="126" UUID="BDAE2562-AE86-48FF-904B-1C4D8FD2733E" Created="2019-05-19 17:22:34 +0200" Modified="2019-06-11 16:53:22 +0200" Type="Text">
+                                        <BinderItem ID="126" UUID="BDAE2562-AE86-48FF-904B-1C4D8FD2733E" Created="2019-05-19 17:22:34 +0100" Modified="2019-06-11 16:53:22 +0100" Type="Text">
                                             <Title>Bobinavia moisie</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -389,7 +389,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="118" UUID="413C1C08-6F05-41EC-90BD-A9A29252CD4E" Created="2019-05-19 10:14:49 +0200" Modified="2019-05-21 15:08:35 +0200" Type="Folder">
+                                <BinderItem ID="118" UUID="413C1C08-6F05-41EC-90BD-A9A29252CD4E" Created="2019-05-19 10:14:49 +0100" Modified="2019-05-21 15:08:35 +0100" Type="Folder">
                                     <Title>Carrefour</Title>
                                     <MetaData>
                                         <StatusID>4</StatusID>
@@ -399,7 +399,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="127" UUID="13A8AA75-EA4D-4219-A5C1-D98365B23020" Created="2019-05-19 17:28:24 +0200" Modified="2019-05-22 11:59:35 +0200" Type="Text">
+                                        <BinderItem ID="127" UUID="13A8AA75-EA4D-4219-A5C1-D98365B23020" Created="2019-05-19 17:28:24 +0100" Modified="2019-05-22 11:59:35 +0100" Type="Text">
                                             <Title>Garde fixe</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -413,7 +413,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="119" UUID="39E694FA-DC81-43DB-99D0-ADFF68EE93B4" Created="2019-05-19 16:31:16 +0200" Modified="2019-05-21 15:09:07 +0200" Type="Folder">
+                                <BinderItem ID="119" UUID="39E694FA-DC81-43DB-99D0-ADFF68EE93B4" Created="2019-05-19 16:31:16 +0100" Modified="2019-05-21 15:09:07 +0100" Type="Folder">
                                     <Title>Taudis</Title>
                                     <MetaData>
                                         <LabelID>1</LabelID>
@@ -424,7 +424,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="129" UUID="0F4826AC-97F8-4EF2-8F93-144E00050CBE" Created="2019-05-19 18:22:57 +0200" Modified="2019-06-11 16:56:52 +0200" Type="Text">
+                                        <BinderItem ID="129" UUID="0F4826AC-97F8-4EF2-8F93-144E00050CBE" Created="2019-05-19 18:22:57 +0100" Modified="2019-06-11 16:56:52 +0100" Type="Text">
                                             <Title>Carnet de note</Title>
                                             <MetaData>
                                                 <StatusID>5</StatusID>
@@ -436,7 +436,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="130" UUID="E38FAA16-7C9E-48CC-B01E-3C9B5A7E0942" Created="2019-05-19 18:23:02 +0200" Modified="2019-06-11 17:04:54 +0200" Type="Text">
+                                        <BinderItem ID="130" UUID="E38FAA16-7C9E-48CC-B01E-3C9B5A7E0942" Created="2019-05-19 18:23:02 +0100" Modified="2019-06-11 17:04:54 +0100" Type="Text">
                                             <Title>Carte de la ville</Title>
                                             <MetaData>
                                                 <StatusID>5</StatusID>
@@ -451,7 +451,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="120" UUID="CDD2CE81-D163-458D-A015-73867B299E45" Created="2019-05-19 16:31:47 +0200" Modified="2019-05-21 15:08:35 +0200" Type="Folder">
+                                <BinderItem ID="120" UUID="CDD2CE81-D163-458D-A015-73867B299E45" Created="2019-05-19 16:31:47 +0100" Modified="2019-05-21 15:08:35 +0100" Type="Folder">
                                     <Title>Entree du palais</Title>
                                     <MetaData>
                                         <StatusID>4</StatusID>
@@ -461,7 +461,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="131" UUID="7A1007CF-78B4-408D-839C-3C5001B4BACA" Created="2019-05-19 18:26:32 +0200" Modified="2019-06-11 17:41:30 +0200" Type="Text">
+                                        <BinderItem ID="131" UUID="7A1007CF-78B4-408D-839C-3C5001B4BACA" Created="2019-05-19 18:26:32 +0100" Modified="2019-06-11 17:41:30 +0100" Type="Text">
                                             <Title>Garde gentil</Title>
                                             <MetaData>
                                                 <StatusID>0</StatusID>
@@ -473,7 +473,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="132" UUID="E0454C29-E704-4932-93ED-C196E4E4CFBC" Created="2019-05-19 18:26:36 +0200" Modified="2019-06-11 17:43:04 +0200" Type="Text">
+                                        <BinderItem ID="132" UUID="E0454C29-E704-4932-93ED-C196E4E4CFBC" Created="2019-05-19 18:26:36 +0100" Modified="2019-06-11 17:43:04 +0100" Type="Text">
                                             <Title>Garde méchant</Title>
                                             <MetaData>
                                                 <StatusID>0</StatusID>
@@ -485,7 +485,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="148" UUID="053FFB77-4C8C-480D-96A8-AB63132BCA0E" Created="2019-05-22 14:12:02 +0200" Modified="2019-06-11 17:47:16 +0200" Type="Text">
+                                        <BinderItem ID="148" UUID="053FFB77-4C8C-480D-96A8-AB63132BCA0E" Created="2019-05-22 14:12:02 +0100" Modified="2019-06-11 17:47:16 +0100" Type="Text">
                                             <Title>Portes</Title>
                                             <MetaData>
                                                 <StatusID>2</StatusID>
@@ -497,7 +497,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="133" UUID="21538622-9A79-4B6E-9804-68BDFE14AC46" Created="2019-05-19 18:26:40 +0200" Modified="2019-06-11 17:46:16 +0200" Type="Text">
+                                        <BinderItem ID="133" UUID="21538622-9A79-4B6E-9804-68BDFE14AC46" Created="2019-05-19 18:26:40 +0100" Modified="2019-06-11 17:46:16 +0100" Type="Text">
                                             <Title>Grille du palais</Title>
                                             <MetaData>
                                                 <StatusID>1</StatusID>
@@ -513,7 +513,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="150" UUID="7D963015-9936-414D-8EC6-C8D80160348B" Created="2019-05-22 14:41:56 +0200" Modified="2019-05-24 18:13:21 +0200" Type="Text">
+                        <BinderItem ID="150" UUID="7D963015-9936-414D-8EC6-C8D80160348B" Created="2019-05-22 14:41:56 +0100" Modified="2019-05-24 18:13:21 +0100" Type="Text">
                             <Title>R - Labyrinth du palais</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -527,7 +527,7 @@
                                 <KeywordID>43</KeywordID>
                             </Keywords>
                         </BinderItem>
-                        <BinderItem ID="219" UUID="B1DF9D0F-0231-4FD0-AB6A-5362A5EC28BA" Created="2019-06-14 13:20:55 +0200" Modified="2019-06-14 18:17:17 +0200" Type="Text">
+                        <BinderItem ID="219" UUID="B1DF9D0F-0231-4FD0-AB6A-5362A5EC28BA" Created="2019-06-14 13:20:55 +0100" Modified="2019-06-14 18:17:17 +0100" Type="Text">
                             <Title>C - Accueil</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -541,7 +541,7 @@
                                 <KeywordID>42</KeywordID>
                             </Keywords>
                         </BinderItem>
-                        <BinderItem ID="151" UUID="6A71D1CA-8138-4726-9524-E8DD2DF93E49" Created="2019-05-22 14:49:56 +0200" Modified="2019-06-08 13:21:44 +0200" Type="Folder">
+                        <BinderItem ID="151" UUID="6A71D1CA-8138-4726-9524-E8DD2DF93E49" Created="2019-05-22 14:49:56 +0100" Modified="2019-06-08 13:21:44 +0100" Type="Folder">
                             <Title>E3 - La puissance</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -555,7 +555,7 @@
                                 <KeywordID>45</KeywordID>
                             </Keywords>
                             <Children>
-                                <BinderItem ID="155" UUID="69AF0706-BCB9-4860-A684-4EB6F953C16B" Created="2019-05-22 14:58:17 +0200" Modified="2019-06-29 17:20:18 +0200" Type="Text">
+                                <BinderItem ID="155" UUID="69AF0706-BCB9-4860-A684-4EB6F953C16B" Created="2019-05-22 14:58:17 +0100" Modified="2019-06-29 17:20:18 +0100" Type="Text">
                                     <Title>Description</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -567,7 +567,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="156" UUID="A26520DD-FEB1-465D-8CA6-3B97C67AEB50" Created="2019-05-26 15:43:19 +0200" Modified="2019-05-31 13:09:03 +0200" Type="Folder">
+                                <BinderItem ID="156" UUID="A26520DD-FEB1-465D-8CA6-3B97C67AEB50" Created="2019-05-26 15:43:19 +0100" Modified="2019-05-31 13:09:03 +0100" Type="Folder">
                                     <Title>Bibliotheque</Title>
                                     <MetaData>
                                         <LabelID>1</LabelID>
@@ -578,7 +578,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="173" UUID="FB1BD796-5FA4-4D41-A0F9-29BF84D10C27" Created="2019-05-31 12:53:10 +0200" Modified="2019-06-12 11:38:26 +0200" Type="Text">
+                                        <BinderItem ID="173" UUID="FB1BD796-5FA4-4D41-A0F9-29BF84D10C27" Created="2019-05-31 12:53:10 +0100" Modified="2019-06-12 11:38:26 +0100" Type="Text">
                                             <Title>Pentacle</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -590,7 +590,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="174" UUID="62C061F1-52C7-492E-9E48-3C4B2A7FDE0D" Created="2019-05-31 12:53:14 +0200" Modified="2019-06-26 16:09:08 +0200" Type="Text">
+                                        <BinderItem ID="174" UUID="62C061F1-52C7-492E-9E48-3C4B2A7FDE0D" Created="2019-05-31 12:53:14 +0100" Modified="2019-06-26 16:09:08 +0100" Type="Text">
                                             <Title>Lorinia</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -603,7 +603,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="175" UUID="F62584B8-6E91-486E-B7F4-93691641B45A" Created="2019-05-31 12:53:29 +0200" Modified="2019-06-22 17:15:57 +0200" Type="Text">
+                                        <BinderItem ID="175" UUID="F62584B8-6E91-486E-B7F4-93691641B45A" Created="2019-05-31 12:53:29 +0100" Modified="2019-06-22 17:15:57 +0100" Type="Text">
                                             <Title>Ross</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -615,7 +615,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="176" UUID="7843C5DD-23EA-4B93-BFE9-88D2C252B2E7" Created="2019-05-31 12:53:31 +0200" Modified="2019-06-17 15:22:34 +0200" Type="Text">
+                                        <BinderItem ID="176" UUID="7843C5DD-23EA-4B93-BFE9-88D2C252B2E7" Created="2019-05-31 12:53:31 +0100" Modified="2019-06-17 15:22:34 +0100" Type="Text">
                                             <Title>Anir</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -627,7 +627,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="177" UUID="BEADB29E-8B62-46E7-B2FA-924F1C84A765" Created="2019-05-31 12:53:33 +0200" Modified="2019-06-17 15:27:22 +0200" Type="Text">
+                                        <BinderItem ID="177" UUID="BEADB29E-8B62-46E7-B2FA-924F1C84A765" Created="2019-05-31 12:53:33 +0100" Modified="2019-06-17 15:27:22 +0100" Type="Text">
                                             <Title>Herm</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -639,7 +639,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="209" UUID="461B893F-0234-4B5B-B862-86B697C62D1C" Created="2019-06-03 10:45:44 +0200" Modified="2019-06-28 15:51:15 +0200" Type="Text">
+                                        <BinderItem ID="209" UUID="461B893F-0234-4B5B-B862-86B697C62D1C" Created="2019-06-03 10:45:44 +0100" Modified="2019-06-28 15:51:15 +0100" Type="Text">
                                             <Title>Livre 1 - Histoire</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -651,7 +651,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="212" UUID="F5C58E14-7CDE-4DD7-8E72-1E2584850710" Created="2019-06-08 17:25:13 +0200" Modified="2019-06-25 16:01:58 +0200" Type="Text">
+                                        <BinderItem ID="212" UUID="F5C58E14-7CDE-4DD7-8E72-1E2584850710" Created="2019-06-08 17:25:13 +0100" Modified="2019-06-25 16:01:58 +0100" Type="Text">
                                             <Title>Livre 2 - Traitès</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -662,7 +662,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="213" UUID="71C19B00-D483-404F-BC80-0728E9946AEB" Created="2019-06-08 17:25:16 +0200" Modified="2019-06-28 14:50:14 +0200" Type="Text">
+                                        <BinderItem ID="213" UUID="71C19B00-D483-404F-BC80-0728E9946AEB" Created="2019-06-08 17:25:16 +0100" Modified="2019-06-28 14:50:14 +0100" Type="Text">
                                             <Title>Livre 3 - Les grands</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -673,7 +673,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="214" UUID="CAB4803B-BAD5-4B5A-B15A-9DD7F4C221DF" Created="2019-06-09 09:52:35 +0200" Modified="2019-06-29 17:07:46 +0200" Type="Text">
+                                        <BinderItem ID="214" UUID="CAB4803B-BAD5-4B5A-B15A-9DD7F4C221DF" Created="2019-06-09 09:52:35 +0100" Modified="2019-06-29 17:07:46 +0100" Type="Text">
                                             <Title>Coffre doré</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -686,7 +686,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="217" UUID="548D3B57-A7A2-4B5D-989E-93CF81877DCA" Created="2019-06-12 11:38:51 +0200" Modified="2019-06-29 17:11:51 +0200" Type="Text">
+                                        <BinderItem ID="217" UUID="548D3B57-A7A2-4B5D-989E-93CF81877DCA" Created="2019-06-12 11:38:51 +0100" Modified="2019-06-29 17:11:51 +0100" Type="Text">
                                             <Title>Repaire du scubrock</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -699,7 +699,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="221" UUID="F82AEA84-AF67-45D6-BD7E-7F3C04E360EB" Created="2019-06-28 16:15:45 +0200" Modified="2019-06-29 17:19:59 +0200" Type="Text">
+                                        <BinderItem ID="221" UUID="F82AEA84-AF67-45D6-BD7E-7F3C04E360EB" Created="2019-06-28 16:15:45 +0100" Modified="2019-06-29 17:19:59 +0100" Type="Text">
                                             <Title>Scubrock</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -714,7 +714,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="157" UUID="FFD8394B-1C71-4FA6-B42E-B84818457FE6" Created="2019-05-26 15:43:32 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
+                                <BinderItem ID="157" UUID="FFD8394B-1C71-4FA6-B42E-B84818457FE6" Created="2019-05-26 15:43:32 +0100" Modified="2019-09-19 15:54:40 +0100" Type="Folder">
                                     <Title>Porte du palais</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -723,7 +723,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="158" UUID="131F8903-6677-4177-9792-C30E980A1D3A" Created="2019-05-26 15:43:37 +0200" Modified="2019-05-26 15:48:23 +0200" Type="Folder">
+                                <BinderItem ID="158" UUID="131F8903-6677-4177-9792-C30E980A1D3A" Created="2019-05-26 15:43:37 +0100" Modified="2019-05-26 15:48:23 +0100" Type="Folder">
                                     <Title>Grande place</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -732,7 +732,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="180" UUID="0B11FD13-F660-4B2F-AED0-34416FBEB841" Created="2019-05-31 13:09:33 +0200" Modified="2019-05-31 13:10:31 +0200" Type="Text">
+                                        <BinderItem ID="180" UUID="0B11FD13-F660-4B2F-AED0-34416FBEB841" Created="2019-05-31 13:09:33 +0100" Modified="2019-05-31 13:10:31 +0100" Type="Text">
                                             <Title>Fontaine</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -744,7 +744,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="181" UUID="03BAF9D8-45AA-4B6A-AE05-E65B29FDE1F5" Created="2019-05-31 13:09:36 +0200" Modified="2019-05-31 13:10:31 +0200" Type="Text">
+                                        <BinderItem ID="181" UUID="03BAF9D8-45AA-4B6A-AE05-E65B29FDE1F5" Created="2019-05-31 13:09:36 +0100" Modified="2019-05-31 13:10:31 +0100" Type="Text">
                                             <Title>Vieille femme</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -756,7 +756,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="182" UUID="1A7958EC-74C8-4B8C-B0F0-514C70ED01C2" Created="2019-05-31 13:09:40 +0200" Modified="2019-05-31 13:10:31 +0200" Type="Text">
+                                        <BinderItem ID="182" UUID="1A7958EC-74C8-4B8C-B0F0-514C70ED01C2" Created="2019-05-31 13:09:40 +0100" Modified="2019-05-31 13:10:31 +0100" Type="Text">
                                             <Title>Couple</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -769,7 +769,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="159" UUID="8F3D0E9F-6BB0-47A8-8BAB-4F9A8D7FE729" Created="2019-05-26 15:43:41 +0200" Modified="2019-05-26 15:48:59 +0200" Type="Folder">
+                                <BinderItem ID="159" UUID="8F3D0E9F-6BB0-47A8-8BAB-4F9A8D7FE729" Created="2019-05-26 15:43:41 +0100" Modified="2019-05-26 15:48:59 +0100" Type="Folder">
                                     <Title>Quartier bourge</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -778,7 +778,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="160" UUID="A6A3A2F4-466D-4296-A304-471BCA57BCFD" Created="2019-05-26 15:43:47 +0200" Modified="2019-05-26 15:49:10 +0200" Type="Folder">
+                                <BinderItem ID="160" UUID="A6A3A2F4-466D-4296-A304-471BCA57BCFD" Created="2019-05-26 15:43:47 +0100" Modified="2019-05-26 15:49:10 +0100" Type="Folder">
                                     <Title>Carrefour</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -787,7 +787,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="183" UUID="4B22A581-39EA-4E5B-8B0B-CD6ECCC4A6DB" Created="2019-05-31 13:10:40 +0200" Modified="2019-05-31 13:12:33 +0200" Type="Text">
+                                        <BinderItem ID="183" UUID="4B22A581-39EA-4E5B-8B0B-CD6ECCC4A6DB" Created="2019-05-31 13:10:40 +0100" Modified="2019-05-31 13:12:33 +0100" Type="Text">
                                             <Title>Garde fixe</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -800,7 +800,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="161" UUID="5B11D54B-E9F3-4C5E-8F64-8987F84688DD" Created="2019-05-26 15:43:53 +0200" Modified="2019-05-26 15:49:27 +0200" Type="Folder">
+                                <BinderItem ID="161" UUID="5B11D54B-E9F3-4C5E-8F64-8987F84688DD" Created="2019-05-26 15:43:53 +0100" Modified="2019-05-26 15:49:27 +0100" Type="Folder">
                                     <Title>Etale du marchand</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -809,7 +809,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="184" UUID="F78EC8E9-49E2-4A19-B5AC-EB0EF2BA2D93" Created="2019-05-31 13:11:03 +0200" Modified="2019-05-31 13:12:26 +0200" Type="Text">
+                                        <BinderItem ID="184" UUID="F78EC8E9-49E2-4A19-B5AC-EB0EF2BA2D93" Created="2019-05-31 13:11:03 +0100" Modified="2019-05-31 13:12:26 +0100" Type="Text">
                                             <Title>Marchand</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -820,7 +820,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="215" UUID="2B10A388-8B2E-4BAA-80EC-E6E3FAE3A7BB" Created="2019-06-11 12:01:47 +0200" Modified="2019-06-11 13:54:41 +0200" Type="Text">
+                                        <BinderItem ID="215" UUID="2B10A388-8B2E-4BAA-80EC-E6E3FAE3A7BB" Created="2019-06-11 12:01:47 +0100" Modified="2019-06-11 13:54:41 +0100" Type="Text">
                                             <Title>Sel</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -835,7 +835,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="162" UUID="CCF50365-4BF4-4C6D-B0CE-893B7D8F0511" Created="2019-05-26 15:44:01 +0200" Modified="2019-05-26 15:49:46 +0200" Type="Folder">
+                                <BinderItem ID="162" UUID="CCF50365-4BF4-4C6D-B0CE-893B7D8F0511" Created="2019-05-26 15:44:01 +0100" Modified="2019-05-26 15:49:46 +0100" Type="Folder">
                                     <Title>Etale de bijoux</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -844,7 +844,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="163" UUID="52AD45A5-F371-4947-AD20-074467E85EA6" Created="2019-05-26 15:44:15 +0200" Modified="2019-05-31 13:11:27 +0200" Type="Folder">
+                                        <BinderItem ID="163" UUID="52AD45A5-F371-4947-AD20-074467E85EA6" Created="2019-05-26 15:44:15 +0100" Modified="2019-05-31 13:11:27 +0100" Type="Folder">
                                             <Title>Zoom sur l'etale de bijoux</Title>
                                             <MetaData>
                                                 <StatusID>4</StatusID>
@@ -854,7 +854,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="185" UUID="1447033C-49F1-4D7F-91EE-CB49314F7BC2" Created="2019-05-31 13:11:35 +0200" Modified="2019-05-31 13:12:18 +0200" Type="Text">
+                                                <BinderItem ID="185" UUID="1447033C-49F1-4D7F-91EE-CB49314F7BC2" Created="2019-05-31 13:11:35 +0100" Modified="2019-05-31 13:12:18 +0100" Type="Text">
                                                     <Title>Collier du destin</Title>
                                                     <MetaData>
                                                         <LabelID>0</LabelID>
@@ -866,7 +866,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="186" UUID="C1C9103B-EF38-4B70-99C0-550757491DAA" Created="2019-05-31 13:11:41 +0200" Modified="2019-05-31 13:12:18 +0200" Type="Text">
+                                                <BinderItem ID="186" UUID="C1C9103B-EF38-4B70-99C0-550757491DAA" Created="2019-05-31 13:11:41 +0100" Modified="2019-05-31 13:12:18 +0100" Type="Text">
                                                     <Title>Boucles d'oreilles</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -877,7 +877,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="187" UUID="12F281F7-877F-4B7A-98D7-C6B459234BD0" Created="2019-05-31 13:11:46 +0200" Modified="2019-05-31 13:12:18 +0200" Type="Text">
+                                                <BinderItem ID="187" UUID="12F281F7-877F-4B7A-98D7-C6B459234BD0" Created="2019-05-31 13:11:46 +0100" Modified="2019-05-31 13:12:18 +0100" Type="Text">
                                                     <Title>Colliers banales</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -888,7 +888,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="188" UUID="FC4EA10E-EC2F-4214-BC38-C98CF5C5BEE7" Created="2019-05-31 13:11:57 +0200" Modified="2019-05-31 13:12:18 +0200" Type="Text">
+                                                <BinderItem ID="188" UUID="FC4EA10E-EC2F-4214-BC38-C98CF5C5BEE7" Created="2019-05-31 13:11:57 +0100" Modified="2019-05-31 13:12:18 +0100" Type="Text">
                                                     <Title>Pierres precieuses</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -903,7 +903,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="164" UUID="61B64CF3-C640-4958-90D0-5742344D1B12" Created="2019-05-26 15:44:24 +0200" Modified="2019-05-26 15:50:04 +0200" Type="Folder">
+                                <BinderItem ID="164" UUID="61B64CF3-C640-4958-90D0-5742344D1B12" Created="2019-05-26 15:44:24 +0100" Modified="2019-05-26 15:50:04 +0100" Type="Folder">
                                     <Title>Porte Ouest</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -912,7 +912,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="189" UUID="F36C996C-EDDE-4F58-BC31-04ED7B8A1CC7" Created="2019-05-31 13:12:43 +0200" Modified="2019-05-31 13:13:17 +0200" Type="Text">
+                                        <BinderItem ID="189" UUID="F36C996C-EDDE-4F58-BC31-04ED7B8A1CC7" Created="2019-05-31 13:12:43 +0100" Modified="2019-05-31 13:13:17 +0100" Type="Text">
                                             <Title>Poste de garde 1</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -923,7 +923,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="190" UUID="C3F0B50C-0422-455D-868D-9E405F207F72" Created="2019-05-31 13:12:49 +0200" Modified="2019-05-31 13:13:17 +0200" Type="Text">
+                                        <BinderItem ID="190" UUID="C3F0B50C-0422-455D-868D-9E405F207F72" Created="2019-05-31 13:12:49 +0100" Modified="2019-05-31 13:13:17 +0100" Type="Text">
                                             <Title>Poste de garde 2</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -934,7 +934,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="191" UUID="CB673B40-9CEA-40EF-9DF5-F89195429BD6" Created="2019-05-31 13:12:54 +0200" Modified="2019-05-31 13:13:17 +0200" Type="Text">
+                                        <BinderItem ID="191" UUID="CB673B40-9CEA-40EF-9DF5-F89195429BD6" Created="2019-05-31 13:12:54 +0100" Modified="2019-05-31 13:13:17 +0100" Type="Text">
                                             <Title>Grille de la porte</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -947,7 +947,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="165" UUID="96913B99-734D-4672-B4CC-72048C024B6E" Created="2019-05-26 15:44:31 +0200" Modified="2019-05-26 15:50:32 +0200" Type="Folder">
+                                <BinderItem ID="165" UUID="96913B99-734D-4672-B4CC-72048C024B6E" Created="2019-05-26 15:44:31 +0100" Modified="2019-05-26 15:50:32 +0100" Type="Folder">
                                     <Title>Ebeniste</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -956,7 +956,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="192" UUID="2EE5A5F4-C919-4772-B6DD-BB37F8F35B9E" Created="2019-05-31 13:13:50 +0200" Modified="2019-05-31 13:14:02 +0200" Type="Text">
+                                        <BinderItem ID="192" UUID="2EE5A5F4-C919-4772-B6DD-BB37F8F35B9E" Created="2019-05-31 13:13:50 +0100" Modified="2019-05-31 13:14:02 +0100" Type="Text">
                                             <Title>Vitrine</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -967,7 +967,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="166" UUID="F944F5AE-E2DC-4D19-9819-8CC2F1E62B21" Created="2019-05-26 15:44:34 +0200" Modified="2019-05-31 13:13:27 +0200" Type="Folder">
+                                        <BinderItem ID="166" UUID="F944F5AE-E2DC-4D19-9819-8CC2F1E62B21" Created="2019-05-26 15:44:34 +0100" Modified="2019-05-31 13:13:27 +0100" Type="Folder">
                                             <Title>Ebeniste (interieur)</Title>
                                             <MetaData>
                                                 <StatusID>4</StatusID>
@@ -977,7 +977,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="193" UUID="9230EBAE-B7E7-4D4C-A88B-E6E0E067A3EC" Created="2019-05-31 13:14:05 +0200" Modified="2019-05-31 13:14:34 +0200" Type="Text">
+                                                <BinderItem ID="193" UUID="9230EBAE-B7E7-4D4C-A88B-E6E0E067A3EC" Created="2019-05-31 13:14:05 +0100" Modified="2019-05-31 13:14:34 +0100" Type="Text">
                                                     <Title>Chaise</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -988,7 +988,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="194" UUID="E6F30BDC-57A1-4E64-9F5E-9CC28AC9AE7D" Created="2019-05-31 13:14:08 +0200" Modified="2019-05-31 13:14:34 +0200" Type="Text">
+                                                <BinderItem ID="194" UUID="E6F30BDC-57A1-4E64-9F5E-9CC28AC9AE7D" Created="2019-05-31 13:14:08 +0100" Modified="2019-05-31 13:14:34 +0100" Type="Text">
                                                     <Title>Meuble</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -999,7 +999,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="195" UUID="FE967EB3-25DA-456A-91A5-21F6A0E81F1F" Created="2019-05-31 13:14:11 +0200" Modified="2019-05-31 13:14:34 +0200" Type="Text">
+                                                <BinderItem ID="195" UUID="FE967EB3-25DA-456A-91A5-21F6A0E81F1F" Created="2019-05-31 13:14:11 +0100" Modified="2019-05-31 13:14:34 +0100" Type="Text">
                                                     <Title>Outils</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -1010,7 +1010,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="196" UUID="386B4E89-E59F-469C-BDC5-1E2BB69FA774" Created="2019-05-31 13:14:13 +0200" Modified="2019-05-31 13:14:34 +0200" Type="Text">
+                                                <BinderItem ID="196" UUID="386B4E89-E59F-469C-BDC5-1E2BB69FA774" Created="2019-05-31 13:14:13 +0100" Modified="2019-05-31 13:14:34 +0100" Type="Text">
                                                     <Title>Ebeniste</Title>
                                                     <MetaData>
                                                         <LabelID>0</LabelID>
@@ -1026,7 +1026,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="167" UUID="3372A33C-6074-4EC6-A0A0-3745987137EC" Created="2019-05-26 15:45:50 +0200" Modified="2019-05-26 15:50:46 +0200" Type="Folder">
+                                <BinderItem ID="167" UUID="3372A33C-6074-4EC6-A0A0-3745987137EC" Created="2019-05-26 15:45:50 +0100" Modified="2019-05-26 15:50:46 +0100" Type="Folder">
                                     <Title>Bijoutier</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1035,7 +1035,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="197" UUID="70B68519-75D4-4A29-92B2-7DCE36F4B9CA" Created="2019-05-31 13:14:40 +0200" Modified="2019-05-31 13:14:51 +0200" Type="Text">
+                                        <BinderItem ID="197" UUID="70B68519-75D4-4A29-92B2-7DCE36F4B9CA" Created="2019-05-31 13:14:40 +0100" Modified="2019-05-31 13:14:51 +0100" Type="Text">
                                             <Title>Vitrine</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -1046,7 +1046,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="168" UUID="9CD39536-D551-4701-ADA4-7DD8E6441B7E" Created="2019-05-26 15:45:55 +0200" Modified="2019-05-31 13:14:56 +0200" Type="Folder">
+                                        <BinderItem ID="168" UUID="9CD39536-D551-4701-ADA4-7DD8E6441B7E" Created="2019-05-26 15:45:55 +0100" Modified="2019-05-31 13:14:56 +0100" Type="Folder">
                                             <Title>Bijoutier (interieur)</Title>
                                             <MetaData>
                                                 <StatusID>4</StatusID>
@@ -1056,7 +1056,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="198" UUID="A99EE40D-66F6-41B3-8B2E-36471B559943" Created="2019-05-31 13:15:02 +0200" Modified="2019-05-31 13:15:31 +0200" Type="Text">
+                                                <BinderItem ID="198" UUID="A99EE40D-66F6-41B3-8B2E-36471B559943" Created="2019-05-31 13:15:02 +0100" Modified="2019-05-31 13:15:31 +0100" Type="Text">
                                                     <Title>Bijoux</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -1067,7 +1067,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="199" UUID="DC127473-4D69-422B-BD8D-FCB4F9469F7E" Created="2019-05-31 13:15:04 +0200" Modified="2019-05-31 13:15:31 +0200" Type="Text">
+                                                <BinderItem ID="199" UUID="DC127473-4D69-422B-BD8D-FCB4F9469F7E" Created="2019-05-31 13:15:04 +0100" Modified="2019-05-31 13:15:31 +0100" Type="Text">
                                                     <Title>Bijoutier</Title>
                                                     <MetaData>
                                                         <LabelID>0</LabelID>
@@ -1083,7 +1083,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="169" UUID="84E2DFC3-74FA-48AD-8699-F6AE3B00933F" Created="2019-05-26 15:46:11 +0200" Modified="2019-05-26 15:51:13 +0200" Type="Folder">
+                                <BinderItem ID="169" UUID="84E2DFC3-74FA-48AD-8699-F6AE3B00933F" Created="2019-05-26 15:46:11 +0100" Modified="2019-05-26 15:51:13 +0100" Type="Folder">
                                     <Title>Coin de rue (alchimiste / armurier)</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1092,7 +1092,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="200" UUID="57EB2076-B528-4F33-AA0A-C56C1AF2AA79" Created="2019-05-31 13:15:35 +0200" Modified="2019-05-31 13:15:46 +0200" Type="Text">
+                                        <BinderItem ID="200" UUID="57EB2076-B528-4F33-AA0A-C56C1AF2AA79" Created="2019-05-31 13:15:35 +0100" Modified="2019-05-31 13:15:46 +0100" Type="Text">
                                             <Title>Panneau</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -1105,7 +1105,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="170" UUID="27DBE091-3632-4AC1-A576-3869A0AEE73D" Created="2019-05-26 15:46:26 +0200" Modified="2019-05-26 15:51:19 +0200" Type="Folder">
+                                <BinderItem ID="170" UUID="27DBE091-3632-4AC1-A576-3869A0AEE73D" Created="2019-05-26 15:46:26 +0100" Modified="2019-05-26 15:51:19 +0100" Type="Folder">
                                     <Title>Alchimiste (facade)</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1114,7 +1114,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="201" UUID="6A59CCE9-297A-4F73-B787-26F90A58C860" Created="2019-05-31 13:15:49 +0200" Modified="2019-05-31 13:16:19 +0200" Type="Text">
+                                        <BinderItem ID="201" UUID="6A59CCE9-297A-4F73-B787-26F90A58C860" Created="2019-05-31 13:15:49 +0100" Modified="2019-05-31 13:16:19 +0100" Type="Text">
                                             <Title>Vitrine</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -1125,7 +1125,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="172" UUID="2A24C050-0AFC-42D8-B39D-55AFF2F415AB" Created="2019-05-31 10:51:02 +0200" Modified="2019-05-31 13:16:23 +0200" Type="Folder">
+                                        <BinderItem ID="172" UUID="2A24C050-0AFC-42D8-B39D-55AFF2F415AB" Created="2019-05-31 10:51:02 +0100" Modified="2019-05-31 13:16:23 +0100" Type="Folder">
                                             <Title>Alchimiste (interieur)</Title>
                                             <MetaData>
                                                 <StatusID>4</StatusID>
@@ -1135,7 +1135,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="203" UUID="F1BDF413-959D-4341-BC3A-0BCA2F247661" Created="2019-05-31 13:16:36 +0200" Modified="2019-05-31 13:17:49 +0200" Type="Text">
+                                                <BinderItem ID="203" UUID="F1BDF413-959D-4341-BC3A-0BCA2F247661" Created="2019-05-31 13:16:36 +0100" Modified="2019-05-31 13:17:49 +0100" Type="Text">
                                                     <Title>Fioles pleines</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -1146,7 +1146,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="204" UUID="691BF22C-1348-4DFE-A890-D8A487F16C9E" Created="2019-05-31 13:16:40 +0200" Modified="2019-05-31 13:17:49 +0200" Type="Text">
+                                                <BinderItem ID="204" UUID="691BF22C-1348-4DFE-A890-D8A487F16C9E" Created="2019-05-31 13:16:40 +0100" Modified="2019-05-31 13:17:49 +0100" Type="Text">
                                                     <Title>Fioles vide</Title>
                                                     <MetaData>
                                                         <StatusID>3</StatusID>
@@ -1157,7 +1157,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="205" UUID="CD2FE184-0280-49C0-8A1B-CFA63FF875C2" Created="2019-05-31 13:16:55 +0200" Modified="2019-05-31 13:17:49 +0200" Type="Text">
+                                                <BinderItem ID="205" UUID="CD2FE184-0280-49C0-8A1B-CFA63FF875C2" Created="2019-05-31 13:16:55 +0100" Modified="2019-05-31 13:17:49 +0100" Type="Text">
                                                     <Title>Alchimiste</Title>
                                                     <MetaData>
                                                         <LabelID>0</LabelID>
@@ -1173,7 +1173,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="171" UUID="356E623A-4DFF-4A74-BA9D-986FFD098C18" Created="2019-05-26 15:46:35 +0200" Modified="2019-05-26 15:51:24 +0200" Type="Folder">
+                                <BinderItem ID="171" UUID="356E623A-4DFF-4A74-BA9D-986FFD098C18" Created="2019-05-26 15:46:35 +0100" Modified="2019-05-26 15:51:24 +0100" Type="Folder">
                                     <Title>Alchimiste (arriere boutique)</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1182,7 +1182,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="206" UUID="8FFD4D8A-509B-463E-9842-775914877E9C" Created="2019-05-31 13:18:00 +0200" Modified="2019-05-31 13:18:31 +0200" Type="Text">
+                                        <BinderItem ID="206" UUID="8FFD4D8A-509B-463E-9842-775914877E9C" Created="2019-05-31 13:18:00 +0100" Modified="2019-05-31 13:18:31 +0100" Type="Text">
                                             <Title>Evacuation des fumées</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -1193,7 +1193,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="207" UUID="CBD24136-2064-4D3D-A2B7-5EF70B9B90ED" Created="2019-05-31 13:18:05 +0200" Modified="2019-05-31 13:18:31 +0200" Type="Text">
+                                        <BinderItem ID="207" UUID="CBD24136-2064-4D3D-A2B7-5EF70B9B90ED" Created="2019-05-31 13:18:05 +0100" Modified="2019-05-31 13:18:31 +0100" Type="Text">
                                             <Title>Poubelles</Title>
                                             <MetaData>
                                                 <LabelID>0</LabelID>
@@ -1211,7 +1211,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="6" UUID="1EF244C4-A26C-43CA-AA7B-2636139FEEEF" Created="2019-04-29 16:50:38 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                <BinderItem ID="6" UUID="1EF244C4-A26C-43CA-AA7B-2636139FEEEF" Created="2019-04-29 16:50:38 +0100" Modified="2019-04-30 15:15:32 +0100" Type="Folder">
                     <Title>Lexique</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1221,7 +1221,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="145" UUID="C85363C0-E3E7-49FB-BF05-AA76DA80CCDE" Created="2019-05-21 15:55:39 +0200" Modified="2019-05-21 16:08:24 +0200" Type="Folder">
+                        <BinderItem ID="145" UUID="C85363C0-E3E7-49FB-BF05-AA76DA80CCDE" Created="2019-05-21 15:55:39 +0100" Modified="2019-05-21 16:08:24 +0100" Type="Folder">
                             <Title>Faune &amp; Flore</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1231,7 +1231,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="7" UUID="07D19BEE-D2B0-4892-991A-0430AF727D18" Created="2019-04-29 16:50:57 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                                <BinderItem ID="7" UUID="07D19BEE-D2B0-4892-991A-0430AF727D18" Created="2019-04-29 16:50:57 +0100" Modified="2019-04-30 15:15:32 +0100" Type="Folder">
                                     <Title>Fruits &amp; Legumes</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1241,7 +1241,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="9" UUID="84FBDA50-FA85-409A-ABCF-2618B1968C73" Created="2019-04-29 16:51:39 +0200" Modified="2019-05-24 17:03:57 +0200" Type="Text">
+                                        <BinderItem ID="9" UUID="84FBDA50-FA85-409A-ABCF-2618B1968C73" Created="2019-04-29 16:51:39 +0100" Modified="2019-05-24 17:03:57 +0100" Type="Text">
                                             <Title>Une Orna</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1262,7 +1262,7 @@
                                                 <KeywordID>31</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="10" UUID="9DCE264B-0C06-43A3-AD8A-0636F812B616" Created="2019-04-29 16:51:42 +0200" Modified="2019-05-01 16:43:03 +0200" Type="Text">
+                                        <BinderItem ID="10" UUID="9DCE264B-0C06-43A3-AD8A-0636F812B616" Created="2019-04-29 16:51:42 +0100" Modified="2019-05-01 16:43:03 +0100" Type="Text">
                                             <Title>Une Bobinavia*</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1283,7 +1283,7 @@
                                                 <KeywordID>32</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="11" UUID="88C3D670-3360-4B2B-99B1-8327930A81FE" Created="2019-04-29 16:51:51 +0200" Modified="2019-04-30 11:24:15 +0200" Type="Text">
+                                        <BinderItem ID="11" UUID="88C3D670-3360-4B2B-99B1-8327930A81FE" Created="2019-04-29 16:51:51 +0100" Modified="2019-04-30 11:24:15 +0100" Type="Text">
                                             <Title>Un Lirou*</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1302,7 +1302,7 @@
                                                 <KeywordID>11</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="12" UUID="82B75326-19A3-4F71-9B43-0B16807B9F23" Created="2019-04-29 16:52:03 +0200" Modified="2019-04-30 11:24:10 +0200" Type="Text">
+                                        <BinderItem ID="12" UUID="82B75326-19A3-4F71-9B43-0B16807B9F23" Created="2019-04-29 16:52:03 +0100" Modified="2019-04-30 11:24:10 +0100" Type="Text">
                                             <Title>Un Angirion*</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1324,7 +1324,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="8" UUID="E4D430C1-C503-44F8-BB3E-D849761FFCF6" Created="2019-04-29 16:51:14 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                                <BinderItem ID="8" UUID="E4D430C1-C503-44F8-BB3E-D849761FFCF6" Created="2019-04-29 16:51:14 +0100" Modified="2019-04-30 15:15:32 +0100" Type="Folder">
                                     <Title>Fleurs</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1334,7 +1334,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="14" UUID="9A5A84BF-9569-44E2-B681-6FD75A2CC90D" Created="2019-04-29 19:29:50 +0200" Modified="2019-04-30 11:29:51 +0200" Type="Text">
+                                        <BinderItem ID="14" UUID="9A5A84BF-9569-44E2-B681-6FD75A2CC90D" Created="2019-04-29 19:29:50 +0100" Modified="2019-04-30 11:29:51 +0100" Type="Text">
                                             <Title>Une Carnus</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1349,7 +1349,7 @@
                                                 <KeywordID>1</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="15" UUID="3F084E01-EF35-4595-A34A-1D0A7E9D0433" Created="2019-04-30 10:50:52 +0200" Modified="2019-04-30 11:29:55 +0200" Type="Text">
+                                        <BinderItem ID="15" UUID="3F084E01-EF35-4595-A34A-1D0A7E9D0433" Created="2019-04-30 10:50:52 +0100" Modified="2019-04-30 11:29:55 +0100" Type="Text">
                                             <Title>Une Mamasantia</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1367,7 +1367,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="146" UUID="04363D16-6B81-47DD-BD3C-06D1C53753F7" Created="2019-05-21 15:56:08 +0200" Modified="2019-05-21 15:56:22 +0200" Type="Folder">
+                                <BinderItem ID="146" UUID="04363D16-6B81-47DD-BD3C-06D1C53753F7" Created="2019-05-21 15:56:08 +0100" Modified="2019-05-21 15:56:22 +0100" Type="Folder">
                                     <Title>Animaux</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1377,7 +1377,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="147" UUID="3472AA0D-82FF-4908-85AA-F1D808EA0389" Created="2019-05-21 15:56:24 +0200" Modified="2019-06-11 17:56:17 +0200" Type="Text">
+                                        <BinderItem ID="147" UUID="3472AA0D-82FF-4908-85AA-F1D808EA0389" Created="2019-05-21 15:56:24 +0100" Modified="2019-06-11 17:56:17 +0100" Type="Text">
                                             <Title>Za (Chat)</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1387,7 +1387,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="216" UUID="3D5940FE-D80F-4117-B988-543F177A9FBF" Created="2019-06-11 17:49:36 +0200" Modified="2019-06-28 16:16:26 +0200" Type="Text">
+                                        <BinderItem ID="216" UUID="3D5940FE-D80F-4117-B988-543F177A9FBF" Created="2019-06-11 17:49:36 +0100" Modified="2019-06-28 16:16:26 +0100" Type="Text">
                                             <Title>Scubrock</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1401,7 +1401,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="16" UUID="2A5A9F2C-45AF-4393-92E0-BFC4DA51EFF8" Created="2019-04-30 10:59:21 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                        <BinderItem ID="16" UUID="2A5A9F2C-45AF-4393-92E0-BFC4DA51EFF8" Created="2019-04-30 10:59:21 +0100" Modified="2019-04-30 15:15:32 +0100" Type="Folder">
                             <Title>Personnage</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1411,7 +1411,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="23" UUID="8AD206A4-B8B4-4685-AD3B-32C0FCD69B93" Created="2019-04-30 11:30:59 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                                <BinderItem ID="23" UUID="8AD206A4-B8B4-4685-AD3B-32C0FCD69B93" Created="2019-04-30 11:30:59 +0100" Modified="2019-04-30 15:15:32 +0100" Type="Folder">
                                     <Title>Principales</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1421,7 +1421,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="17" UUID="30D51DB1-85A0-4358-B0C6-5F1264412454" Created="2019-04-30 11:01:33 +0200" Modified="2019-05-04 12:51:25 +0200" Type="Text">
+                                        <BinderItem ID="17" UUID="30D51DB1-85A0-4358-B0C6-5F1264412454" Created="2019-04-30 11:01:33 +0100" Modified="2019-05-04 12:51:25 +0100" Type="Text">
                                             <Title>Spark</Title>
                                             <MetaData>
                                                 <StatusID>7</StatusID>
@@ -1442,7 +1442,7 @@
                                                 <KeywordID>26</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="18" UUID="9850A471-4591-4B43-9C44-891675C26A85" Created="2019-04-30 11:08:53 +0200" Modified="2019-05-04 12:50:57 +0200" Type="Text">
+                                        <BinderItem ID="18" UUID="9850A471-4591-4B43-9C44-891675C26A85" Created="2019-04-30 11:08:53 +0100" Modified="2019-05-04 12:50:57 +0100" Type="Text">
                                             <Title>Onirius</Title>
                                             <MetaData>
                                                 <StatusID>6</StatusID>
@@ -1460,7 +1460,7 @@
                                                 <KeywordID>24</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="115" UUID="45B5F61C-8799-4381-BA0F-3745630E8ED6" Created="2019-05-19 09:40:23 +0200" Modified="2019-05-19 09:48:52 +0200" Type="Text">
+                                        <BinderItem ID="115" UUID="45B5F61C-8799-4381-BA0F-3745630E8ED6" Created="2019-05-19 09:40:23 +0100" Modified="2019-05-19 09:48:52 +0100" Type="Text">
                                             <Title>Slort</Title>
                                             <MetaData>
                                                 <StatusID>0</StatusID>
@@ -1479,7 +1479,7 @@
                                                 <KeywordID>35</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="64" UUID="BC4AD6B0-D506-490A-951E-CFD2DB457C8C" Created="2019-05-05 10:09:51 +0200" Modified="2019-05-05 10:12:18 +0200" Type="Folder">
+                                        <BinderItem ID="64" UUID="BC4AD6B0-D506-490A-951E-CFD2DB457C8C" Created="2019-05-05 10:09:51 +0100" Modified="2019-05-05 10:12:18 +0100" Type="Folder">
                                             <Title>Apprentis</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1489,7 +1489,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="66" UUID="9EE0B4DF-C4C6-4617-912B-766549632C3B" Created="2019-05-05 10:12:23 +0200" Modified="2019-05-19 09:45:57 +0200" Type="Text">
+                                                <BinderItem ID="66" UUID="9EE0B4DF-C4C6-4617-912B-766549632C3B" Created="2019-05-05 10:12:23 +0100" Modified="2019-05-19 09:45:57 +0100" Type="Text">
                                                     <Title>Lorinia</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1501,7 +1501,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="106" UUID="84B40F3A-92C4-4ED7-91CC-58839E2A6614" Created="2019-05-19 08:35:44 +0200" Modified="2019-05-19 09:45:30 +0200" Type="Text">
+                                                <BinderItem ID="106" UUID="84B40F3A-92C4-4ED7-91CC-58839E2A6614" Created="2019-05-19 08:35:44 +0100" Modified="2019-05-19 09:45:30 +0100" Type="Text">
                                                     <Title>Ross</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1513,7 +1513,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="107" UUID="8A088EB5-94AE-49EF-AC92-6554DFE38EF9" Created="2019-05-19 08:36:02 +0200" Modified="2019-05-19 09:44:57 +0200" Type="Text">
+                                                <BinderItem ID="107" UUID="8A088EB5-94AE-49EF-AC92-6554DFE38EF9" Created="2019-05-19 08:36:02 +0100" Modified="2019-05-19 09:44:57 +0100" Type="Text">
                                                     <Title>Anir</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1525,7 +1525,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="114" UUID="7663E3A5-A9D6-46DB-B925-6256B45627D7" Created="2019-05-19 09:36:05 +0200" Modified="2019-05-19 09:43:59 +0200" Type="Text">
+                                                <BinderItem ID="114" UUID="7663E3A5-A9D6-46DB-B925-6256B45627D7" Created="2019-05-19 09:36:05 +0100" Modified="2019-05-19 09:43:59 +0100" Type="Text">
                                                     <Title>Herm</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1541,7 +1541,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="22" UUID="C7AEACBB-40E1-4C33-B30B-E46E10477F64" Created="2019-04-30 11:30:08 +0200" Modified="2019-04-30 15:15:32 +0200" Type="Folder">
+                                <BinderItem ID="22" UUID="C7AEACBB-40E1-4C33-B30B-E46E10477F64" Created="2019-04-30 11:30:08 +0100" Modified="2019-04-30 15:15:32 +0100" Type="Folder">
                                     <Title>Secondaires</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1551,7 +1551,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="24" UUID="AE6A8A68-559A-4141-A7EA-8FD57A700315" Created="2019-04-30 11:31:31 +0200" Modified="2019-04-30 14:29:45 +0200" Type="Text">
+                                        <BinderItem ID="24" UUID="AE6A8A68-559A-4141-A7EA-8FD57A700315" Created="2019-04-30 11:31:31 +0100" Modified="2019-04-30 14:29:45 +0100" Type="Text">
                                             <Title>Marchand</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1568,7 +1568,7 @@
                                                 <KeywordID>27</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="25" UUID="7D0E5A0F-5467-42D9-B94D-D4FA9E849798" Created="2019-04-30 11:33:36 +0200" Modified="2019-04-30 15:27:33 +0200" Type="Text">
+                                        <BinderItem ID="25" UUID="7D0E5A0F-5467-42D9-B94D-D4FA9E849798" Created="2019-04-30 11:33:36 +0100" Modified="2019-04-30 15:27:33 +0100" Type="Text">
                                             <Title>Touriste</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1583,7 +1583,7 @@
                                                 <KeywordID>28</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="26" UUID="2AB346A6-79C9-4770-B4B6-39A9EC3DE721" Created="2019-04-30 11:35:35 +0200" Modified="2019-05-19 10:11:04 +0200" Type="Text">
+                                        <BinderItem ID="26" UUID="2AB346A6-79C9-4770-B4B6-39A9EC3DE721" Created="2019-04-30 11:35:35 +0100" Modified="2019-05-19 10:11:04 +0100" Type="Text">
                                             <Title>Enfant mendiant</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1599,7 +1599,7 @@
                                                 <KeywordID>30</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="65" UUID="41618BE9-8780-43A5-A0B4-B3C86E4A00E0" Created="2019-05-05 10:10:18 +0200" Modified="2019-05-19 18:10:43 +0200" Type="Text">
+                                        <BinderItem ID="65" UUID="41618BE9-8780-43A5-A0B4-B3C86E4A00E0" Created="2019-05-05 10:10:18 +0100" Modified="2019-05-19 18:10:43 +0100" Type="Text">
                                             <Title>Gardes du palais</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1619,7 +1619,7 @@
                                                 <KeywordID>28</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="117" UUID="B76D142F-9FE7-4E6C-9235-38A9BC775A4D" Created="2019-05-19 10:09:53 +0200" Modified="2019-05-19 16:19:52 +0200" Type="Text">
+                                        <BinderItem ID="117" UUID="B76D142F-9FE7-4E6C-9235-38A9BC775A4D" Created="2019-05-19 10:09:53 +0100" Modified="2019-05-19 16:19:52 +0100" Type="Text">
                                             <Title>Gardes du marché</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1638,7 +1638,7 @@
                                                 <KeywordID>27</KeywordID>
                                             </Keywords>
                                         </BinderItem>
-                                        <BinderItem ID="128" UUID="549C5E06-E93C-4A72-88D4-2008B5677FA0" Created="2019-05-19 18:09:42 +0200" Modified="2019-05-19 18:11:46 +0200" Type="Text">
+                                        <BinderItem ID="128" UUID="549C5E06-E93C-4A72-88D4-2008B5677FA0" Created="2019-05-19 18:09:42 +0100" Modified="2019-05-19 18:11:46 +0100" Type="Text">
                                             <Title>Estel</Title>
                                             <MetaData>
                                                 <StatusID>3</StatusID>
@@ -1659,7 +1659,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="103" UUID="497234DA-3D87-46DF-ABBC-143D17BEE96C" Created="2019-05-17 10:50:07 +0200" Modified="2019-05-17 10:50:27 +0200" Type="Folder">
+                        <BinderItem ID="103" UUID="497234DA-3D87-46DF-ABBC-143D17BEE96C" Created="2019-05-17 10:50:07 +0100" Modified="2019-05-17 10:50:27 +0100" Type="Folder">
                             <Title>Objets</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1669,7 +1669,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="104" UUID="5FE8DF7E-C7F3-4111-9694-834C537E5088" Created="2019-05-17 10:50:43 +0200" Modified="2019-05-26 15:13:07 +0200" Type="Text">
+                                <BinderItem ID="104" UUID="5FE8DF7E-C7F3-4111-9694-834C537E5088" Created="2019-05-17 10:50:43 +0100" Modified="2019-05-26 15:13:07 +0100" Type="Text">
                                     <Title>Collier du destin</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1680,7 +1680,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="105" UUID="12659B68-11D7-4354-9957-C645819C8959" Created="2019-05-18 09:22:09 +0200" Modified="2019-05-21 14:20:43 +0200" Type="Text">
+                                <BinderItem ID="105" UUID="12659B68-11D7-4354-9957-C645819C8959" Created="2019-05-18 09:22:09 +0100" Modified="2019-05-21 14:20:43 +0100" Type="Text">
                                     <Title>Dor</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1692,7 +1692,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="144" UUID="0C88D197-3DE6-4257-A685-131C8B3EF40B" Created="2019-05-21 15:55:22 +0200" Modified="2019-05-21 15:55:23 +0200" Type="Text">
+                                <BinderItem ID="144" UUID="0C88D197-3DE6-4257-A685-131C8B3EF40B" Created="2019-05-21 15:55:22 +0100" Modified="2019-05-21 15:55:23 +0100" Type="Text">
                                     <Title>Sel</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1701,7 +1701,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="208" UUID="579DD779-35C4-48CF-8FBE-A8972BE98D9A" Created="2019-06-01 09:53:57 +0200" Modified="2019-06-01 09:59:35 +0200" Type="Text">
+                                <BinderItem ID="208" UUID="579DD779-35C4-48CF-8FBE-A8972BE98D9A" Created="2019-06-01 09:53:57 +0100" Modified="2019-06-01 09:59:35 +0100" Type="Text">
                                     <Title>Pentacle bibliotheque</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1711,7 +1711,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="218" UUID="0A8351D5-7EC7-428C-AEEF-9FC5168F088B" Created="2019-06-12 11:54:00 +0200" Modified="2019-06-12 11:55:12 +0200" Type="Text">
+                                <BinderItem ID="218" UUID="0A8351D5-7EC7-428C-AEEF-9FC5168F088B" Created="2019-06-12 11:54:00 +0100" Modified="2019-06-12 11:55:12 +0100" Type="Text">
                                     <Title>Coffres dorés</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1723,7 +1723,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="50" UUID="8F353ACB-2F44-41D8-8624-FB46B24DA057" Created="2019-05-01 13:29:22 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
+                        <BinderItem ID="50" UUID="8F353ACB-2F44-41D8-8624-FB46B24DA057" Created="2019-05-01 13:29:22 +0100" Modified="2019-09-19 15:54:40 +0100" Type="Folder">
                             <Title>Magie</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1733,7 +1733,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="52" UUID="3353E971-30E2-4D85-8D56-551A9C3365D5" Created="2019-05-01 13:29:41 +0200" Modified="2019-05-01 13:30:18 +0200" Type="Folder">
+                                <BinderItem ID="52" UUID="3353E971-30E2-4D85-8D56-551A9C3365D5" Created="2019-05-01 13:29:41 +0100" Modified="2019-05-01 13:30:18 +0100" Type="Folder">
                                     <Title>Esprit / Mentalisme</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1743,7 +1743,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="53" UUID="D72DA6DB-4DD7-4B59-8BFD-85AB7685D3B9" Created="2019-05-01 13:30:04 +0200" Modified="2019-05-21 14:17:22 +0200" Type="Text">
+                                        <BinderItem ID="53" UUID="D72DA6DB-4DD7-4B59-8BFD-85AB7685D3B9" Created="2019-05-01 13:30:04 +0100" Modified="2019-05-21 14:17:22 +0100" Type="Text">
                                             <Title>Persuasion</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1753,7 +1753,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="54" UUID="93C74D64-2AFD-41FB-93E2-12BBCF060F93" Created="2019-05-01 13:30:08 +0200" Modified="2019-05-13 11:00:31 +0200" Type="Text">
+                                        <BinderItem ID="54" UUID="93C74D64-2AFD-41FB-93E2-12BBCF060F93" Created="2019-05-01 13:30:08 +0100" Modified="2019-05-13 11:00:31 +0100" Type="Text">
                                             <Title>Illusion</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1765,7 +1765,7 @@
                                         </BinderItem>
                                     </Children>
                                 </BinderItem>
-                                <BinderItem ID="55" UUID="9F8AB70A-B46E-4E8B-9356-9F08CF6D1967" Created="2019-05-01 13:30:23 +0200" Modified="2019-05-13 10:15:53 +0200" Type="Folder">
+                                <BinderItem ID="55" UUID="9F8AB70A-B46E-4E8B-9356-9F08CF6D1967" Created="2019-05-01 13:30:23 +0100" Modified="2019-05-13 10:15:53 +0100" Type="Folder">
                                     <Title>Feu / Pyromancie</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1775,7 +1775,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="56" UUID="08ED7C34-7E38-4CEA-BC17-EE0FA721E3EA" Created="2019-05-01 13:30:32 +0200" Modified="2019-05-13 10:15:37 +0200" Type="Folder">
+                                <BinderItem ID="56" UUID="08ED7C34-7E38-4CEA-BC17-EE0FA721E3EA" Created="2019-05-01 13:30:32 +0100" Modified="2019-05-13 10:15:37 +0100" Type="Folder">
                                     <Title>Gravité</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1785,7 +1785,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="98" UUID="A146A597-2F58-4ABE-A0A1-A640095EED9D" Created="2019-05-13 10:13:12 +0200" Modified="2019-05-13 10:13:13 +0200" Type="Text">
+                                <BinderItem ID="98" UUID="A146A597-2F58-4ABE-A0A1-A640095EED9D" Created="2019-05-13 10:13:12 +0100" Modified="2019-05-13 10:13:13 +0100" Type="Text">
                                     <Title>Ombres</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1794,7 +1794,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="99" UUID="FA851DA6-A466-461C-B6FC-FCE2EAB9F2BB" Created="2019-05-13 10:13:27 +0200" Modified="2019-05-13 10:15:44 +0200" Type="Text">
+                                <BinderItem ID="99" UUID="FA851DA6-A466-461C-B6FC-FCE2EAB9F2BB" Created="2019-05-13 10:13:27 +0100" Modified="2019-05-13 10:15:44 +0100" Type="Text">
                                     <Title>Terre</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1803,7 +1803,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="100" UUID="65F00AC1-7F9F-4C18-B940-FEC35657E77D" Created="2019-05-13 10:13:33 +0200" Modified="2019-05-13 10:19:20 +0200" Type="Text">
+                                <BinderItem ID="100" UUID="65F00AC1-7F9F-4C18-B940-FEC35657E77D" Created="2019-05-13 10:13:33 +0100" Modified="2019-05-13 10:19:20 +0100" Type="Text">
                                     <Title>Eau / Aquamancie</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1815,7 +1815,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="70" UUID="BD4C514C-3020-4A17-B5E7-7492AD2427B4" Created="2019-05-05 10:25:11 +0200" Modified="2019-05-05 10:25:18 +0200" Type="Folder">
+                        <BinderItem ID="70" UUID="BD4C514C-3020-4A17-B5E7-7492AD2427B4" Created="2019-05-05 10:25:11 +0100" Modified="2019-05-05 10:25:18 +0100" Type="Folder">
                             <Title>Lieux</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1824,7 +1824,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="95" UUID="A983C200-6B04-4078-BB0C-AEB5E0B9227A" Created="2019-05-13 10:11:59 +0200" Modified="2019-05-13 10:12:05 +0200" Type="Folder">
+                                <BinderItem ID="95" UUID="A983C200-6B04-4078-BB0C-AEB5E0B9227A" Created="2019-05-13 10:11:59 +0100" Modified="2019-05-13 10:12:05 +0100" Type="Folder">
                                     <Title>Royaume d'Eternara</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1833,7 +1833,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                     <Children>
-                                        <BinderItem ID="73" UUID="544DDF53-423F-445E-A3B3-D12E76025C62" Created="2019-05-05 10:26:22 +0200" Modified="2019-05-13 10:12:15 +0200" Type="Folder">
+                                        <BinderItem ID="73" UUID="544DDF53-423F-445E-A3B3-D12E76025C62" Created="2019-05-05 10:26:22 +0100" Modified="2019-05-13 10:12:15 +0100" Type="Folder">
                                             <Title>Ville d'Eternara</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1842,7 +1842,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                             <Children>
-                                                <BinderItem ID="71" UUID="091AA7F0-8F76-428C-ABCD-BD00DCFC2CC2" Created="2019-05-05 10:25:22 +0200" Modified="2019-05-05 10:26:05 +0200" Type="Folder">
+                                                <BinderItem ID="71" UUID="091AA7F0-8F76-428C-ABCD-BD00DCFC2CC2" Created="2019-05-05 10:25:22 +0100" Modified="2019-05-05 10:26:05 +0100" Type="Folder">
                                                     <Title>Palais royal</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1851,7 +1851,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                     <Children>
-                                                        <BinderItem ID="72" UUID="F8918E96-AA46-456F-8E2D-9823B21BDDDE" Created="2019-05-05 10:26:08 +0200" Modified="2019-05-16 16:08:54 +0200" Type="Text">
+                                                        <BinderItem ID="72" UUID="F8918E96-AA46-456F-8E2D-9823B21BDDDE" Created="2019-05-05 10:26:08 +0100" Modified="2019-05-16 16:08:54 +0100" Type="Text">
                                                             <Title>Grande bibliotheque</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1861,7 +1861,7 @@
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                         </BinderItem>
-                                                        <BinderItem ID="102" UUID="55465A23-3BFB-4DF1-B1E8-CD8F92B01303" Created="2019-05-16 16:08:30 +0200" Modified="2019-05-16 16:10:13 +0200" Type="Text">
+                                                        <BinderItem ID="102" UUID="55465A23-3BFB-4DF1-B1E8-CD8F92B01303" Created="2019-05-16 16:08:30 +0100" Modified="2019-05-16 16:10:13 +0100" Type="Text">
                                                             <Title>Catacombes</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1871,7 +1871,7 @@
                                                                 <Target Type="Words">0</Target>
                                                             </TextSettings>
                                                         </BinderItem>
-                                                        <BinderItem ID="97" UUID="8906D0E2-8F31-4E29-B3A4-9D85D3279985" Created="2019-05-13 10:12:56 +0200" Modified="2019-05-16 16:11:35 +0200" Type="Text">
+                                                        <BinderItem ID="97" UUID="8906D0E2-8F31-4E29-B3A4-9D85D3279985" Created="2019-05-13 10:12:56 +0100" Modified="2019-05-16 16:11:35 +0100" Type="Text">
                                                             <Title>Salle du trone</Title>
                                                             <MetaData>
                                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1883,7 +1883,7 @@
                                                         </BinderItem>
                                                     </Children>
                                                 </BinderItem>
-                                                <BinderItem ID="74" UUID="FF4A5FC3-6CBF-4E19-B043-2332487FF49F" Created="2019-05-05 10:26:58 +0200" Modified="2019-05-16 16:41:00 +0200" Type="Text">
+                                                <BinderItem ID="74" UUID="FF4A5FC3-6CBF-4E19-B043-2332487FF49F" Created="2019-05-05 10:26:58 +0100" Modified="2019-05-16 16:41:00 +0100" Type="Text">
                                                     <Title>Le vieux marché</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1893,7 +1893,7 @@
                                                         <Target Type="Words">0</Target>
                                                     </TextSettings>
                                                 </BinderItem>
-                                                <BinderItem ID="96" UUID="C70E744C-62E1-43DB-9AA6-399289F4C872" Created="2019-05-13 10:12:38 +0200" Modified="2019-05-16 16:54:02 +0200" Type="Text">
+                                                <BinderItem ID="96" UUID="C70E744C-62E1-43DB-9AA6-399289F4C872" Created="2019-05-13 10:12:38 +0100" Modified="2019-05-16 16:54:02 +0100" Type="Text">
                                                     <Title>L'orphelinat</Title>
                                                     <MetaData>
                                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1905,7 +1905,7 @@
                                                 </BinderItem>
                                             </Children>
                                         </BinderItem>
-                                        <BinderItem ID="101" UUID="9994F900-86A7-4D75-83FE-2CB17A6DF91B" Created="2019-05-16 16:06:12 +0200" Modified="2019-05-16 16:06:19 +0200" Type="Text">
+                                        <BinderItem ID="101" UUID="9994F900-86A7-4D75-83FE-2CB17A6DF91B" Created="2019-05-16 16:06:12 +0100" Modified="2019-05-16 16:06:19 +0100" Type="Text">
                                             <Title>Village d'Esteth</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1914,7 +1914,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="92" UUID="7DA8543B-CFEB-415D-AB60-C32CA469CED5" Created="2019-05-10 12:28:29 +0200" Modified="2019-05-10 12:28:33 +0200" Type="Text">
+                                        <BinderItem ID="92" UUID="7DA8543B-CFEB-415D-AB60-C32CA469CED5" Created="2019-05-10 12:28:29 +0100" Modified="2019-05-10 12:28:33 +0100" Type="Text">
                                             <Title>Le lac Esteth</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1923,7 +1923,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="75" UUID="270662FC-51C9-44FE-B797-33CFF7FFC7C1" Created="2019-05-05 10:27:35 +0200" Modified="2019-05-16 16:07:44 +0200" Type="Text">
+                                        <BinderItem ID="75" UUID="270662FC-51C9-44FE-B797-33CFF7FFC7C1" Created="2019-05-05 10:27:35 +0100" Modified="2019-05-16 16:07:44 +0100" Type="Text">
                                             <Title>La forêt des milles-graines</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1933,7 +1933,7 @@
                                                 <Target Type="Words">0</Target>
                                             </TextSettings>
                                         </BinderItem>
-                                        <BinderItem ID="93" UUID="F7AFCC84-A384-4198-AD1B-5913F03A5556" Created="2019-05-10 12:28:34 +0200" Modified="2019-05-10 12:28:41 +0200" Type="Text">
+                                        <BinderItem ID="93" UUID="F7AFCC84-A384-4198-AD1B-5913F03A5556" Created="2019-05-10 12:28:34 +0100" Modified="2019-05-10 12:28:41 +0100" Type="Text">
                                             <Title>La nécropole d'Eternara</Title>
                                             <MetaData>
                                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1948,7 +1948,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="19" UUID="767E067A-954D-42DC-A057-6FCE8A9CD29C" Created="2019-04-30 11:14:21 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
+                <BinderItem ID="19" UUID="767E067A-954D-42DC-A057-6FCE8A9CD29C" Created="2019-04-30 11:14:21 +0100" Modified="2019-09-19 15:54:40 +0100" Type="Folder">
                     <Title>Game Design</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1958,7 +1958,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="20" UUID="C550130C-1B36-4562-B7E2-68AE7164B063" Created="2019-04-30 11:14:47 +0200" Modified="2019-04-30 11:15:05 +0200" Type="Text">
+                        <BinderItem ID="20" UUID="C550130C-1B36-4562-B7E2-68AE7164B063" Created="2019-04-30 11:14:47 +0100" Modified="2019-04-30 11:15:05 +0100" Type="Text">
                             <Title>Types de vues</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1969,7 +1969,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="57" UUID="37A115FF-543C-4ADF-B5D4-05C3C690DAB7" Created="2019-05-03 11:33:32 +0200" Modified="2019-05-03 11:33:55 +0200" Type="Folder">
+                        <BinderItem ID="57" UUID="37A115FF-543C-4ADF-B5D4-05C3C690DAB7" Created="2019-05-03 11:33:32 +0100" Modified="2019-05-03 11:33:55 +0100" Type="Folder">
                             <Title>UI</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -1979,7 +1979,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="21" UUID="1C3F5794-A148-4BDA-95E4-E802D1A2D753" Created="2019-04-30 11:15:10 +0200" Modified="2019-05-03 11:34:16 +0200" Type="Text">
+                                <BinderItem ID="21" UUID="1C3F5794-A148-4BDA-95E4-E802D1A2D753" Created="2019-04-30 11:15:10 +0100" Modified="2019-05-03 11:34:16 +0100" Type="Text">
                                     <Title>Barre d'action</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1989,7 +1989,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="58" UUID="0C0B383C-A684-4EAD-ABF6-9A53A39257C8" Created="2019-05-03 11:34:04 +0200" Modified="2019-05-04 14:55:30 +0200" Type="Text">
+                                <BinderItem ID="58" UUID="0C0B383C-A684-4EAD-ABF6-9A53A39257C8" Created="2019-05-03 11:34:04 +0100" Modified="2019-05-04 14:55:30 +0100" Type="Text">
                                     <Title>Clicks</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1999,7 +1999,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="83" UUID="4A524FE0-3CBA-4AC3-8151-C4874CD569C6" Created="2019-05-05 16:19:02 +0200" Modified="2019-05-21 14:23:18 +0200" Type="Text">
+                                <BinderItem ID="83" UUID="4A524FE0-3CBA-4AC3-8151-C4874CD569C6" Created="2019-05-05 16:19:02 +0100" Modified="2019-05-21 14:23:18 +0100" Type="Text">
                                     <Title>Carnet de note</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2009,7 +2009,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="139" UUID="7D6B77E8-CC52-41D7-A03E-9F0187AB3D3E" Created="2019-05-21 14:22:54 +0200" Modified="2019-05-21 14:24:12 +0200" Type="Text">
+                                <BinderItem ID="139" UUID="7D6B77E8-CC52-41D7-A03E-9F0187AB3D3E" Created="2019-05-21 14:22:54 +0100" Modified="2019-05-21 14:24:12 +0100" Type="Text">
                                     <Title>Carte</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2021,7 +2021,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="82" UUID="669344CB-CB3A-4D74-86FD-9028639D226C" Created="2019-05-05 16:09:12 +0200" Modified="2019-05-05 16:22:20 +0200" Type="Text">
+                        <BinderItem ID="82" UUID="669344CB-CB3A-4D74-86FD-9028639D226C" Created="2019-05-05 16:09:12 +0100" Modified="2019-05-05 16:22:20 +0100" Type="Text">
                             <Title>Mechanismes P&amp;C</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2033,7 +2033,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="45" UUID="57E9DB16-F47E-4F51-A52B-EF1D23A72DBA" Created="2019-05-01 13:18:58 +0200" Modified="2019-05-01 13:19:14 +0200" Type="Folder">
+                <BinderItem ID="45" UUID="57E9DB16-F47E-4F51-A52B-EF1D23A72DBA" Created="2019-05-01 13:18:58 +0100" Modified="2019-05-01 13:19:14 +0100" Type="Folder">
                     <Title>Notes</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2043,7 +2043,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="46" UUID="F0F53FA0-DE20-4F1A-9A64-7DA1773B329E" Created="2019-05-01 13:19:18 +0200" Modified="2019-05-08 12:49:49 +0200" Type="Text">
+                        <BinderItem ID="46" UUID="F0F53FA0-DE20-4F1A-9A64-7DA1773B329E" Created="2019-05-01 13:19:18 +0100" Modified="2019-05-08 12:49:49 +0100" Type="Text">
                             <Title>Flux</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2053,7 +2053,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="48" UUID="A191E6E5-959F-47B0-8848-E48EEB6D4C91" Created="2019-05-01 13:20:54 +0200" Modified="2019-05-01 13:21:08 +0200" Type="Text">
+                        <BinderItem ID="48" UUID="A191E6E5-959F-47B0-8848-E48EEB6D4C91" Created="2019-05-01 13:20:54 +0100" Modified="2019-05-01 13:21:08 +0100" Type="Text">
                             <Title>Magie</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2063,7 +2063,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="49" UUID="9DD25C0D-E507-4DA7-9EF5-1C5279804B4C" Created="2019-05-01 13:21:15 +0200" Modified="2019-06-24 14:12:29 +0200" Type="Text">
+                        <BinderItem ID="49" UUID="9DD25C0D-E507-4DA7-9EF5-1C5279804B4C" Created="2019-05-01 13:21:15 +0100" Modified="2019-06-24 14:12:29 +0100" Type="Text">
                             <Title>Infos scenar / 1er mechant</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2073,7 +2073,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="59" UUID="FB70BDBA-18AD-4C88-9972-D1533719FE78" Created="2019-05-04 12:49:02 +0200" Modified="2019-05-04 13:13:00 +0200" Type="Text">
+                        <BinderItem ID="59" UUID="FB70BDBA-18AD-4C88-9972-D1533719FE78" Created="2019-05-04 12:49:02 +0100" Modified="2019-05-04 13:13:00 +0100" Type="Text">
                             <Title>Spoil Bouclier d'Onirius</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2083,7 +2083,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="60" UUID="91466AB1-3CAB-421E-952E-069D4FA56EDE" Created="2019-05-04 12:57:56 +0200" Modified="2019-05-04 13:02:57 +0200" Type="Text">
+                        <BinderItem ID="60" UUID="91466AB1-3CAB-421E-952E-069D4FA56EDE" Created="2019-05-04 12:57:56 +0100" Modified="2019-05-04 13:02:57 +0100" Type="Text">
                             <Title>Grande Corruption</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2093,7 +2093,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="61" UUID="60DE550A-8DDD-4640-9733-244B26E5E578" Created="2019-05-04 13:11:58 +0200" Modified="2019-05-10 12:23:05 +0200" Type="Text">
+                        <BinderItem ID="61" UUID="60DE550A-8DDD-4640-9733-244B26E5E578" Created="2019-05-04 13:11:58 +0100" Modified="2019-05-10 12:23:05 +0100" Type="Text">
                             <Title>Objets canalysés</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2103,7 +2103,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="62" UUID="673A2D5E-36BB-4EDC-BA3F-EF1C39105CD5" Created="2019-05-04 13:12:27 +0200" Modified="2019-05-10 12:29:27 +0200" Type="Text">
+                        <BinderItem ID="62" UUID="673A2D5E-36BB-4EDC-BA3F-EF1C39105CD5" Created="2019-05-04 13:12:27 +0100" Modified="2019-05-10 12:29:27 +0100" Type="Text">
                             <Title>lieux sacrés</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2113,7 +2113,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="210" UUID="293175C1-DD4F-470D-8EB7-F7F10A4AECA7" Created="2019-06-04 09:45:42 +0200" Modified="2019-06-04 11:28:35 +0200" Type="Text">
+                        <BinderItem ID="210" UUID="293175C1-DD4F-470D-8EB7-F7F10A4AECA7" Created="2019-06-04 09:45:42 +0100" Modified="2019-06-04 11:28:35 +0100" Type="Text">
                             <Title>Creation d'Eternara</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2123,7 +2123,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem ID="220" UUID="0EB4A7CE-10AE-4701-92BC-AF923D3F27E7" Created="2019-06-27 11:24:41 +0200" Modified="2019-06-28 11:39:23 +0200" Type="Text">
+                        <BinderItem ID="220" UUID="0EB4A7CE-10AE-4701-92BC-AF923D3F27E7" Created="2019-06-27 11:24:41 +0100" Modified="2019-06-28 11:39:23 +0100" Type="Text">
                             <Title>Chronologie</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2135,7 +2135,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="134" UUID="F287129E-537C-444D-B21E-6D56C5EBDC6E" Created="2019-05-21 14:18:39 +0200" Modified="2019-05-21 14:18:49 +0200" Type="Folder">
+                <BinderItem ID="134" UUID="F287129E-537C-444D-B21E-6D56C5EBDC6E" Created="2019-05-21 14:18:39 +0100" Modified="2019-05-21 14:18:49 +0100" Type="Folder">
                     <Title>Gain&amp;Perte</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2145,7 +2145,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <Children>
-                        <BinderItem ID="135" UUID="BC0D2154-3393-42FE-8453-55C6F8BB9EEA" Created="2019-05-21 14:18:53 +0200" Modified="2019-05-21 14:19:21 +0200" Type="Folder">
+                        <BinderItem ID="135" UUID="BC0D2154-3393-42FE-8453-55C6F8BB9EEA" Created="2019-05-21 14:18:53 +0100" Modified="2019-05-21 14:19:21 +0100" Type="Folder">
                             <Title>Objets</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2155,7 +2155,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="86" UUID="7497FD57-451C-4B62-8BFA-2C2826A0E354" Created="2019-05-06 15:29:39 +0200" Modified="2019-05-06 15:30:28 +0200" Type="Text">
+                                <BinderItem ID="86" UUID="7497FD57-451C-4B62-8BFA-2C2826A0E354" Created="2019-05-06 15:29:39 +0100" Modified="2019-05-06 15:30:28 +0100" Type="Text">
                                     <Title>Orna</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2164,7 +2164,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="88" UUID="D3B45B83-1BF9-49A9-AF81-05CA3C071CF6" Created="2019-05-06 15:29:57 +0200" Modified="2019-05-21 14:20:27 +0200" Type="Text">
+                                <BinderItem ID="88" UUID="D3B45B83-1BF9-49A9-AF81-05CA3C071CF6" Created="2019-05-06 15:29:57 +0100" Modified="2019-05-21 14:20:27 +0100" Type="Text">
                                     <Title>Carnet de note</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2174,7 +2174,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="91" UUID="3F490DF2-B4D7-4C37-9659-401CEA3668E4" Created="2019-05-06 16:52:27 +0200" Modified="2019-05-21 15:17:09 +0200" Type="Text">
+                                <BinderItem ID="91" UUID="3F490DF2-B4D7-4C37-9659-401CEA3668E4" Created="2019-05-06 16:52:27 +0100" Modified="2019-05-21 15:17:09 +0100" Type="Text">
                                     <Title>Carte de la ville</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2188,7 +2188,7 @@
                                         <Reference Destination="file:///C:/snes/Perso/PointClickMagie/Scenario/Cartes/ville.pdn">ville.pdn</Reference>
                                     </References>
                                 </BinderItem>
-                                <BinderItem ID="111" UUID="EB1F081C-B073-4BB3-B0E6-ECA182500587" Created="2019-05-19 09:30:50 +0200" Modified="2019-05-21 14:20:17 +0200" Type="Text">
+                                <BinderItem ID="111" UUID="EB1F081C-B073-4BB3-B0E6-ECA182500587" Created="2019-05-19 09:30:50 +0100" Modified="2019-05-21 14:20:17 +0100" Type="Text">
                                     <Title>Bobinavia moisie</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2198,7 +2198,7 @@
                                         <Target Type="Words">0</Target>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="137" UUID="9E41B6E5-6236-4F57-992A-6E8871AB119B" Created="2019-05-21 14:19:56 +0200" Modified="2019-05-21 14:20:08 +0200" Type="Text">
+                                <BinderItem ID="137" UUID="9E41B6E5-6236-4F57-992A-6E8871AB119B" Created="2019-05-21 14:19:56 +0100" Modified="2019-05-21 14:20:08 +0100" Type="Text">
                                     <Title>1 Dor</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2211,7 +2211,7 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem ID="136" UUID="559144A3-03D4-48ED-AF98-7037F7670396" Created="2019-05-21 14:18:57 +0200" Modified="2019-05-21 14:19:22 +0200" Type="Folder">
+                        <BinderItem ID="136" UUID="559144A3-03D4-48ED-AF98-7037F7670396" Created="2019-05-21 14:18:57 +0100" Modified="2019-05-21 14:19:22 +0100" Type="Folder">
                             <Title>Sorts</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2221,7 +2221,7 @@
                                 <Target Type="Words">0</Target>
                             </TextSettings>
                             <Children>
-                                <BinderItem ID="138" UUID="E3BFC317-C663-4822-8C38-B45B33E1D858" Created="2019-05-21 14:20:50 +0200" Modified="2019-05-21 14:21:02 +0200" Type="Text">
+                                <BinderItem ID="138" UUID="E3BFC317-C663-4822-8C38-B45B33E1D858" Created="2019-05-21 14:20:50 +0100" Modified="2019-05-21 14:21:02 +0100" Type="Text">
                                     <Title>Persuasion</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2237,19 +2237,19 @@
                 </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem ID="1" UUID="CA6A0DA9-9A80-4CA7-8343-D21D055A9C4C" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:04:22 +0200" Type="ResearchFolder">
+        <BinderItem ID="1" UUID="CA6A0DA9-9A80-4CA7-8343-D21D055A9C4C" Created="2019-04-29 16:04:22 +0100" Modified="2019-04-29 16:04:22 +0100" Type="ResearchFolder">
             <Title>Recherche</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
         </BinderItem>
-        <BinderItem ID="2" UUID="607291CF-BA6F-4310-8202-AF4F2B0FAEB0" Created="2019-04-29 16:04:22 +0200" Modified="2019-04-29 16:04:22 +0200" Type="TrashFolder">
+        <BinderItem ID="2" UUID="607291CF-BA6F-4310-8202-AF4F2B0FAEB0" Created="2019-04-29 16:04:22 +0100" Modified="2019-04-29 16:04:22 +0100" Type="TrashFolder">
             <Title>Corbeille</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
         </BinderItem>
-        <BinderItem ID="222" UUID="13FAA053-3275-4FCC-B191-25E362D47714" Created="2019-09-19 09:38:11 +0200" Modified="2019-09-19 15:54:40 +0200" Type="Folder">
+        <BinderItem ID="222" UUID="13FAA053-3275-4FCC-B191-25E362D47714" Created="2019-09-19 09:38:11 +0100" Modified="2019-09-19 15:54:40 +0100" Type="Folder">
             <Title>Bilan</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -2258,17 +2258,17 @@
                 <Target Type="Words">0</Target>
             </TextSettings>
             <Children>
-                <BinderItem ID="223" UUID="B59E8EC9-0AF6-424C-BB24-CB10F86BB871" Created="2019-09-19 09:38:22 +0200" Modified="2020-07-10 11:31:59 +0200" Type="Text">
+                <BinderItem ID="223" UUID="B59E8EC9-0AF6-424C-BB24-CB10F86BB871" Created="2019-09-19 09:38:22 +0100" Modified="2020-07-10 11:31:59 +0100" Type="Text">
                     <Title>Histoire</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>5819,0</TextSelection>
+                        <TextSelection>1192,0</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="224" UUID="62D073A9-CB20-4D18-BA16-065F4CEF6F2F" Created="2019-09-29 13:43:37 +0200" Modified="2020-05-14 14:10:01 +0200" Type="Text">
+                <BinderItem ID="224" UUID="62D073A9-CB20-4D18-BA16-065F4CEF6F2F" Created="2019-09-29 13:43:37 +0100" Modified="2020-05-14 14:10:01 +0100" Type="Text">
                     <Title>Schéma 1</Title>
                     <MetaData>
                         <LabelID>1</LabelID>
@@ -2280,7 +2280,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="226" UUID="BE4DD27F-31AE-4A07-BB36-7353A29A8F94" Created="2020-05-14 14:10:07 +0200" Modified="2020-05-14 14:24:26 +0200" Type="Text">
+                <BinderItem ID="226" UUID="BE4DD27F-31AE-4A07-BB36-7353A29A8F94" Created="2020-05-14 14:10:07 +0100" Modified="2020-05-14 14:24:26 +0100" Type="Text">
                     <Title>Schéma 2</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2290,7 +2290,7 @@
                         <Target Type="Words">0</Target>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem ID="225" UUID="08285899-096D-4462-8177-C37A5A29CF25" Created="2020-04-13 16:18:15 +0200" Modified="2020-04-16 11:37:03 +0200" Type="Text">
+                <BinderItem ID="225" UUID="08285899-096D-4462-8177-C37A5A29CF25" Created="2020-04-13 16:18:15 +0100" Modified="2020-04-16 11:37:03 +0100" Type="Text">
                     <Title>Idées</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -2331,7 +2331,7 @@
     <ProjectTargets>
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">0</SessionTarget>
-        <PreviousSession Words="296" Characters="1770" Date="2020-07-10 10:18:30 +0200"/>
+        <PreviousSession Words="0" Characters="0" Date="2020-11-30 18:01:39 +0100"/>
     </ProjectTargets>
     <Collections>
         <Collection Type="Binder" ID="8D947EB0-6E78-4E1F-BE76-2C1C7F4DA91A" Color="0.901961 0.917647 0.933333">
